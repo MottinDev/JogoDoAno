@@ -1,0 +1,1522 @@
+fileFormatVersion: 2
+guid: 889ae54ab6f99874aa4d8fea5d8c3145
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Idle_Jorgin_0
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 1919
+        width: 73
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc0263a16f4f52b43afde6bd69a5cefb
+      internalID: 920860774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Jorgin_1
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 1919
+        width: 73
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc4a97dedf274ab4989052e1b684c062
+      internalID: -186441281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Jorgin_2
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 1919
+        width: 73
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6246b53557bc6ee498c9fef51e1ebfd9
+      internalID: 1097495871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Jorgin_3
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 1919
+        width: 73
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab32d37147a373e4c90336e35c90097d
+      internalID: -274069905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Jorgin_4
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 1919
+        width: 73
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8caccce6cc7bea84998c08844a25d38e
+      internalID: -1964932467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Jorgin_5
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 1919
+        width: 73
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2845b82ba491eae48b22d55500c2cafe
+      internalID: -1745584632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Jorgin_6
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 1919
+        width: 73
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ea8fb784e83c549b51952dfd6e91b6
+      internalID: 7807553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Jorgin_7
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 1919
+        width: 73
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f2cf87366c02a14bac2884acf317ab5
+      internalID: 1852816418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Jorgin_8
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 1663
+        width: 73
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11fc3ed08c9e3f141a02a345ef702da1
+      internalID: -885721074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Jorgin_9
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 1663
+        width: 73
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1787af794a32c4e41abbe3a7a4b85653
+      internalID: -637347618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Jorgin_10
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 1663
+        width: 73
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed1ef12953fda4f4ca807b69728b784c
+      internalID: 1272453400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Jorgin_11
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 1663
+        width: 73
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a1977337416526478f82d9460277886
+      internalID: -1932785940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Jorgin_12
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 1663
+        width: 73
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2ce4fff66f6c414fbdace081e5d9e26
+      internalID: -1759741656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Jorgin_13
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 1663
+        width: 73
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39a27b6bcf664f341bbe62180e24c0f7
+      internalID: -2056831162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Jorgin_14
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 1663
+        width: 73
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c72babef015196549a3213f88700b3e4
+      internalID: -654745159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Jorgin_15
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 1663
+        width: 73
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52f195145fea10a4988e5a0b51af008a
+      internalID: -376888004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Jorgin_16
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 1407
+        width: 73
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 124f3295aa4824741955215bb5b91c3f
+      internalID: -908547815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Jorgin_17
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 1407
+        width: 73
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89bffe8783c6bf741bf50458a27c0996
+      internalID: -1083400745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Jorgin_18
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 1407
+        width: 73
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85be2de6bb38d70439be7824fe1b1004
+      internalID: 818622091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Jorgin_19
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 1407
+        width: 73
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a4b685ab4af7ba4daf87bacb8494dc7
+      internalID: 1897443529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Jorgin_20
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 1407
+        width: 73
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52570d39c8b4aa840a5b0d59fb9cd8f4
+      internalID: 990600490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Jorgin_21
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 1407
+        width: 73
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c441778bc6e12041bbbb14c678988d5
+      internalID: 358256080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Jorgin_22
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 1407
+        width: 73
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e21ec13ac4a64545a05ca2d76a5fa29
+      internalID: -585383841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Jorgin_23
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 1407
+        width: 73
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5240e2b2502f7d8458dd7831f210b39c
+      internalID: -985811214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Jorgin_24
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 1151
+        width: 73
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e36f2a4baa859594ca675f0b98bd6ad8
+      internalID: 286979705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Jorgin_25
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 1151
+        width: 73
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ce16ae641af05f438740971820927fe
+      internalID: 1255111660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Jorgin_26
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 1151
+        width: 73
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d2fa0302e9f6947950ce1a66d92687
+      internalID: -17598534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Jorgin_27
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 1151
+        width: 73
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22606e2ad565430479bab32e2dbb01d4
+      internalID: -291787666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Jorgin_28
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 1151
+        width: 73
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc6f279e1a5d1a3499e5faed7c66a1f7
+      internalID: 1927052295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Jorgin_29
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 1151
+        width: 73
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d62eaab94b396704095c5de91a2ac57a
+      internalID: 1689765588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Jorgin_30
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 1151
+        width: 73
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f094e914878bde44a6af43c0b864bc8
+      internalID: -307674812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Jorgin_31
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 1151
+        width: 73
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2acc87ea67fd4034ca8b99cb8809435f
+      internalID: 462183992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Jorgin_32
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 895
+        width: 73
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dcd98bec1fa14a4bb8e4eb8768475d0
+      internalID: 1530066967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Jorgin_33
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 895
+        width: 73
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e539d876dcf32a4abf90a353da962ef
+      internalID: 186947154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Jorgin_34
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 895
+        width: 73
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e5d166bd2c9ddd4e911473a932764c1
+      internalID: -481284730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Jorgin_35
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 895
+        width: 73
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6edf9b1c340787c4a853781ddec485c8
+      internalID: -740081334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Jorgin_36
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 895
+        width: 73
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d18405254fd56c46b64925e7ad64366
+      internalID: 394776516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Jorgin_37
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 895
+        width: 73
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3096d9ac9619d442b289b21e355a520
+      internalID: 1969569385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Jorgin_38
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 895
+        width: 73
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 678cc3795b3411649b2779ec4a0fe4bc
+      internalID: -354426662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Jorgin_39
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 895
+        width: 73
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dde91b74cf645a04681870149d97b9d1
+      internalID: -713972606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Jorgin_40
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 639
+        width: 73
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41df819d72f4073479b1e3309a3b0ff9
+      internalID: 1314891577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Jorgin_41
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 639
+        width: 73
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b9d278e9581a7f459d064fcd63faf5e
+      internalID: 1853740906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Jorgin_42
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 639
+        width: 73
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c2f64a3428065f4faa1cb8eb7947963
+      internalID: 1532177230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Jorgin_43
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 639
+        width: 73
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ced1f3a3e050f1541b3586ece7a36f19
+      internalID: 119796801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Jorgin_44
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 639
+        width: 73
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c492c1cb210b3084e8a4b68062dedac6
+      internalID: 1870942910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Jorgin_45
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 639
+        width: 73
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be8d7bb5410f9f34f9e9f82bb5d35c4d
+      internalID: 121463035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Jorgin_46
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 639
+        width: 73
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c2769fa74f46dc40b4effdbb2959c73
+      internalID: 330361820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Jorgin_47
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 639
+        width: 73
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d17b17b86ad25f34b8b631703ce66f2e
+      internalID: 2027858491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Jorgin_48
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 383
+        width: 73
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78a6023485834ed4290b2010498a069d
+      internalID: -370560603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Jorgin_49
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 383
+        width: 73
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5218c6e3c64fef4a847b4638c22cea5
+      internalID: 1398841699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Jorgin_50
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 383
+        width: 73
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b01932babf887b43afe47352a38a3c8
+      internalID: 1331200890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Jorgin_51
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 383
+        width: 73
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b82d3538b87f274a81f14235e24b885
+      internalID: 620336587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Jorgin_52
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 383
+        width: 73
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bc93abd88a30124f93108a3f325a246
+      internalID: -898703731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Jorgin_53
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 383
+        width: 73
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 580869a5cb0c16048afc0796280df7ad
+      internalID: -530423233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Jorgin_54
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 383
+        width: 73
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99fde71461959584694090ba9e176972
+      internalID: 1933373892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Jorgin_55
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 383
+        width: 73
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac0b9e095d219e64fa37f610df928674
+      internalID: -622184631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Jorgin_56
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 127
+        width: 73
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 376c73b3102f2c447bc59ec5d9b48f9f
+      internalID: 39939016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Jorgin_57
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 127
+        width: 73
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 968fb6fadd5df174ca8e984ddb4c194f
+      internalID: -246772151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Jorgin_58
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 127
+        width: 73
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 956b29d23f777c745a955d7d035fdfff
+      internalID: -1978245713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Jorgin_59
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 127
+        width: 73
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b1735bbbe5922f43bf420b73d0521ab
+      internalID: -653345116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Jorgin_60
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 127
+        width: 73
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b6ee8972c082a4494ea300ef12b9d7
+      internalID: -509543942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Jorgin_61
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 127
+        width: 73
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54a328540a4392f4b84105a3b2881235
+      internalID: 516932805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Jorgin_62
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 127
+        width: 73
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d00b2a77694d974bb62998231e36a91
+      internalID: 2144676309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Jorgin_63
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 127
+        width: 73
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b22b7ba1a9e08694abdab62193c9f0ce
+      internalID: 547092662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Idle_Jorgin_0: 920860774
+      Idle_Jorgin_1: -186441281
+      Idle_Jorgin_10: 1272453400
+      Idle_Jorgin_11: -1932785940
+      Idle_Jorgin_12: -1759741656
+      Idle_Jorgin_13: -2056831162
+      Idle_Jorgin_14: -654745159
+      Idle_Jorgin_15: -376888004
+      Idle_Jorgin_16: -908547815
+      Idle_Jorgin_17: -1083400745
+      Idle_Jorgin_18: 818622091
+      Idle_Jorgin_19: 1897443529
+      Idle_Jorgin_2: 1097495871
+      Idle_Jorgin_20: 990600490
+      Idle_Jorgin_21: 358256080
+      Idle_Jorgin_22: -585383841
+      Idle_Jorgin_23: -985811214
+      Idle_Jorgin_24: 286979705
+      Idle_Jorgin_25: 1255111660
+      Idle_Jorgin_26: -17598534
+      Idle_Jorgin_27: -291787666
+      Idle_Jorgin_28: 1927052295
+      Idle_Jorgin_29: 1689765588
+      Idle_Jorgin_3: -274069905
+      Idle_Jorgin_30: -307674812
+      Idle_Jorgin_31: 462183992
+      Idle_Jorgin_32: 1530066967
+      Idle_Jorgin_33: 186947154
+      Idle_Jorgin_34: -481284730
+      Idle_Jorgin_35: -740081334
+      Idle_Jorgin_36: 394776516
+      Idle_Jorgin_37: 1969569385
+      Idle_Jorgin_38: -354426662
+      Idle_Jorgin_39: -713972606
+      Idle_Jorgin_4: -1964932467
+      Idle_Jorgin_40: 1314891577
+      Idle_Jorgin_41: 1853740906
+      Idle_Jorgin_42: 1532177230
+      Idle_Jorgin_43: 119796801
+      Idle_Jorgin_44: 1870942910
+      Idle_Jorgin_45: 121463035
+      Idle_Jorgin_46: 330361820
+      Idle_Jorgin_47: 2027858491
+      Idle_Jorgin_48: -370560603
+      Idle_Jorgin_49: 1398841699
+      Idle_Jorgin_5: -1745584632
+      Idle_Jorgin_50: 1331200890
+      Idle_Jorgin_51: 620336587
+      Idle_Jorgin_52: -898703731
+      Idle_Jorgin_53: -530423233
+      Idle_Jorgin_54: 1933373892
+      Idle_Jorgin_55: -622184631
+      Idle_Jorgin_56: 39939016
+      Idle_Jorgin_57: -246772151
+      Idle_Jorgin_58: -1978245713
+      Idle_Jorgin_59: -653345116
+      Idle_Jorgin_6: 7807553
+      Idle_Jorgin_60: -509543942
+      Idle_Jorgin_61: 516932805
+      Idle_Jorgin_62: 2144676309
+      Idle_Jorgin_63: 547092662
+      Idle_Jorgin_7: 1852816418
+      Idle_Jorgin_8: -885721074
+      Idle_Jorgin_9: -637347618
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
