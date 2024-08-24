@@ -21,10 +21,21 @@ public class PlayerMovement : MonoBehaviour
 
     private float dirX = 0f;
     [SerializeField] private float moveSpeed = 7f;
+    [SerializeField] private float sprintSpeed = 12f;
     [SerializeField] private float jumpForce = 15f;
     [SerializeField] private float gravityScale = 1.0f;
+    [SerializeField] private float crouchSpeedReduction = 2f;
 
-    private enum MovementState { idle, running, jumping, falling }
+    private bool isCrouching = false;
+    private Vector2 crouchingColliderSize = new Vector2(1f, 0.5f); // Ajuste esse tamanho para corresponder à sua sprite agachada
+    private Vector2 originalColliderSize;
+
+    private bool isSprinting = false;
+    private float doubleTapTime = 0.2f;
+    private float lastTapTimeD = 0f;
+    private float lastTapTimeA = 0f;
+
+    private enum MovementState { idle = 0, running = 1, jumping = 2, falling = 3, crouching = 4, sprinting = 5 }
 
     [SerializeField] private AudioSource jumpSoundEffect;
 
@@ -32,7 +43,18 @@ public class PlayerMovement : MonoBehaviour
     private bool isJumping = false;
 
     [SerializeField] private Transform groundCheck;
+    [SerializeField] private Transform wallCheck;
     [SerializeField] private LayerMask groundLayer;
+    [SerializeField] private LayerMask wallLayer;
+
+    // Novas variáveis para Jump Buffering e Coyote Time
+    private bool isJumpPressed = false;
+    [SerializeField] private float jumpBufferTime = 0.1f;  // Tempo para jump buffering
+    [SerializeField] private float coyoteTime = 0.2f;      // Tempo para coyote time
+    [SerializeField] private float variableJumpMultiplier = 0.5f;  // Multiplicador para altura variável de pulo
+
+    private float jumpBufferCounter;
+    private float coyoteTimeCounter;
 
     private void Start()
     {
@@ -42,6 +64,7 @@ public class PlayerMovement : MonoBehaviour
         anim = GetComponent<Animator>();
 
         rb.gravityScale = gravityScale;
+        originalColliderSize = coll.size;
     }
 
     private void Update()
@@ -59,12 +82,10 @@ public class PlayerMovement : MonoBehaviour
 
             if (slopeAngle > slopeAngleThreshold)
             {
-                // Ative a animação de corrida ao subir ladeiras inclinadas
                 isOnSlope = true;
             }
             else if (slopeAngle < -slopeAngleThreshold)
             {
-                // Ative a animação de corrida ao descer ladeiras inclinadas
                 isOnSlope = true;
             }
             else
@@ -73,24 +94,102 @@ public class PlayerMovement : MonoBehaviour
             }
         }
 
-        rb.velocity = new Vector2(dirX * moveSpeed, rb.velocity.y);
+        // Atualiza o jump buffer e o coyote time counters
+        jumpBufferCounter -= Time.deltaTime;
+        coyoteTimeCounter -= Time.deltaTime;
 
+        // Jump buffering: Se o jogador apertou o botão de pulo recentemente, armazenamos isso
         if (Input.GetButtonDown("Jump"))
         {
-            if (IsGrounded())
+            isJumpPressed = true;
+            jumpBufferCounter = jumpBufferTime;
+        }
+
+        // Coyote time: Permite que o jogador pule mesmo um pouco após ter deixado o chão
+        if (IsGrounded())
+        {
+            coyoteTimeCounter = coyoteTime;
+        }
+
+        if (jumpBufferCounter > 0 && coyoteTimeCounter > 0)
+        {
+            Jump();
+            jumpBufferCounter = 0;  // Reset jump buffer após pular
+        }
+
+        // Controle de altura variável do pulo
+        if (Input.GetButtonUp("Jump") && rb.velocity.y > 0)
+        {
+            rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * variableJumpMultiplier);
+        }
+
+        if (Input.GetKey(KeyCode.S) && IsGrounded())
+        {
+            isCrouching = true;
+            coll.size = crouchingColliderSize;
+            if (Mathf.Abs(rb.velocity.x) > 0.1f)
             {
-                isJumping = true;
-                jumpSoundEffect.Play();
-                rb.velocity = new Vector2(rb.velocity.x, 0);
-                rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+                rb.AddForce(new Vector2(-rb.velocity.x * crouchSpeedReduction, 0f), ForceMode2D.Force);
             }
         }
-        if (Input.GetKeyDown(KeyCode.LeftShift) && canDash)
+        else if (Input.GetKeyUp(KeyCode.S))
         {
-            StartCoroutine(Dash());
+            isCrouching = false;
+            coll.size = originalColliderSize;
+        }
+
+        if (!isCrouching && !isJumping)
+        {
+            if (Input.GetKeyDown(KeyCode.D))
+            {
+                if (Time.time - lastTapTimeD < doubleTapTime)
+                {
+                    isSprinting = true;
+                }
+                lastTapTimeD = Time.time;
+            }
+            else if (Input.GetKeyDown(KeyCode.A))
+            {
+                if (Time.time - lastTapTimeA < doubleTapTime)
+                {
+                    isSprinting = true;
+                }
+                lastTapTimeA = Time.time;
+            }
+
+            if (isSprinting && (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.A)))
+            {
+                rb.velocity = new Vector2(dirX * sprintSpeed, rb.velocity.y);
+                sprite.flipX = dirX < 0f;
+            }
+            else
+            {
+                isSprinting = false;
+                rb.velocity = new Vector2(dirX * moveSpeed, rb.velocity.y);
+            }
+
+            if (Input.GetKeyDown(KeyCode.LeftShift) && canDash)
+            {
+                StartCoroutine(Dash());
+            }
+        }
+
+        // Aplicando gravidade extra na descida
+        if (rb.velocity.y < 0)
+        {
+            rb.velocity += Vector2.up * Physics2D.gravity.y * (gravityScale - 1) * Time.deltaTime;
         }
 
         UpdateAnimationState();
+    }
+
+    private void Jump()
+    {
+        isJumping = true;
+        jumpSoundEffect.Play();
+        rb.velocity = new Vector2(rb.velocity.x, 0);
+        rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+        anim.SetInteger("state", (int)MovementState.jumping);
     }
 
     private void UpdateAnimationState()
@@ -102,33 +201,37 @@ public class PlayerMovement : MonoBehaviour
 
         MovementState state;
 
-        if (dirX > 0f)
+        if (isCrouching)
+        {
+            state = MovementState.crouching;
+        }
+        else if (isJumping && rb.velocity.y > 0.1f) // Se estiver pulando para cima
+        {
+            state = MovementState.jumping;
+            sprite.flipX = dirX < 0f;
+        }
+        else if (rb.velocity.y < -0.1f && !IsGrounded()) // Se estiver caindo
+        {
+            state = MovementState.falling;
+            sprite.flipX = dirX < 0f;
+        }
+        else if (isSprinting && IsGrounded()) // Se estiver correndo e no chão
+        {
+            state = MovementState.sprinting;
+        }
+        else if (dirX != 0f && IsGrounded()) // Se estiver se movendo e no chão
         {
             state = MovementState.running;
-            sprite.flipX = false;
+            sprite.flipX = dirX < 0f;
         }
-        else if (dirX < 0f)
-        {
-            state = MovementState.running;
-            sprite.flipX = true;
-        }
-        else
+        else if (!isJumping && !isSprinting && IsGrounded()) // Se não estiver pulando, nem correndo e estiver no chão
         {
             state = MovementState.idle;
         }
-
-        if (isJumping)
-        {
-            state = MovementState.jumping;
-        }
-        else if (isOnSlope && dirX != 0)
-        {
-            state = MovementState.running;
-        }
-
-        if (rb.velocity.y < -0.1f && !IsGrounded())
+        else
         {
             state = MovementState.falling;
+            sprite.flipX = dirX < 0f;
         }
 
         anim.SetInteger("state", (int)state);
@@ -157,20 +260,42 @@ public class PlayerMovement : MonoBehaviour
 
     private IEnumerator Dash()
     {
+        if (!canDash) yield break;
+
         canDash = false;
         isDashing = true;
+
         float originalGravity = rb.gravityScale;
         rb.gravityScale = 0f;
 
-        float dashDirection = sprite.flipX ? -1f : 1f;
-        rb.velocity = new Vector2(dashDirection * dashingPower, 0f);
+        Vector2 dashDirection = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized;
+        if (dashDirection == Vector2.zero)
+        {
+            dashDirection = sprite.flipX ? Vector2.left : Vector2.right;
+        }
+
+        rb.AddForce(dashDirection * dashingPower, ForceMode2D.Impulse);
 
         tr.emitting = true;
+
         yield return new WaitForSeconds(dashingTime);
+
         tr.emitting = false;
+
         rb.gravityScale = originalGravity;
         isDashing = false;
+
         yield return new WaitForSeconds(dashingCooldown);
         canDash = true;
+    }
+
+
+    private void OnDrawGizmos()
+    {
+        if (coll != null)
+        {
+            Gizmos.color = Color.red;
+            Gizmos.DrawWireCube(coll.bounds.center, coll.bounds.size);
+        }
     }
 }
