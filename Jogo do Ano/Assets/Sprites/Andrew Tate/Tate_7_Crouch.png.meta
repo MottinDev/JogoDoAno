@@ -1,0 +1,1126 @@
+fileFormatVersion: 2
+guid: d6056c870d7520d4b8c1b4823359a796
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tate_7_Crouch_0
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1919
+        width: 61
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b935cc65804686f4798555c180719aa5
+      internalID: -1884133820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_7_Crouch_1
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 1919
+        width: 62
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac40f573e11a58e4f904d3780ba2c939
+      internalID: 420338599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_7_Crouch_2
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 1919
+        width: 63
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9971361c07c79894492cf3b6f80c9c6d
+      internalID: 1422201710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_7_Crouch_3
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 1919
+        width: 60
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8229d8cf1e66d5840a1e4a5bb2473935
+      internalID: 1916851674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_7_Crouch_4
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 1918
+        width: 54
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbd3035c911d30247b7e0a0b97270d5b
+      internalID: -1344938473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_7_Crouch_5
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 1916
+        width: 43
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 931eb21b7cbbd5048a1c8661c0cc0490
+      internalID: 1173704294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_7_Crouch_6
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 1918
+        width: 45
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53015d05c2759b64a8915fd4fde37141
+      internalID: 428169352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_7_Crouch_7
+      rect:
+        serializedVersion: 2
+        x: 1905
+        y: 1918
+        width: 46
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b71a471fdbe8c704381d1f54a367d661
+      internalID: 580233343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_7_Crouch_8
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 1662
+        width: 48
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5046652adb826442a45ade38a3e2e0f
+      internalID: 436710698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_7_Crouch_9
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 1662
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ee343bfedee07146b9beb676d8a88ad
+      internalID: 793545112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_7_Crouch_10
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 1663
+        width: 52
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 082d8be5011a53a48be170f88fe2a5fa
+      internalID: 1998180144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_7_Crouch_11
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 1663
+        width: 53
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9749d45fdfdfa484ea6ca352f1b4dca3
+      internalID: 588174529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_7_Crouch_12
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 1663
+        width: 54
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d94b6db4cadba3478b5af2c67d7b063
+      internalID: 974062353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_7_Crouch_13
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 1663
+        width: 56
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcd941e382542de4685bfc8d478fb26f
+      internalID: -86915103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_7_Crouch_14
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 1663
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 208b4a08e58111940b5ab54c9a1e2d3a
+      internalID: -366558883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_7_Crouch_15
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 1663
+        width: 58
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e098f3d991937447956a33685c40000
+      internalID: 1511533463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_7_Crouch_16
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1407
+        width: 57
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f863f60cf7c6a646b6571da72b8ce7c
+      internalID: -917899340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_7_Crouch_17
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 1407
+        width: 58
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9a0af099a1a19a4fb527c258b3d136e
+      internalID: 940328222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_7_Crouch_18
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 1407
+        width: 58
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 217ac4a16ec538844a9df8ca808e45df
+      internalID: 1520801744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_7_Crouch_19
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 1407
+        width: 58
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ab3597bec8a06479d2f2c9d78876fb
+      internalID: 55079961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_7_Crouch_20
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 1407
+        width: 57
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57d06a54b49a7b44988b746d491ec673
+      internalID: -83260629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_7_Crouch_21
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 1407
+        width: 57
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e74d9aab09de7fd429eed6cf3d585a70
+      internalID: -1407324369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_7_Crouch_22
+      rect:
+        serializedVersion: 2
+        x: 1645
+        y: 1407
+        width: 55
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb5525d06f68fb4f8fafe5300eaa284
+      internalID: 133463807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_7_Crouch_23
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 1407
+        width: 56
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a904d1f67456e34883558e4749e50fa
+      internalID: -1631022332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_7_Crouch_24
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 1150
+        width: 56
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e85a56f2142c2142986d948059a000e
+      internalID: 1273285846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_7_Crouch_25
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1150
+        width: 57
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caf2ee1467119974994aacd2345d2efa
+      internalID: 1548080604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_7_Crouch_26
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 1150
+        width: 57
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f7ecf6c9c79234ab44d0b017d992f8
+      internalID: 859547526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_7_Crouch_27
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 1150
+        width: 57
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2372fb0fd54d7244c95efe2d814b8ee1
+      internalID: 1340579603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_7_Crouch_28
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 1150
+        width: 56
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c819dd1f68a7e7040b925099a5d36a39
+      internalID: 1878533024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_7_Crouch_29
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 1150
+        width: 56
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b89524cd3f15b4b4bb4cde39f5eb06f5
+      internalID: -920357292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_7_Crouch_30
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 1151
+        width: 56
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0e3e6cb7648bd9488d25e8859763090
+      internalID: -2022817698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_7_Crouch_31
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 1151
+        width: 55
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d68103e64ab9a14291c3db6f17caf57
+      internalID: 1804239228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_7_Crouch_32
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 895
+        width: 54
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d168d34ab32df74cb94b63d87b41550
+      internalID: -312077974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_7_Crouch_33
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 895
+        width: 53
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 777977662dcc8284eb448b2c56ad3416
+      internalID: 913403034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_7_Crouch_34
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 895
+        width: 52
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58d566e2e495752409ca8e0aca90f9fa
+      internalID: -827159141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_7_Crouch_35
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 895
+        width: 52
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ba926097d2c492438ac58c59dfc24dd
+      internalID: 162973996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_7_Crouch_36
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 895
+        width: 52
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c5a97bc66116654eab823e8fb7e753c
+      internalID: 1957959218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_7_Crouch_37
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 895
+        width: 52
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb748489aa865cd42b2537ac02b152a5
+      internalID: 46189452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_7_Crouch_38
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 895
+        width: 52
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 946f939980fe3ef4896dc0924daab0ee
+      internalID: -36420775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_7_Crouch_39
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 895
+        width: 52
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c37063fe4d426b542bef0baef868c215
+      internalID: 484466765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_7_Crouch_40
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 639
+        width: 53
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a2a1c411a0640e43bcc29bb6e4bba9f
+      internalID: 988392892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_7_Crouch_41
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 639
+        width: 53
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c937893caf1594895c38394231e48f
+      internalID: -748665160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_7_Crouch_42
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 639
+        width: 53
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2120cff5f47fea44d9e7fc44b89501cd
+      internalID: 348447431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_7_Crouch_43
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 639
+        width: 54
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b45741f06a47b414e96b840fcbd087ba
+      internalID: -1259247757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_7_Crouch_44
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 639
+        width: 54
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 018be7f0064bbf942a02d631d3e28cdd
+      internalID: -1346077417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_7_Crouch_45
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 639
+        width: 54
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50ae8c12aad799b4484cb9ef5298eb95
+      internalID: 2008590282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Tate_7_Crouch_0: -1884133820
+      Tate_7_Crouch_1: 420338599
+      Tate_7_Crouch_10: 1998180144
+      Tate_7_Crouch_11: 588174529
+      Tate_7_Crouch_12: 974062353
+      Tate_7_Crouch_13: -86915103
+      Tate_7_Crouch_14: -366558883
+      Tate_7_Crouch_15: 1511533463
+      Tate_7_Crouch_16: -917899340
+      Tate_7_Crouch_17: 940328222
+      Tate_7_Crouch_18: 1520801744
+      Tate_7_Crouch_19: 55079961
+      Tate_7_Crouch_2: 1422201710
+      Tate_7_Crouch_20: -83260629
+      Tate_7_Crouch_21: -1407324369
+      Tate_7_Crouch_22: 133463807
+      Tate_7_Crouch_23: -1631022332
+      Tate_7_Crouch_24: 1273285846
+      Tate_7_Crouch_25: 1548080604
+      Tate_7_Crouch_26: 859547526
+      Tate_7_Crouch_27: 1340579603
+      Tate_7_Crouch_28: 1878533024
+      Tate_7_Crouch_29: -920357292
+      Tate_7_Crouch_3: 1916851674
+      Tate_7_Crouch_30: -2022817698
+      Tate_7_Crouch_31: 1804239228
+      Tate_7_Crouch_32: -312077974
+      Tate_7_Crouch_33: 913403034
+      Tate_7_Crouch_34: -827159141
+      Tate_7_Crouch_35: 162973996
+      Tate_7_Crouch_36: 1957959218
+      Tate_7_Crouch_37: 46189452
+      Tate_7_Crouch_38: -36420775
+      Tate_7_Crouch_39: 484466765
+      Tate_7_Crouch_4: -1344938473
+      Tate_7_Crouch_40: 988392892
+      Tate_7_Crouch_41: -748665160
+      Tate_7_Crouch_42: 348447431
+      Tate_7_Crouch_43: -1259247757
+      Tate_7_Crouch_44: -1346077417
+      Tate_7_Crouch_45: 2008590282
+      Tate_7_Crouch_5: 1173704294
+      Tate_7_Crouch_6: 428169352
+      Tate_7_Crouch_7: 580233343
+      Tate_7_Crouch_8: 436710698
+      Tate_7_Crouch_9: 793545112
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

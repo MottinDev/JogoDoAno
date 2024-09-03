@@ -1,0 +1,1522 @@
+fileFormatVersion: 2
+guid: b1256ef015b942f489c840c8130fd6fe
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Buster_13_Side strong_0
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 1918
+        width: 71
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e87bb487ed92f4043b276b76f1311d45
+      internalID: -828411232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster_13_Side strong_1
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1915
+        width: 70
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bed7256e02fa4d4687204f022428a0c
+      internalID: -859484068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster_13_Side strong_2
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 1916
+        width: 76
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d861126e4f9974788d52741ba3fbe7
+      internalID: 721177529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster_13_Side strong_3
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 1916
+        width: 79
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ddc503b25ad5d240ac4d378f90f4f45
+      internalID: 2140105540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster_13_Side strong_4
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 1916
+        width: 79
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eadd21278e194674ba5164e6a4252f76
+      internalID: 1050342115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster_13_Side strong_5
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 1916
+        width: 77
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9ed8ffc6e284e94287623c3484b26e5
+      internalID: -687444482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster_13_Side strong_6
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 1916
+        width: 71
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edf3d939567d0384f942ede871c65651
+      internalID: 1280684271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster_13_Side strong_7
+      rect:
+        serializedVersion: 2
+        x: 1882
+        y: 1916
+        width: 80
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f351aad95c9dca14c88c32a8c89af576
+      internalID: 987844678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster_13_Side strong_8
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1660
+        width: 87
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c40f25276cc5b50489e3c39914c065f4
+      internalID: -785343485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster_13_Side strong_9
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 1660
+        width: 87
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8d7d8bfd4b73fb4c943f395a668cede
+      internalID: 1046061826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster_13_Side strong_10
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 1660
+        width: 87
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b97169071592e3446a929d5c9489c932
+      internalID: 1965313689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster_13_Side strong_11
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 1660
+        width: 88
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96cb0e6314a9b344da9183deb5709b44
+      internalID: -2000090930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster_13_Side strong_12
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 1660
+        width: 90
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b5776d7aca79a8419aed0cb1097c1e2
+      internalID: 1528452243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster_13_Side strong_13
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 1660
+        width: 90
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79942ba7b43e4fa43808e57f6fe5e7f8
+      internalID: 656844657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster_13_Side strong_14
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 1660
+        width: 91
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bf4cb1428ddfbf4f849b522f5d2a300
+      internalID: -638913831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster_13_Side strong_15
+      rect:
+        serializedVersion: 2
+        x: 1882
+        y: 1660
+        width: 91
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3012d78fe6b972e4c9c227d1b4adafbe
+      internalID: 789048030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster_13_Side strong_16
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 1407
+        width: 59
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e55872be90b1c2f428ccb813a74092c2
+      internalID: -1129464201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster_13_Side strong_17
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1407
+        width: 59
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4135e7179afc47d46ae67d0e3ef6ecdc
+      internalID: 1366936128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster_13_Side strong_18
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 1407
+        width: 60
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac1300610abaf604faf7e7fd081be3a2
+      internalID: 1034642385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster_13_Side strong_19
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 1406
+        width: 59
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b71a2c0c01d2ed34aa8e796d9a2b5fc1
+      internalID: -851764708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster_13_Side strong_20
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 1406
+        width: 59
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb187e87a7c46c24499ae446b0a31f9d
+      internalID: 1406146214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster_13_Side strong_21
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 1406
+        width: 59
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5f29db821e6cb649a86fc43da404f43
+      internalID: -1867725597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster_13_Side strong_22
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 1406
+        width: 59
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4be13b1f0a94ea74d955b7a195dcacc4
+      internalID: -841413172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster_13_Side strong_23
+      rect:
+        serializedVersion: 2
+        x: 1883
+        y: 1405
+        width: 61
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d9713fba478364497df078c5befea7
+      internalID: 879955725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster_13_Side strong_24
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1149
+        width: 64
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d648d6b7fae8ba0438986f18a2319d44
+      internalID: 1420296099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster_13_Side strong_25
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 1149
+        width: 70
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a8d58d12c4836f41848155a499480d8
+      internalID: 504498606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster_13_Side strong_26
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 1149
+        width: 76
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ba8bad1141e47141a7fc07af0451d01
+      internalID: -1473475045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster_13_Side strong_27
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 1148
+        width: 80
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfbd774b05eaaa04f95d96b6ef26cefe
+      internalID: 1049657458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster_13_Side strong_28
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 1148
+        width: 84
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f775301fb11a2a640afd521a5a6d0e1d
+      internalID: -1901351443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster_13_Side strong_29
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 1148
+        width: 88
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5116f2610c782b409df1e2a88c8ac9f
+      internalID: 1920701334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster_13_Side strong_30
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 1148
+        width: 88
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f37c6a936f31c9044ae81f0d87cdd3e1
+      internalID: 540189593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster_13_Side strong_31
+      rect:
+        serializedVersion: 2
+        x: 1882
+        y: 1148
+        width: 88
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29b774879df09ee4699aab58e867e3c7
+      internalID: 868691203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster_13_Side strong_32
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 892
+        width: 88
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a3c88c476804540ac9bc08c687e648
+      internalID: -1224322121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster_13_Side strong_33
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 892
+        width: 88
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 997625e04fa642f43910a67a21f1f016
+      internalID: -1995774716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster_13_Side strong_34
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 892
+        width: 88
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9415ec1b138e28640a3d8b9fb7b69ef3
+      internalID: 1985727487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster_13_Side strong_35
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 892
+        width: 88
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1da0029625331545a8b4c2a298a8ecf
+      internalID: 255024991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster_13_Side strong_36
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 892
+        width: 88
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 984625af34a7a604ca019e037a5df055
+      internalID: -1312313011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster_13_Side strong_37
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 892
+        width: 90
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9874a8dc12bb5a24da8df2a09e66652c
+      internalID: 1504545212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster_13_Side strong_38
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 892
+        width: 90
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3816bba85d12d545bcd2d0533111f54
+      internalID: 2017763982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster_13_Side strong_39
+      rect:
+        serializedVersion: 2
+        x: 1882
+        y: 892
+        width: 90
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ece9b9c86ccab46b302cd964117260
+      internalID: -985654463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster_13_Side strong_40
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 636
+        width: 87
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d481518da53ed34cabe8058d89f3343
+      internalID: 811318824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster_13_Side strong_41
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 636
+        width: 82
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0dbf2ecbd053c84eab3aa327990c600
+      internalID: 1015838965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster_13_Side strong_42
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 636
+        width: 76
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eb438670f4dc5d48987dfdbf49921c1
+      internalID: 1725475977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster_13_Side strong_43
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 635
+        width: 71
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d3c0078d319ba43a0c4e4c5b373556
+      internalID: 1398454335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster_13_Side strong_44
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 636
+        width: 71
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b732c9b2f22a644f9ac3f588710d552
+      internalID: -1585762123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster_13_Side strong_45
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 638
+        width: 71
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12487228bf9e60b419a122577da47f90
+      internalID: -1647373484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster_13_Side strong_46
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 639
+        width: 72
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10b15beb3f4c689499c3a0cd5ea19df5
+      internalID: 754557078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster_13_Side strong_47
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 638
+        width: 73
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbed85d916a9a73499358b21602aefc5
+      internalID: -221299189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster_13_Side strong_48
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 382
+        width: 73
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa5c543508ee42e4f828e8909445ecbb
+      internalID: -1304893832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster_13_Side strong_49
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 383
+        width: 73
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa26861fd071000499b04bc122956259
+      internalID: -457824112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster_13_Side strong_50
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 383
+        width: 73
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deab5b01e9383574692b6e86f9b5b231
+      internalID: -170026490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster_13_Side strong_51
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 383
+        width: 73
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6084ec6b8b737884bb2a3c92b12693c7
+      internalID: 300672154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster_13_Side strong_52
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 383
+        width: 73
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 950d18d00a608234f88df7aefb882b14
+      internalID: 1411893545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster_13_Side strong_53
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 383
+        width: 73
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af6be807836215045a687db68e99b422
+      internalID: 1016116243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster_13_Side strong_54
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 383
+        width: 73
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1029076f0150de4595ec3481c44665c
+      internalID: 1914639659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster_13_Side strong_55
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 383
+        width: 73
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80ed418ec7e0eb940a931dbdaba14d4e
+      internalID: 1479103214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster_13_Side strong_56
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 127
+        width: 73
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 400cc939c8a82d446ad6dec5c718bd6d
+      internalID: -1536652134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster_13_Side strong_57
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 127
+        width: 73
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c85fbf968d26d54ab383ee054618439
+      internalID: 128171253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster_13_Side strong_58
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 127
+        width: 73
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e115a8548bb22c4499539ad94586ebbf
+      internalID: 596144487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster_13_Side strong_59
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 127
+        width: 73
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91c53c5062602af4a8024df8e3db1d75
+      internalID: -2145012841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster_13_Side strong_60
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 127
+        width: 73
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddd0416f00222704c9ba439cebc2f73f
+      internalID: 1171565339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster_13_Side strong_61
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 127
+        width: 73
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 447e3c7f7c6d2b7439a9f8c3bcb9308a
+      internalID: -719741697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster_13_Side strong_62
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 127
+        width: 73
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f763c7e6d0c3d1c4aa197e52d3a9a259
+      internalID: -1363181087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster_13_Side strong_63
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 127
+        width: 73
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75c8049ede514fb46a26c6b53740f485
+      internalID: 2081202619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Buster_13_Side strong_0: -828411232
+      Buster_13_Side strong_1: -859484068
+      Buster_13_Side strong_10: 1965313689
+      Buster_13_Side strong_11: -2000090930
+      Buster_13_Side strong_12: 1528452243
+      Buster_13_Side strong_13: 656844657
+      Buster_13_Side strong_14: -638913831
+      Buster_13_Side strong_15: 789048030
+      Buster_13_Side strong_16: -1129464201
+      Buster_13_Side strong_17: 1366936128
+      Buster_13_Side strong_18: 1034642385
+      Buster_13_Side strong_19: -851764708
+      Buster_13_Side strong_2: 721177529
+      Buster_13_Side strong_20: 1406146214
+      Buster_13_Side strong_21: -1867725597
+      Buster_13_Side strong_22: -841413172
+      Buster_13_Side strong_23: 879955725
+      Buster_13_Side strong_24: 1420296099
+      Buster_13_Side strong_25: 504498606
+      Buster_13_Side strong_26: -1473475045
+      Buster_13_Side strong_27: 1049657458
+      Buster_13_Side strong_28: -1901351443
+      Buster_13_Side strong_29: 1920701334
+      Buster_13_Side strong_3: 2140105540
+      Buster_13_Side strong_30: 540189593
+      Buster_13_Side strong_31: 868691203
+      Buster_13_Side strong_32: -1224322121
+      Buster_13_Side strong_33: -1995774716
+      Buster_13_Side strong_34: 1985727487
+      Buster_13_Side strong_35: 255024991
+      Buster_13_Side strong_36: -1312313011
+      Buster_13_Side strong_37: 1504545212
+      Buster_13_Side strong_38: 2017763982
+      Buster_13_Side strong_39: -985654463
+      Buster_13_Side strong_4: 1050342115
+      Buster_13_Side strong_40: 811318824
+      Buster_13_Side strong_41: 1015838965
+      Buster_13_Side strong_42: 1725475977
+      Buster_13_Side strong_43: 1398454335
+      Buster_13_Side strong_44: -1585762123
+      Buster_13_Side strong_45: -1647373484
+      Buster_13_Side strong_46: 754557078
+      Buster_13_Side strong_47: -221299189
+      Buster_13_Side strong_48: -1304893832
+      Buster_13_Side strong_49: -457824112
+      Buster_13_Side strong_5: -687444482
+      Buster_13_Side strong_50: -170026490
+      Buster_13_Side strong_51: 300672154
+      Buster_13_Side strong_52: 1411893545
+      Buster_13_Side strong_53: 1016116243
+      Buster_13_Side strong_54: 1914639659
+      Buster_13_Side strong_55: 1479103214
+      Buster_13_Side strong_56: -1536652134
+      Buster_13_Side strong_57: 128171253
+      Buster_13_Side strong_58: 596144487
+      Buster_13_Side strong_59: -2145012841
+      Buster_13_Side strong_6: 1280684271
+      Buster_13_Side strong_60: 1171565339
+      Buster_13_Side strong_61: -719741697
+      Buster_13_Side strong_62: -1363181087
+      Buster_13_Side strong_63: 2081202619
+      Buster_13_Side strong_7: 987844678
+      Buster_13_Side strong_8: -785343485
+      Buster_13_Side strong_9: 1046061826
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

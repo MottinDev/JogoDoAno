@@ -52,7 +52,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float jumpBufferTime = 0.1f;  // Tempo para jump buffering
     [SerializeField] private float coyoteTime = 0.2f;      // Tempo para coyote time
     [SerializeField] private float variableJumpMultiplier = 0.5f;  // Multiplicador para altura variável de pulo
-
+    [SerializeField] private float crouchOffset = 0.1f;
     private float jumpBufferCounter;
     private float coyoteTimeCounter;
 
@@ -127,6 +127,7 @@ public class PlayerMovement : MonoBehaviour
         {
             isCrouching = true;
             coll.size = crouchingColliderSize;
+            coll.offset = new Vector2(0f, crouchOffset); // Ajuste o valor do offset para evitar que entre no chão
             if (Mathf.Abs(rb.velocity.x) > 0.1f)
             {
                 rb.AddForce(new Vector2(-rb.velocity.x * crouchSpeedReduction, 0f), ForceMode2D.Force);
@@ -136,6 +137,7 @@ public class PlayerMovement : MonoBehaviour
         {
             isCrouching = false;
             coll.size = originalColliderSize;
+            coll.offset = Vector2.zero; // Restaura o offset original
         }
 
         if (!isCrouching && !isJumping)
@@ -288,7 +290,6 @@ public class PlayerMovement : MonoBehaviour
         yield return new WaitForSeconds(dashingCooldown);
         canDash = true;
     }
-
 
     private void OnDrawGizmos()
     {

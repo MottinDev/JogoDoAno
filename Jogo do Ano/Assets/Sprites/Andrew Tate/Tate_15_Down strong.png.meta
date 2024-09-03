@@ -1,0 +1,1874 @@
+fileFormatVersion: 2
+guid: 9120892d80aa3fe4ea4cc8286287e0f9
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tate_15_Down strong_0
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1919
+        width: 62
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bb1c9f873a1cfb499993818be0d2c9e
+      internalID: -2069105941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_1
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 1920
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c84a2997770120458ba42b41ef83ce9
+      internalID: -958845673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_2
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 1922
+        width: 54
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be6142d5eb36cf24dae30f3142fe3b5a
+      internalID: 1036707028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_3
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 1924
+        width: 57
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f65a42b300d5e644dbcd4e9d67eb6970
+      internalID: -1364235324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_4
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 1925
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a93b9291aa884f41844af5fb8ce4a3b
+      internalID: -547168965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_5
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 1928
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35fbc7215aa4dd7478b56db61360ba36
+      internalID: -816017864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_6
+      rect:
+        serializedVersion: 2
+        x: 1634
+        y: 1918
+        width: 63
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c1658276eb840147b6db53dd03f3c5f
+      internalID: 213800968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_7
+      rect:
+        serializedVersion: 2
+        x: 1887
+        y: 1918
+        width: 67
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43db625a5626c6e468df64325448d8bf
+      internalID: 1200705930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_8
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 1662
+        width: 66
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8319277f8f35fe46a55aa44487cf90c
+      internalID: 1263701738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_9
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 1662
+        width: 63
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d9ba9c744474564a810d3429b23d20c
+      internalID: 273522005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_10
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 1651
+        width: 56
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5df0e3b9e94f9f468339541f570b33a
+      internalID: 1460516929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_11
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 1661
+        width: 81
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f84886be249db504fa0df1107a048f97
+      internalID: 510024605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_12
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 1661
+        width: 91
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 261ec5298df17ae4caba7bb1bd2307b6
+      internalID: 803457221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_13
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 1662
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a8894db8dc32fe439a8b897b6a77db5
+      internalID: 1603044130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_14
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 1662
+        width: 74
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89a0bb2b683e8dd4f89fa601c0f952cd
+      internalID: -1454131687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_15
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 1691
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b96a5e0e83bdd43ae115afdf52c0f0
+      internalID: 95627727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_16
+      rect:
+        serializedVersion: 2
+        x: 1889
+        y: 1662
+        width: 71
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d5879e533d8eb447bebc46d8e2843de
+      internalID: -551052053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_17
+      rect:
+        serializedVersion: 2
+        x: 1969
+        y: 1692
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba9baf8ead3030740a90a605168e5e15
+      internalID: -1397469444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_18
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1663
+        width: 35
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f4e97407e183924da0d3fc810f98e64
+      internalID: 173133255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_19
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 1663
+        width: 35
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efe4469846f1c73428464badcc6e62af
+      internalID: -250877708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_20
+      rect:
+        serializedVersion: 2
+        x: 1960
+        y: 1663
+        width: 35
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b9de408e8d1a7a44998deb27ac98cc0
+      internalID: -796152339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_21
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 1407
+        width: 68
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c05f7184856de04c9758fcc365895da
+      internalID: 1491631420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_22
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1434
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caace3df2618ab74486cdc90c2b1ea32
+      internalID: -267346698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_23
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 1407
+        width: 64
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 337cb9a942f8e28498431c61f646e893
+      internalID: -694514327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_24
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 1429
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1650f44ec19cd145a953adc5c37493f
+      internalID: 851577299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_25
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1407
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b36286bcc73e991418544d95b61625ad
+      internalID: 358293637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_26
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1407
+        width: 68
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a8d332b7ca237f428e7d02903766dd9
+      internalID: -1944072785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_27
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 1405
+        width: 73
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 699a282b0a1c15f49ba17f45963bb0d9
+      internalID: -531937286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_28
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 1405
+        width: 110
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e53c52d476ba44eb59204c2bc34e46
+      internalID: 279390394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_29
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 1431
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c95bf530f3bfef4187abcbf2b0720f9
+      internalID: 783038581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_30
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 1405
+        width: 67
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cf456be26be05744a286b418bb89e52
+      internalID: 1152315417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_31
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 1405
+        width: 82
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1444830ff1e3d94da8297bb4d697e13
+      internalID: -1154049860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_32
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1423
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 051c64fdfed785046bf5aaa7e2027958
+      internalID: 1632584111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_33
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 1421
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee744f6658993cc4e9e2ad593a156e1d
+      internalID: 2044552566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_34
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 1419
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac278976f624f94f8bb1a4c7f24b449
+      internalID: -322269538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_35
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 1420
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5c46fbc1c9c7b84382483b7e3133b1f
+      internalID: -2000984678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_36
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 1415
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dda9074b1c9d704f8599de9e387a605
+      internalID: 1787362985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_37
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 1407
+        width: 58
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c26baa31f53e8f74089a4c4dace0f8c1
+      internalID: -56794351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_38
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 1407
+        width: 38
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33fd3865ca6fdd946abc8141d6782fb8
+      internalID: 35809128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_39
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 1407
+        width: 37
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f9dd7cf6a83e5842908c8b82d6f76be
+      internalID: -492112009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_40
+      rect:
+        serializedVersion: 2
+        x: 1603
+        y: 1407
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bfb60a43d197634ebdcc77a6eac3061
+      internalID: -657537106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_41
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 1407
+        width: 41
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1097e70f94934d4bb99d879fa14ce18
+      internalID: 104314768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_42
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 1407
+        width: 43
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a483e72f1eb49b24992ee9818ba4b518
+      internalID: 1731776510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_43
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 1407
+        width: 60
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d9f8367ec0c454fa9de3c75ea4c28f
+      internalID: -1545587077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_44
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 1407
+        width: 21
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a8c816d3b955cb41aca4115202095b6
+      internalID: -1198400048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_45
+      rect:
+        serializedVersion: 2
+        x: 1675
+        y: 1407
+        width: 33
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59a4f7b2b65283a478621148c2597038
+      internalID: 1791303325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_46
+      rect:
+        serializedVersion: 2
+        x: 1723
+        y: 1407
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a664c775ae50d9409c4ed67c3058453
+      internalID: 1607083106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_47
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 1407
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d40a461aacf8ce428f1cddbcbe6fa53
+      internalID: -32516044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_48
+      rect:
+        serializedVersion: 2
+        x: 1933
+        y: 1407
+        width: 34
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb9fc845441024e41aa1e61f209ccd3c
+      internalID: -898770825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_49
+      rect:
+        serializedVersion: 2
+        x: 1976
+        y: 1407
+        width: 35
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7b6ba3362486134f8b1291183a03bc4
+      internalID: -341019526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_50
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 1180
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cae39840cf69674885030051eaeb6d4
+      internalID: -892849699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_51
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 1149
+        width: 52
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa7b2de5fe0901f49894bde80f79401a
+      internalID: 1363936993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_52
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 1171
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cff9b0b294e0c741b6312c2e83e64fa
+      internalID: -407715456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_53
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 1149
+        width: 121
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dd5e63c672c025458a1a9c05fe798df
+      internalID: -788856681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_54
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 1180
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27359bec0752db044b87284f8560c6f4
+      internalID: 651447126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_55
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1149
+        width: 122
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e839c4394083d894bbdf05a22ba27091
+      internalID: -442420657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_56
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 1186
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f467846d1ac484946b56c907dbe99d22
+      internalID: -197544671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_57
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 1149
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 633a8758f712b4b42a3c687d4c1b191f
+      internalID: -244713881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_58
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 1188
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11f52f557a1da054ab628ef050852c4a
+      internalID: 1989540205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_59
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 1150
+        width: 49
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c10854b4a00c0245a649a5039d22054
+      internalID: -558087818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_60
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 1175
+        width: 6
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8a0a683c917b6a448fe4933779b1a7a
+      internalID: 1907344838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_61
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 1150
+        width: 63
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35addef409edf8c4194673014ecc67e1
+      internalID: -1575192058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_62
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 1150
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c29ebf65f512ea348bcd197a5f579379
+      internalID: 717315910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_63
+      rect:
+        serializedVersion: 2
+        x: 1893
+        y: 1150
+        width: 63
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0a6e9476702a1b4eb8df6ae4eb7a362
+      internalID: 716681275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_64
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 1168
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15e6c7042c0695b4780a3051be00c3c1
+      internalID: -1673590225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_65
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 1177
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddd73321cdf1d444abf1253699de9f69
+      internalID: -1056420538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_66
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 1166
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d4a76418a89054da83c314a1d29d65
+      internalID: -1475840289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_67
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 1176
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d355714f70e6214fbf78b774665f982
+      internalID: 1082028146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_68
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 1152
+        width: 37
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdd9b83248fa9f641afb60da4aa4cae8
+      internalID: -336658639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_69
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 1152
+        width: 48
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b4e641a84237714faf00620259f0de4
+      internalID: 1830799440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_70
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 1164
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 006072849f1d66b4a821c921c52581bd
+      internalID: -633751489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_71
+      rect:
+        serializedVersion: 2
+        x: 1333
+        y: 1162
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bd086d0339c8544f81e3ad61b80e2ae
+      internalID: 1674384174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_72
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 1151
+        width: 79
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9457e7b5c08c244ab7f055e64f107c5
+      internalID: -1713884389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_73
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 1152
+        width: 41
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d226c6949c10d2a47910d397b6c3a93f
+      internalID: -1051764416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_74
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1152
+        width: 46
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 967c26f20a5db464b9375820ebdb34eb
+      internalID: 545234268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_75
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 1152
+        width: 47
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29a70d130bf401949a770fd385b82321
+      internalID: 1651303591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_76
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 1152
+        width: 41
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d88b06e4633761499a7e4317f46307b
+      internalID: 225558868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_77
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 1152
+        width: 36
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d03556db53ddee448acddd6554892c60
+      internalID: 1011013809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_78
+      rect:
+        serializedVersion: 2
+        x: 1828
+        y: 1152
+        width: 25
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f9d98a96f1c318449106532cb770466
+      internalID: -1653937629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_15_Down strong_79
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 895
+        width: 113
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d899477f7a3c79041a0ef16524054026
+      internalID: -2060812055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Tate_15_Down strong_0: -2069105941
+      Tate_15_Down strong_1: -958845673
+      Tate_15_Down strong_10: 1460516929
+      Tate_15_Down strong_11: 510024605
+      Tate_15_Down strong_12: 803457221
+      Tate_15_Down strong_13: 1603044130
+      Tate_15_Down strong_14: -1454131687
+      Tate_15_Down strong_15: 95627727
+      Tate_15_Down strong_16: -551052053
+      Tate_15_Down strong_17: -1397469444
+      Tate_15_Down strong_18: 173133255
+      Tate_15_Down strong_19: -250877708
+      Tate_15_Down strong_2: 1036707028
+      Tate_15_Down strong_20: -796152339
+      Tate_15_Down strong_21: 1491631420
+      Tate_15_Down strong_22: -267346698
+      Tate_15_Down strong_23: -694514327
+      Tate_15_Down strong_24: 851577299
+      Tate_15_Down strong_25: 358293637
+      Tate_15_Down strong_26: -1944072785
+      Tate_15_Down strong_27: -531937286
+      Tate_15_Down strong_28: 279390394
+      Tate_15_Down strong_29: 783038581
+      Tate_15_Down strong_3: -1364235324
+      Tate_15_Down strong_30: 1152315417
+      Tate_15_Down strong_31: -1154049860
+      Tate_15_Down strong_32: 1632584111
+      Tate_15_Down strong_33: 2044552566
+      Tate_15_Down strong_34: -322269538
+      Tate_15_Down strong_35: -2000984678
+      Tate_15_Down strong_36: 1787362985
+      Tate_15_Down strong_37: -56794351
+      Tate_15_Down strong_38: 35809128
+      Tate_15_Down strong_39: -492112009
+      Tate_15_Down strong_4: -547168965
+      Tate_15_Down strong_40: -657537106
+      Tate_15_Down strong_41: 104314768
+      Tate_15_Down strong_42: 1731776510
+      Tate_15_Down strong_43: -1545587077
+      Tate_15_Down strong_44: -1198400048
+      Tate_15_Down strong_45: 1791303325
+      Tate_15_Down strong_46: 1607083106
+      Tate_15_Down strong_47: -32516044
+      Tate_15_Down strong_48: -898770825
+      Tate_15_Down strong_49: -341019526
+      Tate_15_Down strong_5: -816017864
+      Tate_15_Down strong_50: -892849699
+      Tate_15_Down strong_51: 1363936993
+      Tate_15_Down strong_52: -407715456
+      Tate_15_Down strong_53: -788856681
+      Tate_15_Down strong_54: 651447126
+      Tate_15_Down strong_55: -442420657
+      Tate_15_Down strong_56: -197544671
+      Tate_15_Down strong_57: -244713881
+      Tate_15_Down strong_58: 1989540205
+      Tate_15_Down strong_59: -558087818
+      Tate_15_Down strong_6: 213800968
+      Tate_15_Down strong_60: 1907344838
+      Tate_15_Down strong_61: -1575192058
+      Tate_15_Down strong_62: 717315910
+      Tate_15_Down strong_63: 716681275
+      Tate_15_Down strong_64: -1673590225
+      Tate_15_Down strong_65: -1056420538
+      Tate_15_Down strong_66: -1475840289
+      Tate_15_Down strong_67: 1082028146
+      Tate_15_Down strong_68: -336658639
+      Tate_15_Down strong_69: 1830799440
+      Tate_15_Down strong_7: 1200705930
+      Tate_15_Down strong_70: -633751489
+      Tate_15_Down strong_71: 1674384174
+      Tate_15_Down strong_72: -1713884389
+      Tate_15_Down strong_73: -1051764416
+      Tate_15_Down strong_74: 545234268
+      Tate_15_Down strong_75: 1651303591
+      Tate_15_Down strong_76: 225558868
+      Tate_15_Down strong_77: 1011013809
+      Tate_15_Down strong_78: -1653937629
+      Tate_15_Down strong_79: -2060812055
+      Tate_15_Down strong_8: 1263701738
+      Tate_15_Down strong_9: 273522005
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

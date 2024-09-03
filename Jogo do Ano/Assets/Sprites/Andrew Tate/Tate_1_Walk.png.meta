@@ -1,0 +1,1302 @@
+fileFormatVersion: 2
+guid: 78308b29b08650142b13842130395383
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tate_1_Walk_0
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1919
+        width: 61
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6cffde8e87225d479b11ef9f8753d91
+      internalID: 477744083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_1_Walk_1
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 1918
+        width: 62
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e99365d81122a740996eebad530e51c
+      internalID: 2109729078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_1_Walk_2
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 1918
+        width: 64
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 392680c5c2796ea40ad3a5af78b0c32b
+      internalID: 2053792308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_1_Walk_3
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 1918
+        width: 63
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47b0be791e4c32d4b88437132a1c8e55
+      internalID: -98784672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_1_Walk_4
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 1918
+        width: 63
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8db681ed8cfa5647ad4dbddd65d22d6
+      internalID: -858748577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_1_Walk_5
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 1920
+        width: 63
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1939b6d91af9dc7458c47609f4cdc498
+      internalID: 375052282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_1_Walk_6
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 1922
+        width: 63
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc7ef79840ca21743b338ef6767f72af
+      internalID: -1519014251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_1_Walk_7
+      rect:
+        serializedVersion: 2
+        x: 1893
+        y: 1923
+        width: 62
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e814fc15cdffac64ca932bd24664d704
+      internalID: -130190446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_1_Walk_8
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1667
+        width: 62
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48375bbe56905a542b4721911688d4a7
+      internalID: 1725460738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_1_Walk_9
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 1667
+        width: 62
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4131f8af12ff9240953bc5f04a5a0d4
+      internalID: 824786624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_1_Walk_10
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 1666
+        width: 60
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da969f6c4ebc7aa43a289e9b1577dc58
+      internalID: 820335027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_1_Walk_11
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 1664
+        width: 58
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 810f10a907c0f864d87440b5e6d226dc
+      internalID: -719225585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_1_Walk_12
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 1663
+        width: 56
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6921d76330373e248bc2a75a141a29e6
+      internalID: 860284428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_1_Walk_13
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 1663
+        width: 57
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6064d58807a986248a6e302ba9a94370
+      internalID: 78013868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_1_Walk_14
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 1662
+        width: 58
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7209422549a390c4e8d7885ab0c68055
+      internalID: -403225918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_1_Walk_15
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 1662
+        width: 58
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f5e7302755ba3c409b130f8199b509c
+      internalID: -1705841829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_1_Walk_16
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 1400
+        width: 59
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 578c2e8adadbbde4fb2b7dafa8975052
+      internalID: 1777944445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_1_Walk_17
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1405
+        width: 59
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac496fc1e03274d4ba7946b249d2a4f5
+      internalID: 296524063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_1_Walk_18
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 1407
+        width: 58
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44164f38025ce3843b7616d17005370d
+      internalID: -1227500276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_1_Walk_19
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 1409
+        width: 57
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e8867b7248835f48a35fa400263a8f9
+      internalID: -1711420989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_1_Walk_20
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 1411
+        width: 57
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e80c88b90f58c2b499210ed1672e6935
+      internalID: -48091555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_1_Walk_21
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 1410
+        width: 57
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94a28a64d716aba40bc9c035d665f207
+      internalID: -1254305707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_1_Walk_22
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 1408
+        width: 57
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e83f45489bf72b84db5ed4f2b6de435d
+      internalID: -972422643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_1_Walk_23
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 1406
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8cf51592de4ed84a81a186d8c24e3a6
+      internalID: -1212070322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_1_Walk_24
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1149
+        width: 59
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a40fcd0d4baa50f42a817f284dd4a5d0
+      internalID: -913010312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_1_Walk_25
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 1149
+        width: 61
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71344004c3433b34cb39eb1e309eb740
+      internalID: -150603736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_1_Walk_26
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1149
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d7a77739d24be0488a3995af7e4d0a0
+      internalID: 2025189791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_1_Walk_27
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 1146
+        width: 63
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 479c47ff32ddb1a47abcc539a78e6de5
+      internalID: -65447050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_1_Walk_28
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 1150
+        width: 63
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d12a8c111a365c4e878d047da554ffe
+      internalID: -789324837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_1_Walk_29
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 1150
+        width: 63
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69bf0a9afe2530e42b127b6eebd2a09e
+      internalID: 1990739837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_1_Walk_30
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 1150
+        width: 63
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c812a9ec2f37fdc4d85394f6d64be618
+      internalID: -1502154958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_1_Walk_31
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 1150
+        width: 63
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 957745c3b9ff08d4fbf2da7205f69421
+      internalID: -2120230475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_1_Walk_32
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 894
+        width: 63
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1094711afeaca84780fb11a1721b123
+      internalID: 421204786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_1_Walk_33
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 894
+        width: 63
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3a9b989fbd549642a0360da957331c0
+      internalID: -1693765278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_1_Walk_34
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 899
+        width: 62
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2daacf44dff4d941be01660c2c83694
+      internalID: 2111890057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_1_Walk_35
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 898
+        width: 60
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80dd8ebfeebedfb478c6259ece7e7a56
+      internalID: 114115033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_1_Walk_36
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 896
+        width: 58
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7979d6c821aa41b44b3c66dedacb7912
+      internalID: 1158762672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_1_Walk_37
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 895
+        width: 56
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d348755294462374a8818f7e3d61c58b
+      internalID: 348042881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_1_Walk_38
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 639
+        width: 57
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e0c0dd0600b179408066ee541999feb
+      internalID: 86402666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_1_Walk_39
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 638
+        width: 58
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50a6b2b04cc40be4f98e1cc5f9ff7b57
+      internalID: 1835265625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_1_Walk_40
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 638
+        width: 58
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb6e1de7b2f72d2418eb05340cc3857f
+      internalID: -1484376632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_1_Walk_41
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 632
+        width: 59
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 481c5b1dc5fda6047865ea6b8280157f
+      internalID: -830289493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_1_Walk_42
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 637
+        width: 59
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcc86780ce0c3a848ba3a667253e04db
+      internalID: -1064721011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_1_Walk_43
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 639
+        width: 58
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58e560721bd1fa64bb66bc8f779be448
+      internalID: -1449450504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_1_Walk_44
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 641
+        width: 57
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61e0a613f55607047b09f3f2a19b6997
+      internalID: 951451432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_1_Walk_45
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 643
+        width: 57
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f35838a1f72d4be46b6daf0145e7f3bd
+      internalID: -1084808522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_1_Walk_46
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 386
+        width: 57
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b31e7cbb3711aee4fb752fef44443df7
+      internalID: -1075695101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_1_Walk_47
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 384
+        width: 57
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7c7b9dc2a17d2640a051ed1880c57c6
+      internalID: 1726939803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_1_Walk_48
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 382
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73500fc8f786e474da570b97a596b252
+      internalID: -364896849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_1_Walk_49
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 381
+        width: 59
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f841448363a5eb64aa45b9b5911c38e5
+      internalID: -1269751290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_1_Walk_50
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 381
+        width: 61
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df5be940fb28acb4595d4525d2ebff36
+      internalID: 1850222418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_1_Walk_51
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 381
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d797607f4f74447906e0705c950426
+      internalID: -926435852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_1_Walk_52
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 378
+        width: 63
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 375ca9723bc201045b5de3fa6e9ef4dc
+      internalID: -1303967285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_1_Walk_53
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 382
+        width: 63
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0252426ddf1f2fa4c9976ac24e1e6744
+      internalID: 1236038661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Tate_1_Walk_0: 477744083
+      Tate_1_Walk_1: 2109729078
+      Tate_1_Walk_10: 820335027
+      Tate_1_Walk_11: -719225585
+      Tate_1_Walk_12: 860284428
+      Tate_1_Walk_13: 78013868
+      Tate_1_Walk_14: -403225918
+      Tate_1_Walk_15: -1705841829
+      Tate_1_Walk_16: 1777944445
+      Tate_1_Walk_17: 296524063
+      Tate_1_Walk_18: -1227500276
+      Tate_1_Walk_19: -1711420989
+      Tate_1_Walk_2: 2053792308
+      Tate_1_Walk_20: -48091555
+      Tate_1_Walk_21: -1254305707
+      Tate_1_Walk_22: -972422643
+      Tate_1_Walk_23: -1212070322
+      Tate_1_Walk_24: -913010312
+      Tate_1_Walk_25: -150603736
+      Tate_1_Walk_26: 2025189791
+      Tate_1_Walk_27: -65447050
+      Tate_1_Walk_28: -789324837
+      Tate_1_Walk_29: 1990739837
+      Tate_1_Walk_3: -98784672
+      Tate_1_Walk_30: -1502154958
+      Tate_1_Walk_31: -2120230475
+      Tate_1_Walk_32: 421204786
+      Tate_1_Walk_33: -1693765278
+      Tate_1_Walk_34: 2111890057
+      Tate_1_Walk_35: 114115033
+      Tate_1_Walk_36: 1158762672
+      Tate_1_Walk_37: 348042881
+      Tate_1_Walk_38: 86402666
+      Tate_1_Walk_39: 1835265625
+      Tate_1_Walk_4: -858748577
+      Tate_1_Walk_40: -1484376632
+      Tate_1_Walk_41: -830289493
+      Tate_1_Walk_42: -1064721011
+      Tate_1_Walk_43: -1449450504
+      Tate_1_Walk_44: 951451432
+      Tate_1_Walk_45: -1084808522
+      Tate_1_Walk_46: -1075695101
+      Tate_1_Walk_47: 1726939803
+      Tate_1_Walk_48: -364896849
+      Tate_1_Walk_49: -1269751290
+      Tate_1_Walk_5: 375052282
+      Tate_1_Walk_50: 1850222418
+      Tate_1_Walk_51: -926435852
+      Tate_1_Walk_52: -1303967285
+      Tate_1_Walk_53: 1236038661
+      Tate_1_Walk_6: -1519014251
+      Tate_1_Walk_7: -130190446
+      Tate_1_Walk_8: 1725460738
+      Tate_1_Walk_9: 824786624
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

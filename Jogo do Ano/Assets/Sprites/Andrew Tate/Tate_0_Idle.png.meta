@@ -1,0 +1,1192 @@
+fileFormatVersion: 2
+guid: 36fc6b2783efee049b8986bdc4325426
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tate_0_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1919
+        width: 61
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 637ffe7f6d74e1d469f038e2c3fae6fd
+      internalID: 435847802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_0_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 1919
+        width: 61
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58e843f13c53b3f4a8471327a5edd240
+      internalID: -201655158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_0_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1918
+        width: 61
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 561b27147c74f0946b61f310ae710fc0
+      internalID: 1504223826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_0_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 1918
+        width: 61
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 518318726e384384f8292608089922e3
+      internalID: 1806286516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_0_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 1918
+        width: 61
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d60eaacb4d1df740b5c591d4ca1afb9
+      internalID: 1121957671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_0_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 1918
+        width: 61
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ad573e802f331b41ac2abf40e7e4bc2
+      internalID: 575105052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_0_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 1919
+        width: 61
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29e30fd781080ab4e8b6aafddbb2cc83
+      internalID: -2023265335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_0_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 1891
+        y: 1919
+        width: 62
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a364f410fca78d0429e7578c1fe191ed
+      internalID: -2075379458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_0_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 1663
+        width: 62
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8cf73b0df457ac4682486f6407e6afa
+      internalID: 1871392245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_0_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 1663
+        width: 62
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e738423fffed85b439f0384fee1d2981
+      internalID: 1099661360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_0_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 1663
+        width: 62
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce69ef4b010cd2a498fe3a3f7586550b
+      internalID: -615480282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_0_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 1663
+        width: 62
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd59ee41fe7d8014bb6605e9181ab0c5
+      internalID: 1492863562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_0_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 1663
+        width: 62
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad88727f6db92d94d8efcefc600480e3
+      internalID: -759155293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_0_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 1663
+        width: 63
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d31bdf821f571ce47953f53370cfc6e6
+      internalID: 1432768468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_0_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 1663
+        width: 62
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a278e3fa14ef924a8535716d94254f3
+      internalID: -1656352944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_0_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 1891
+        y: 1663
+        width: 63
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c434c0bc457c5ba4ab3f6aaa57c19f7f
+      internalID: -1012120225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_0_Idle_16
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1407
+        width: 62
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f1dfc789943fe94391042f5629b69d1
+      internalID: -424045198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_0_Idle_17
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 1406
+        width: 62
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f46b94be2b71c4f41bcc99eadad87dc6
+      internalID: -693312911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_0_Idle_18
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1406
+        width: 62
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ed0e4317999c19458f97744b8b59706
+      internalID: 1983495384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_0_Idle_19
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 1407
+        width: 62
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb397508d884b5448bcfe200e4f24705
+      internalID: 1019908996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_0_Idle_20
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 1407
+        width: 62
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ce1bdd8a8a679242830fac93969fd81
+      internalID: -1458505664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_0_Idle_21
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 1407
+        width: 62
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38452e8d689a88841bd413d2c8c9dfd9
+      internalID: 1583796704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_0_Idle_22
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 1407
+        width: 62
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a55c651d87be344b8a5d0850163598
+      internalID: -607794661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_0_Idle_23
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 1407
+        width: 61
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efdf2c73dbf691843a5ab65c7c151670
+      internalID: 41044811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_0_Idle_24
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1151
+        width: 61
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ba57799830614a4e89f6a399d28880b
+      internalID: 1920440089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_0_Idle_25
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 1151
+        width: 61
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b67a69a0b06140342ae236d950a28892
+      internalID: 556661435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_0_Idle_26
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1151
+        width: 61
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b056422b9137a8d41a44b5ddf76ef1df
+      internalID: -552718004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_0_Idle_27
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 1151
+        width: 61
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa45fe7de70c9a74c8bd5970f06f96e3
+      internalID: -730768081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_0_Idle_28
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 1151
+        width: 61
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd9b5dfe70500e84bb8b924e194bd900
+      internalID: 1421354088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_0_Idle_29
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 1151
+        width: 61
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5264a9a7f3a13f94088e7782c21718a4
+      internalID: -205006942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_0_Idle_30
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 1151
+        width: 61
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84fba65f5eb898e41b9898ab97f17832
+      internalID: 451055745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_0_Idle_31
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 1151
+        width: 61
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86e1019a0f7ae8d42b2a997ec0591dae
+      internalID: -1811052306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_0_Idle_32
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 895
+        width: 61
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c18de0e7d90ef429cf521dda680c46
+      internalID: -896622155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_0_Idle_33
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 895
+        width: 61
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1465779c075cddb4c87425849cf61f92
+      internalID: -929337896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_0_Idle_34
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 895
+        width: 61
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30e057076b813d44995000c3ca3290a8
+      internalID: 1876160344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_0_Idle_35
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 895
+        width: 61
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 402711bfaabc0fd48af909197497b432
+      internalID: 1957111185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_0_Idle_36
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 895
+        width: 61
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ef0e3e78fa94bd47ad51036cd8791fa
+      internalID: 1971775768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_0_Idle_37
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 895
+        width: 61
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d58f4b02f822e44ea4489bee44b12f3
+      internalID: 491359858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_0_Idle_38
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 894
+        width: 63
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48934287ea8d9f449b2a04a6e451b2c4
+      internalID: 844048929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_0_Idle_39
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 631
+        width: 52
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a18a50e7470e2a4e9cdc504339c1aa7
+      internalID: -1185832169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_0_Idle_40
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 631
+        width: 52
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31b2032d159a65c46b4835fa43304587
+      internalID: 1397676108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_0_Idle_41
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 631
+        width: 52
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98e722e0e5dd150429deeb2fd56785d4
+      internalID: 1135794372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_0_Idle_42
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 632
+        width: 53
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c95cb7b082e59f4a975e7c535dc7b3c
+      internalID: -154283973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_0_Idle_43
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 634
+        width: 53
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b15299be25219740b7567e82fef462d
+      internalID: 1399003922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_0_Idle_44
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 634
+        width: 55
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56b3be4b3cf236c41a1defab51e2d7b0
+      internalID: 882589962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_0_Idle_45
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 635
+        width: 58
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee4ec5bc85434f549a66d25dd9579810
+      internalID: 436568014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_0_Idle_46
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 636
+        width: 60
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78678c630206d434f8236dd162d2c1e2
+      internalID: -1882854314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_0_Idle_47
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 381
+        width: 61
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6917533e241555842a922e259ef775a9
+      internalID: -741354529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_0_Idle_48
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 383
+        width: 61
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74708881442f3254c88e5d801f007bd1
+      internalID: 198085410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Tate_0_Idle_0: 435847802
+      Tate_0_Idle_1: -201655158
+      Tate_0_Idle_10: -615480282
+      Tate_0_Idle_11: 1492863562
+      Tate_0_Idle_12: -759155293
+      Tate_0_Idle_13: 1432768468
+      Tate_0_Idle_14: -1656352944
+      Tate_0_Idle_15: -1012120225
+      Tate_0_Idle_16: -424045198
+      Tate_0_Idle_17: -693312911
+      Tate_0_Idle_18: 1983495384
+      Tate_0_Idle_19: 1019908996
+      Tate_0_Idle_2: 1504223826
+      Tate_0_Idle_20: -1458505664
+      Tate_0_Idle_21: 1583796704
+      Tate_0_Idle_22: -607794661
+      Tate_0_Idle_23: 41044811
+      Tate_0_Idle_24: 1920440089
+      Tate_0_Idle_25: 556661435
+      Tate_0_Idle_26: -552718004
+      Tate_0_Idle_27: -730768081
+      Tate_0_Idle_28: 1421354088
+      Tate_0_Idle_29: -205006942
+      Tate_0_Idle_3: 1806286516
+      Tate_0_Idle_30: 451055745
+      Tate_0_Idle_31: -1811052306
+      Tate_0_Idle_32: -896622155
+      Tate_0_Idle_33: -929337896
+      Tate_0_Idle_34: 1876160344
+      Tate_0_Idle_35: 1957111185
+      Tate_0_Idle_36: 1971775768
+      Tate_0_Idle_37: 491359858
+      Tate_0_Idle_38: 844048929
+      Tate_0_Idle_39: -1185832169
+      Tate_0_Idle_4: 1121957671
+      Tate_0_Idle_40: 1397676108
+      Tate_0_Idle_41: 1135794372
+      Tate_0_Idle_42: -154283973
+      Tate_0_Idle_43: 1399003922
+      Tate_0_Idle_44: 882589962
+      Tate_0_Idle_45: 436568014
+      Tate_0_Idle_46: -1882854314
+      Tate_0_Idle_47: -741354529
+      Tate_0_Idle_48: 198085410
+      Tate_0_Idle_5: 575105052
+      Tate_0_Idle_6: -2023265335
+      Tate_0_Idle_7: -2075379458
+      Tate_0_Idle_8: 1871392245
+      Tate_0_Idle_9: 1099661360
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
