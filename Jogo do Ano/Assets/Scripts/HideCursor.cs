@@ -1,54 +1,56 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class HideCursor : MonoBehaviour
 {
-    public float inactiveTime = 5f; // Time in seconds before hiding the cursor
-    private float timer;
-    private bool isCursorHidden;
+    // Tempo em segundos para esconder o cursor após inatividade
+    public float timeToHide = 5.0f;
+
+    // Variável para armazenar o tempo desde a última atividade do mouse
+    private float lastMouseMovementTime;
+
+    // Variáveis para armazenar a posição do mouse e verificar inatividade
+    private Vector3 lastMousePosition;
+
+    // Variável para controlar se o cursor está oculto
+    private bool isCursorHidden = false;
 
     void Start()
     {
-        // Initialize the timer and hide the cursor at the start
-        timer = inactiveTime;
-        Cursor.lockState = CursorLockMode.locked;
-        isCursorHidden = false;
+        // Inicializa a posição do mouse
+        lastMousePosition = Input.mousePosition;
+        lastMouseMovementTime = Time.time;
+
+        // Garante que o cursor esteja visível no início
         Cursor.visible = true;
     }
 
     void Update()
     {
-        // Reset the timer if there is user interaction
-        if (Input.anyKey || Input.mousePosition != Vector3.zero)
+        // Verifica se houve movimento do mouse
+        if (Input.mousePosition != lastMousePosition)
         {
-            timer = inactiveTime;
-            if (isCursorHidden)
-            {
-                // Show cursor if it was hidden and there is interaction
-                Cursor.visible = true;
-                isCursorHidden = false;
-            }
-        }
-        else
-        {
-            // Decrease the timer based on time passed
-            timer -= Time.deltaTime;
-            if (timer <= 0 && !isCursorHidden)
-            {
-                // Hide the cursor when the timer reaches zero
-                Cursor.lockState = CursorLockMode.locked;
-                Cursor.visible = false;
-                isCursorHidden = true;
-            }
+            // Atualiza o tempo da última atividade
+            lastMouseMovementTime = Time.time;
+            lastMousePosition = Input.mousePosition;
         }
 
-        // Make the cursor visible when the Alt key is pressed
-        if (Input.GetKeyDown(KeyCode.LeftAlt) || Input.GetKeyDown(KeyCode.RightAlt))
+        // Verifica se o tempo de inatividade passou e o cursor ainda não está oculto
+        if (Time.time - lastMouseMovementTime >= timeToHide && !isCursorHidden)
         {
+            // Esconde o cursor após 5 segundos de inatividade
+            Cursor.visible = false;
+            isCursorHidden = true;
+        }
+
+        // Verifica se a tecla "Left Alt" foi pressionada
+        if (Input.GetKeyDown(KeyCode.LeftAlt))
+        {
+            // Reativa o cursor quando "Left Alt" for pressionado
             Cursor.visible = true;
             isCursorHidden = false;
-            timer = inactiveTime; // Reset timer if Alt is pressed
+
+            // Reseta o tempo de inatividade
+            lastMouseMovementTime = Time.time;
         }
     }
 }

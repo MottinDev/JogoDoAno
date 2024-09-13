@@ -20,6 +20,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float slopeAngleThreshold = 30f;
 
     private float dirX = 0f;
+    private float lastDirectionX = 1f; // Armazena a última direção horizontal (1 = direita, -1 = esquerda)
     [SerializeField] private float moveSpeed = 7f;
     [SerializeField] private float sprintSpeed = 12f;
     [SerializeField] private float jumpForce = 15f;
@@ -140,6 +141,13 @@ public class PlayerMovement : MonoBehaviour
             coll.offset = Vector2.zero; // Restaura o offset original
         }
 
+        // Atualiza a direção do sprite (flipX) baseado no input horizontal, mas só se houver movimento horizontal
+        if (dirX != 0f)
+        {
+            lastDirectionX = dirX; // Armazena a última direção horizontal
+            sprite.flipX = dirX < 0f;
+        }
+
         if (!isCrouching && !isJumping)
         {
             if (Input.GetKeyDown(KeyCode.D))
@@ -210,12 +218,12 @@ public class PlayerMovement : MonoBehaviour
         else if (isJumping && rb.velocity.y > 0.1f) // Se estiver pulando para cima
         {
             state = MovementState.jumping;
-            sprite.flipX = dirX < 0f;
+            sprite.flipX = lastDirectionX < 0f; // Usa a última direção armazenada
         }
         else if (rb.velocity.y < -0.1f && !IsGrounded()) // Se estiver caindo
         {
             state = MovementState.falling;
-            sprite.flipX = dirX < 0f;
+            sprite.flipX = lastDirectionX < 0f; // Mantém a direção no ar
         }
         else if (isSprinting && IsGrounded()) // Se estiver correndo e no chão
         {
@@ -224,16 +232,18 @@ public class PlayerMovement : MonoBehaviour
         else if (dirX != 0f && IsGrounded()) // Se estiver se movendo e no chão
         {
             state = MovementState.running;
-            sprite.flipX = dirX < 0f;
+            sprite.flipX = dirX < 0f; // Atualiza a direção com base no input horizontal
         }
         else if (!isJumping && !isSprinting && IsGrounded()) // Se não estiver pulando, nem correndo e estiver no chão
         {
             state = MovementState.idle;
+            // Mantém a última direção escolhida no ar ou em terra
+            sprite.flipX = lastDirectionX < 0f;
         }
         else
         {
             state = MovementState.falling;
-            sprite.flipX = dirX < 0f;
+            sprite.flipX = lastDirectionX < 0f; // Mantém a direção mesmo se estiver caindo
         }
 
         anim.SetInteger("state", (int)state);
