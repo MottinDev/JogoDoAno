@@ -1,7 +1,6 @@
 using UnityEngine;
-using UnityEngine.UI;  // Adicione esta linha para corrigir o erro de Button e Slider
+using UnityEngine.UI;  // Adiciona suporte ao Button e Slider
 using TMPro;          // Para o TextMeshPro
-
 
 public class JukeboxManager : MonoBehaviour
 {
@@ -10,11 +9,9 @@ public class JukeboxManager : MonoBehaviour
     public Slider volumeSlider;             // Slider para controlar o volume
     public Button playPauseButton;          // Botão Play/Pause
     public TMP_Text trackNameText;          // Texto onde o nome da música será exibido (TMP)
-    public float scrollSpeed = 50f;         // Velocidade do texto de deslizar
 
     private int currentTrackIndex = 0;      // Índice da música atual
     private bool isPaused = false;          // Indica se a música está pausada
-    private RectTransform trackTextRect;    // Referência ao RectTransform do texto
 
     void Start()
     {
@@ -32,9 +29,6 @@ public class JukeboxManager : MonoBehaviour
         // Adiciona listener ao botão Play/Pause
         playPauseButton.onClick.AddListener(TogglePlayPause);
 
-        // Referência ao RectTransform do texto (TextMeshPro)
-        trackTextRect = trackNameText.GetComponent<RectTransform>();
-
         // Desativa o loop de cada música para poder mudar automaticamente
         audioSource.loop = false;
     }
@@ -46,9 +40,6 @@ public class JukeboxManager : MonoBehaviour
         {
             NextTrack();
         }
-
-        // Aplicar o efeito de deslizamento no nome da música
-        ScrollTrackName();
     }
 
     // Função para tocar a música
@@ -60,21 +51,27 @@ public class JukeboxManager : MonoBehaviour
 
         // Atualiza o nome da música no UI (TextMeshPro)
         trackNameText.text = musicClips[index].name;
-
-        // Resetar a posição do texto para o início
-        trackTextRect.anchoredPosition = new Vector2(0, trackTextRect.anchoredPosition.y);
     }
 
     // Função para alternar entre Play e Pause
     public void TogglePlayPause()
     {
-        if (audioSource.isPlaying)
+        // Verifica se o áudio está pausado ou tocando
+        if (isPaused)
         {
+            // Retoma a reprodução
+            audioSource.Play();
+            isPaused = false;
+        }
+        else if (audioSource.isPlaying)
+        {
+            // Pausa a reprodução
             audioSource.Pause();
             isPaused = true;
         }
         else
         {
+            // Caso o áudio tenha parado, toca novamente
             audioSource.Play();
             isPaused = false;
         }
@@ -102,21 +99,5 @@ public class JukeboxManager : MonoBehaviour
     public void SetVolume(float volume)
     {
         audioSource.volume = volume;
-    }
-
-    // Função para deslizar o texto do nome da música
-    private void ScrollTrackName()
-    {
-        if (trackNameText.preferredWidth > trackTextRect.rect.width)
-        {
-            // Desliza o texto para a esquerda
-            trackTextRect.anchoredPosition += Vector2.left * scrollSpeed * Time.deltaTime;
-
-            // Se o texto sair completamente da tela, volta ao início
-            if (trackTextRect.anchoredPosition.x + trackNameText.preferredWidth < 0)
-            {
-                trackTextRect.anchoredPosition = new Vector2(trackTextRect.rect.width, trackTextRect.anchoredPosition.y);
-            }
-        }
     }
 }
