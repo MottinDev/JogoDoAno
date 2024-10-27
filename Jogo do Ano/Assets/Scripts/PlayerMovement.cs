@@ -4,55 +4,60 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    // Componentes
     private Rigidbody2D rb;
     private BoxCollider2D coll;
     private SpriteRenderer sprite;
     private Animator anim;
     [SerializeField] private TrailRenderer tr;
 
+    // Movimento
+    private float dirX = 0f;
+    [SerializeField] private float moveSpeed = 7f;
+    [SerializeField] private float sprintSpeed = 12f;
+    [SerializeField] private float airMoveSpeed = 5f;
+    [SerializeField] private float jumpForce = 15f;
+    [SerializeField] private float gravityScale = 3.0f;
+    [SerializeField] private float fallMultiplier = 2.5f;
+    [SerializeField] private float lowJumpMultiplier = 2f;
+
+    // Dash
     private bool canDash = true;
     private bool isDashing;
     private float dashingPower = 16f;
     private float dashingTime = 0.2f;
-    private float dashingCooldown = 0.1f; // Reduzido para gameplay mais fluido
+    private float dashingCooldown = 0.1f;
     [SerializeField] private float iFrameDuration = 0.3f; // Duração da invulnerabilidade após o dash
+    private bool hasAirDashed = false;
 
-    [SerializeField] private LayerMask jumpableGround;
-    [SerializeField] private float slopeAngleThreshold = 30f;
-
-    private float dirX = 0f;
-    private float lastDirectionX = 1f;
-    [SerializeField] private float moveSpeed = 7f;
-    [SerializeField] private float sprintSpeed = 12f;
-    [SerializeField] private float airMoveSpeed = 5f; // Controle no ar
-    [SerializeField] private float jumpForce = 15f;
-    [SerializeField] private float gravityScale = 3.0f; // Aumentado para pulos mais precisos
-    [SerializeField] private float fallMultiplier = 2.5f; // Para melhorar a sensação do pulo
-    [SerializeField] private float lowJumpMultiplier = 2f; // Para alturas de pulo variáveis
-    [SerializeField] private float crouchSpeedReduction = 2f;
-
+    // Agachamento
     private bool isCrouching = false;
-    private Vector2 crouchingColliderSize = new Vector2(1f, 0.5f); // Ajuste conforme sua sprite agachada
+    private Vector2 crouchingColliderSize = new Vector2(1f, 0.5f);
     private Vector2 originalColliderSize;
+    [SerializeField] private float crouchOffset = 0.1f;
+    private float crouchSpeedReduction = 2f;
 
+    // Sprint
     private bool isSprinting = false;
     private float doubleTapTime = 0.2f;
     private float lastTapTimeD = 0f;
     private float lastTapTimeA = 0f;
 
+    // Estados de movimento
     private enum MovementState { idle = 0, running = 1, jumping = 2, falling = 3, crouching = 4, sprinting = 5, wallSliding = 6 }
 
+    // Áudio
     [SerializeField] private AudioSource jumpSoundEffect;
 
-    private bool isOnSlope = false;
-    private bool isJumping = false;
-
+    // Verificações de terreno e parede
     [SerializeField] private Transform groundCheck;
-    [SerializeField] private Transform wallCheck;
+    [SerializeField] private Transform wallCheckLeft;
+    [SerializeField] private Transform wallCheckRight;
     [SerializeField] private LayerMask groundLayer;
     [SerializeField] private LayerMask wallLayer;
 
-    // Variáveis para wall sliding e wall jumping
+    // Wall Sliding e Wall Jumping
+    private bool isJumping = false;
     private bool isFacingRight = true;
     private bool isWallSliding;
     private float wallSlidingSpeed = 2f;
@@ -63,21 +68,17 @@ public class PlayerMovement : MonoBehaviour
     private float wallJumpingDuration = 0.4f;
     private Vector2 wallJumpingPower = new Vector2(15f, 20f);
 
-    // Variáveis para jump buffering
+    // Jump Buffering e Variable Jump Height
     private bool isJumpPressed = false;
-    [SerializeField] private float jumpBufferTime = 0.1f;  // Tempo para jump buffering
-    [SerializeField] private float variableJumpMultiplier = 0.5f;  // Multiplicador para altura variável de pulo
-    [SerializeField] private float crouchOffset = 0.1f;
+    [SerializeField] private float jumpBufferTime = 0.1f;
     private float jumpBufferCounter;
 
-    private int originalLayer; // Armazena a layer original do jogador
-
-    // Variáveis para o pulo duplo
+    // Contagem de pulos para pulo duplo
     private int jumpCount = 0;
     [SerializeField] private int maxJumpCount = 2; // Máximo de pulos (2 para pulo duplo)
 
-    // Nova variável para dash no ar
-    private bool hasAirDashed = false;
+    // Layer original do jogador
+    private int originalLayer;
 
     private void Start()
     {
@@ -104,17 +105,6 @@ public class PlayerMovement : MonoBehaviour
 
         if (IsGrounded())
         {
-            float slopeAngle = GetSlopeAngle();
-
-            if (slopeAngle > slopeAngleThreshold || slopeAngle < -slopeAngleThreshold)
-            {
-                isOnSlope = true;
-            }
-            else
-            {
-                isOnSlope = false;
-            }
-
             jumpCount = 0; // Reseta o contador de pulos ao tocar o chão
             hasAirDashed = false; // Reseta a disponibilidade do dash no ar
             canDash = true; // Permite dash novamente
@@ -301,7 +291,7 @@ public class PlayerMovement : MonoBehaviour
 
     private bool IsGrounded()
     {
-        RaycastHit2D hit = Physics2D.BoxCast(coll.bounds.center, coll.bounds.size, 0f, Vector2.down, .1f, jumpableGround);
+        RaycastHit2D hit = Physics2D.BoxCast(coll.bounds.center, coll.bounds.size, 0f, Vector2.down, .1f, groundLayer);
         if (hit.collider != null)
         {
             isJumping = false;
@@ -313,7 +303,9 @@ public class PlayerMovement : MonoBehaviour
     // Verifica se está na parede
     private bool IsWalled()
     {
-        return Physics2D.OverlapCircle(wallCheck.position, 0.2f, wallLayer);
+        bool isWalledLeft = Physics2D.OverlapCircle(wallCheckLeft.position, 0.2f, wallLayer);
+        bool isWalledRight = Physics2D.OverlapCircle(wallCheckRight.position, 0.2f, wallLayer);
+        return isWalledLeft || isWalledRight;
     }
 
     // Implementação do wall sliding
@@ -332,7 +324,6 @@ public class PlayerMovement : MonoBehaviour
 
     private void Flip()
     {
-        // Atualiza a direção do sprite baseado na direção que está se movendo
         if (dirX > 0)
         {
             isFacingRight = true;
@@ -350,7 +341,7 @@ public class PlayerMovement : MonoBehaviour
         if (isWallSliding)
         {
             isWallJumping = false;
-            wallJumpingDirection = -transform.localScale.x;
+            wallJumpingDirection = GetWallJumpDirection();
             wallJumpingCounter = wallJumpingTime;
 
             CancelInvoke(nameof(StopWallJumping));
@@ -373,19 +364,22 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    private float GetWallJumpDirection()
+    {
+        bool isWalledLeft = Physics2D.OverlapCircle(wallCheckLeft.position, 0.2f, wallLayer);
+        bool isWalledRight = Physics2D.OverlapCircle(wallCheckRight.position, 0.2f, wallLayer);
+
+        if (isWalledLeft)
+            return 1; // Pula para a direita
+        else if (isWalledRight)
+            return -1; // Pula para a esquerda
+        else
+            return isFacingRight ? 1 : -1; // Direção padrão
+    }
+
     private void StopWallJumping()
     {
         isWallJumping = false;
-    }
-
-    private float GetSlopeAngle()
-    {
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 1.0f, jumpableGround);
-        if (hit.collider != null)
-        {
-            return Vector2.Angle(hit.normal, Vector2.up);
-        }
-        return 0f;
     }
 
     private IEnumerator Dash()
@@ -424,12 +418,30 @@ public class PlayerMovement : MonoBehaviour
         // Retorna o jogador para a layer original
         gameObject.layer = originalLayer;
 
-        // Descomente a linha abaixo se desejar aplicar um cooldown antes de permitir o dash novamente
+        // Remova o comentário abaixo se desejar aplicar um cooldown adicional antes de permitir o dash novamente
         // yield return new WaitForSeconds(dashingCooldown);
+    }
+
+    private float GetSlopeAngle()
+    {
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 1.0f, groundLayer);
+        if (hit.collider != null)
+        {
+            return Vector2.Angle(hit.normal, Vector2.up);
+        }
+        return 0f;
     }
 
     private void OnDrawGizmos()
     {
+        if (wallCheckLeft != null && wallCheckRight != null)
+        {
+            Gizmos.color = Color.blue;
+            Gizmos.DrawWireSphere(wallCheckLeft.position, 0.2f);
+            Gizmos.DrawWireSphere(wallCheckRight.position, 0.2f);
+        }
+
+        // Opcional: Desenhar o collider do jogador
         if (coll != null)
         {
             Gizmos.color = Color.red;
