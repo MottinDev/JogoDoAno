@@ -139,7 +139,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxLives: 3
-  hearts: []
-  fullHeart: {fileID: 0}
-  emptyHeart: {fileID: 0}
+  hearts:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  fullHeart: {fileID: 21300000, guid: 4a8e16955604f2f43ac71f0c643e87cd, type: 3}
+  emptyHeart: {fileID: 21300000, guid: 9f8a0cd59872d4b43a3477896e1b0de4, type: 3}
   animator: {fileID: 4009383478683437618}

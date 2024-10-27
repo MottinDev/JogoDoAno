@@ -60,6 +60,10 @@ public class PlayerMovement : MonoBehaviour
 
     private int originalLayer; // Armazena a camada original do jogador
 
+    // Variáveis para o Pulo Duplo
+    private int jumpCount = 0;
+    [SerializeField] private int maxJumpCount = 2; // Define o máximo de pulos (2 para pulo duplo)
+
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -116,12 +120,14 @@ public class PlayerMovement : MonoBehaviour
         if (IsGrounded())
         {
             coyoteTimeCounter = coyoteTime;
+            jumpCount = 0; // Reseta o contador de pulos ao tocar o chão
         }
 
-        if (jumpBufferCounter > 0 && coyoteTimeCounter > 0)
+        // Permite pular se o jump buffer estiver ativo e o jogador não tiver excedido o número máximo de pulos
+        if (jumpBufferCounter > 0 && (coyoteTimeCounter > 0 || jumpCount < maxJumpCount))
         {
             Jump();
-            jumpBufferCounter = 0;  // Reset jump buffer após pular
+            jumpBufferCounter = 0;  // Reseta o jump buffer após pular
         }
 
         // Controle de altura variável do pulo
@@ -201,11 +207,15 @@ public class PlayerMovement : MonoBehaviour
 
     private void Jump()
     {
-        isJumping = true;
-        jumpSoundEffect.Play();
-        rb.velocity = new Vector2(rb.velocity.x, 0);
-        rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
-        anim.SetInteger("state", (int)MovementState.jumping);
+        if (jumpCount < maxJumpCount)
+        {
+            isJumping = true;
+            jumpSoundEffect.Play();
+            rb.velocity = new Vector2(rb.velocity.x, 0);
+            rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+            anim.SetInteger("state", (int)MovementState.jumping);
+            jumpCount++; // Incrementa o contador de pulos
+        }
     }
 
     private void UpdateAnimationState()
@@ -260,6 +270,8 @@ public class PlayerMovement : MonoBehaviour
         if (hit.collider != null)
         {
             isJumping = false;
+            coyoteTimeCounter = coyoteTime;
+            // O reset do jumpCount foi movido para o Update() para evitar conflitos
             return true;
         }
         return false;
@@ -291,7 +303,7 @@ public class PlayerMovement : MonoBehaviour
             dashDirection = sprite.flipX ? Vector2.left : Vector2.right;
         }
 
-        rb.AddForce(dashDirection * dashingPower, ForceMode2D.Impulse);
+        rb.velocity = dashDirection * dashingPower;
 
         tr.emitting = true;
 
