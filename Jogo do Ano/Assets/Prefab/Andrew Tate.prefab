@@ -38,19 +38,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1722008412724733034, guid: d1208d0279aa4b24c9a36a6381e67576, type: 3}
       propertyPath: m_LocalScale.x
-      value: 4.2979417
+      value: 6.9046435
       objectReference: {fileID: 0}
     - target: {fileID: 1722008412724733034, guid: d1208d0279aa4b24c9a36a6381e67576, type: 3}
       propertyPath: m_LocalScale.y
-      value: 3.9640408
+      value: 6.6457143
       objectReference: {fileID: 0}
     - target: {fileID: 1722008412724733034, guid: d1208d0279aa4b24c9a36a6381e67576, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -10.031143
+      value: -3.8734
       objectReference: {fileID: 0}
     - target: {fileID: 1722008412724733034, guid: d1208d0279aa4b24c9a36a6381e67576, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.0485185
+      value: -0.3986
       objectReference: {fileID: 0}
     - target: {fileID: 1722008412724733034, guid: d1208d0279aa4b24c9a36a6381e67576, type: 3}
       propertyPath: m_LocalPosition.z
@@ -96,6 +96,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3460119289944233488, guid: d1208d0279aa4b24c9a36a6381e67576, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4009383478683437618}
+    - targetCorrespondingSourceObject: {fileID: 3460119289944233488, guid: d1208d0279aa4b24c9a36a6381e67576, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7078522277151734792}
   m_SourcePrefab: {fileID: 100100000, guid: d1208d0279aa4b24c9a36a6381e67576, type: 3}
 --- !u!1 &2975961666015728882 stripped
 GameObject:
@@ -123,3 +126,20 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &7078522277151734792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2975961666015728882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 588176385b65d02459f6150cadf99819, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxLives: 3
+  hearts: []
+  fullHeart: {fileID: 0}
+  emptyHeart: {fileID: 0}
+  animator: {fileID: 4009383478683437618}

@@ -1,17 +1,17 @@
 using UnityEngine;
-using UnityEngine.UI;  // Adiciona suporte ao Button e Slider
-using TMPro;          // Para o TextMeshPro
+using UnityEngine.UI;  
+using TMPro;          
 
 public class JukeboxManager : MonoBehaviour
 {
-    public AudioSource audioSource;         // Controla a música que será tocada
-    public AudioClip[] musicClips;          // Array de músicas disponíveis
-    public Slider volumeSlider;             // Slider para controlar o volume
-    public Button playPauseButton;          // Botão Play/Pause
-    public TMP_Text trackNameText;          // Texto onde o nome da música será exibido (TMP)
+    public AudioSource audioSource;         
+    public AudioClip[] musicClips;          
+    public Slider volumeSlider;            
+    public Button playPauseButton;         
+    public TMP_Text trackNameText;         
 
-    private int currentTrackIndex = 0;      // Índice da música atual
-    private bool isPaused = false;          // Indica se a música está pausada
+    private int currentTrackIndex = 0;      
+    private bool isPaused = false;          
 
     void Start()
     {

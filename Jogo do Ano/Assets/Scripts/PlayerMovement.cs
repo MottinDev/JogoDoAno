@@ -15,12 +15,13 @@ public class PlayerMovement : MonoBehaviour
     private float dashingPower = 16f;
     private float dashingTime = 0.2f;
     private float dashingCooldown = 1f;
+    [SerializeField] private float iFrameDuration = 0.3f; // Duração do I-frame após o dash
 
     [SerializeField] private LayerMask jumpableGround;
     [SerializeField] private float slopeAngleThreshold = 30f;
 
     private float dirX = 0f;
-    private float lastDirectionX = 1f; // Armazena a última direção horizontal (1 = direita, -1 = esquerda)
+    private float lastDirectionX = 1f;
     [SerializeField] private float moveSpeed = 7f;
     [SerializeField] private float sprintSpeed = 12f;
     [SerializeField] private float jumpForce = 15f;
@@ -57,6 +58,8 @@ public class PlayerMovement : MonoBehaviour
     private float jumpBufferCounter;
     private float coyoteTimeCounter;
 
+    private int originalLayer; // Armazena a camada original do jogador
+
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -66,6 +69,9 @@ public class PlayerMovement : MonoBehaviour
 
         rb.gravityScale = gravityScale;
         originalColliderSize = coll.size;
+
+        // Armazena a layer original do jogador
+        originalLayer = gameObject.layer;
     }
 
     private void Update()
@@ -237,13 +243,12 @@ public class PlayerMovement : MonoBehaviour
         else if (!isJumping && !isSprinting && IsGrounded()) // Se não estiver pulando, nem correndo e estiver no chão
         {
             state = MovementState.idle;
-            // Mantém a última direção escolhida no ar ou em terra
             sprite.flipX = lastDirectionX < 0f;
         }
         else
         {
             state = MovementState.falling;
-            sprite.flipX = lastDirectionX < 0f; // Mantém a direção mesmo se estiver caindo
+            sprite.flipX = lastDirectionX < 0f;
         }
 
         anim.SetInteger("state", (int)state);
@@ -290,6 +295,9 @@ public class PlayerMovement : MonoBehaviour
 
         tr.emitting = true;
 
+        // Ativa I-frames (invulnerabilidade) mudando a layer temporariamente
+        gameObject.layer = LayerMask.NameToLayer("Invulnerable");
+
         yield return new WaitForSeconds(dashingTime);
 
         tr.emitting = false;
@@ -297,7 +305,13 @@ public class PlayerMovement : MonoBehaviour
         rb.gravityScale = originalGravity;
         isDashing = false;
 
-        yield return new WaitForSeconds(dashingCooldown);
+        // Aguarda a duração do I-frame
+        yield return new WaitForSeconds(iFrameDuration);
+
+        // Retorna o jogador para a layer original
+        gameObject.layer = originalLayer;
+
+        yield return new WaitForSeconds(dashingCooldown - iFrameDuration);
         canDash = true;
     }
 
