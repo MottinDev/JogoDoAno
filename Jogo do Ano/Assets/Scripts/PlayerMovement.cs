@@ -14,8 +14,8 @@ public class PlayerMovement : MonoBehaviour
     private bool isDashing;
     private float dashingPower = 16f;
     private float dashingTime = 0.2f;
-    private float dashingCooldown = 1f;
-    [SerializeField] private float iFrameDuration = 0.3f; // Dura��o do I-frame ap�s o dash
+    private float dashingCooldown = 0.1f; // Reduzido para gameplay mais fluido
+    [SerializeField] private float iFrameDuration = 0.3f; // Duração da invulnerabilidade após o dash
 
     [SerializeField] private LayerMask jumpableGround;
     [SerializeField] private float slopeAngleThreshold = 30f;
@@ -24,12 +24,15 @@ public class PlayerMovement : MonoBehaviour
     private float lastDirectionX = 1f;
     [SerializeField] private float moveSpeed = 7f;
     [SerializeField] private float sprintSpeed = 12f;
+    [SerializeField] private float airMoveSpeed = 5f; // Controle no ar
     [SerializeField] private float jumpForce = 15f;
-    [SerializeField] private float gravityScale = 1.0f;
+    [SerializeField] private float gravityScale = 3.0f; // Aumentado para pulos mais precisos
+    [SerializeField] private float fallMultiplier = 2.5f; // Para melhorar a sensação do pulo
+    [SerializeField] private float lowJumpMultiplier = 2f; // Para alturas de pulo variáveis
     [SerializeField] private float crouchSpeedReduction = 2f;
 
     private bool isCrouching = false;
-    private Vector2 crouchingColliderSize = new Vector2(1f, 0.5f); // Ajuste esse tamanho para corresponder � sua sprite agachada
+    private Vector2 crouchingColliderSize = new Vector2(1f, 0.5f); // Ajuste conforme sua sprite agachada
     private Vector2 originalColliderSize;
 
     private bool isSprinting = false;
@@ -37,7 +40,7 @@ public class PlayerMovement : MonoBehaviour
     private float lastTapTimeD = 0f;
     private float lastTapTimeA = 0f;
 
-    private enum MovementState { idle = 0, running = 1, jumping = 2, falling = 3, crouching = 4, sprinting = 5 }
+    private enum MovementState { idle = 0, running = 1, jumping = 2, falling = 3, crouching = 4, sprinting = 5, wallSliding = 6 }
 
     [SerializeField] private AudioSource jumpSoundEffect;
 
@@ -49,7 +52,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private LayerMask groundLayer;
     [SerializeField] private LayerMask wallLayer;
 
-    // Variável para wall sliding e wall jump
+    // Variáveis para wall sliding e wall jumping
     private bool isFacingRight = true;
     private bool isWallSliding;
     private float wallSlidingSpeed = 2f;
@@ -58,22 +61,23 @@ public class PlayerMovement : MonoBehaviour
     private float wallJumpingTime = 0.2f;
     private float wallJumpingCounter;
     private float wallJumpingDuration = 0.4f;
-    private Vector2 wallJumpingPower = new Vector2(2f, 4f);
+    private Vector2 wallJumpingPower = new Vector2(15f, 20f);
 
-    // Novas vari�veis para Jump Buffering e Coyote Time
+    // Variáveis para jump buffering
     private bool isJumpPressed = false;
     [SerializeField] private float jumpBufferTime = 0.1f;  // Tempo para jump buffering
-    [SerializeField] private float coyoteTime = 0.2f;      // Tempo para coyote time
-    [SerializeField] private float variableJumpMultiplier = 0.5f;  // Multiplicador para altura vari�vel de pulo
+    [SerializeField] private float variableJumpMultiplier = 0.5f;  // Multiplicador para altura variável de pulo
     [SerializeField] private float crouchOffset = 0.1f;
     private float jumpBufferCounter;
-    private float coyoteTimeCounter;
 
-    private int originalLayer; // Armazena a camada original do jogador
+    private int originalLayer; // Armazena a layer original do jogador
 
-    // Vari�veis para o Pulo Duplo
+    // Variáveis para o pulo duplo
     private int jumpCount = 0;
-    [SerializeField] private int maxJumpCount = 2; // Define o m�ximo de pulos (2 para pulo duplo)
+    [SerializeField] private int maxJumpCount = 2; // Máximo de pulos (2 para pulo duplo)
+
+    // Nova variável para dash no ar
+    private bool hasAirDashed = false;
 
     private void Start()
     {
@@ -102,11 +106,7 @@ public class PlayerMovement : MonoBehaviour
         {
             float slopeAngle = GetSlopeAngle();
 
-            if (slopeAngle > slopeAngleThreshold)
-            {
-                isOnSlope = true;
-            }
-            else if (slopeAngle < -slopeAngleThreshold)
+            if (slopeAngle > slopeAngleThreshold || slopeAngle < -slopeAngleThreshold)
             {
                 isOnSlope = true;
             }
@@ -114,44 +114,45 @@ public class PlayerMovement : MonoBehaviour
             {
                 isOnSlope = false;
             }
+
+            jumpCount = 0; // Reseta o contador de pulos ao tocar o chão
+            hasAirDashed = false; // Reseta a disponibilidade do dash no ar
+            canDash = true; // Permite dash novamente
         }
 
-        // Atualiza o jump buffer e o coyote time counters
-        jumpBufferCounter -= Time.deltaTime;
-        coyoteTimeCounter -= Time.deltaTime;
+        // Detecção de parede
+        if (IsWalled())
+        {
+            hasAirDashed = false; // Reseta o dash no ar ao tocar a parede
+            canDash = true; // Permite dash novamente
+        }
 
-        // Jump buffering: Se o jogador apertou o bot�o de pulo recentemente, armazenamos isso
+        // Atualiza o contador do jump buffer
+        jumpBufferCounter -= Time.deltaTime;
+
+        // Jump buffering: Armazena o input de pulo
         if (Input.GetButtonDown("Jump"))
         {
             isJumpPressed = true;
             jumpBufferCounter = jumpBufferTime;
         }
 
-        // Coyote time: Permite que o jogador pule mesmo um pouco ap�s ter deixado o ch�o
-        if (IsGrounded())
-        {
-            coyoteTimeCounter = coyoteTime;
-            jumpCount = 0; // Reseta o contador de pulos ao tocar o ch�o
-        }
+        HandleMovement();
 
-        // Permite pular se o jump buffer estiver ativo e o jogador n�o tiver excedido o n�mero m�ximo de pulos
-        if (jumpBufferCounter > 0 && (coyoteTimeCounter > 0 || jumpCount < maxJumpCount))
-        {
-            Jump();
-            jumpBufferCounter = 0;  // Reseta o jump buffer ap�s pular
-        }
+        WallSlide();
+        WallJump();
 
-        // Controle de altura vari�vel do pulo
-        if (Input.GetButtonUp("Jump") && rb.velocity.y > 0)
-        {
-            rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * variableJumpMultiplier);
-        }
+        UpdateAnimationState();
+    }
 
+    private void HandleMovement()
+    {
+        // Controle do agachamento
         if (Input.GetKey(KeyCode.S) && IsGrounded())
         {
             isCrouching = true;
             coll.size = crouchingColliderSize;
-            coll.offset = new Vector2(0f, crouchOffset); // Ajuste o valor do offset para evitar que entre no ch�o
+            coll.offset = new Vector2(0f, crouchOffset); // Ajuste o offset para evitar afundar no chão
             if (Mathf.Abs(rb.velocity.x) > 0.1f)
             {
                 rb.AddForce(new Vector2(-rb.velocity.x * crouchSpeedReduction, 0f), ForceMode2D.Force);
@@ -164,76 +165,93 @@ public class PlayerMovement : MonoBehaviour
             coll.offset = Vector2.zero; // Restaura o offset original
         }
 
-        // Atualiza a dire��o do sprite (flipX) baseado no input horizontal, mas s� se houver movimento horizontal
-        if (dirX != 0f)
+        // Movimento no chão
+        if (IsGrounded() && !isWallJumping)
         {
-            lastDirectionX = dirX; // Armazena a �ltima dire��o horizontal
-            sprite.flipX = dirX < 0f;
-        }
-
-        if (!isCrouching && !isJumping)
-        {
-            if (Input.GetKeyDown(KeyCode.D))
+            if (!isCrouching && !isJumping)
             {
-                if (Time.time - lastTapTimeD < doubleTapTime)
+                // Sprint
+                if (Input.GetKeyDown(KeyCode.D))
                 {
-                    isSprinting = true;
+                    if (Time.time - lastTapTimeD < doubleTapTime)
+                    {
+                        isSprinting = true;
+                    }
+                    lastTapTimeD = Time.time;
                 }
-                lastTapTimeD = Time.time;
-            }
-            else if (Input.GetKeyDown(KeyCode.A))
-            {
-                if (Time.time - lastTapTimeA < doubleTapTime)
+                else if (Input.GetKeyDown(KeyCode.A))
                 {
-                    isSprinting = true;
+                    if (Time.time - lastTapTimeA < doubleTapTime)
+                    {
+                        isSprinting = true;
+                    }
+                    lastTapTimeA = Time.time;
                 }
-                lastTapTimeA = Time.time;
+
+                if (isSprinting && (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.A)))
+                {
+                    rb.velocity = new Vector2(dirX * sprintSpeed, rb.velocity.y);
+                }
+                else
+                {
+                    isSprinting = false;
+                    rb.velocity = new Vector2(dirX * moveSpeed, rb.velocity.y);
+                }
             }
 
-            if (isSprinting && (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.A)))
-            {
-                rb.velocity = new Vector2(dirX * sprintSpeed, rb.velocity.y);
-                sprite.flipX = dirX < 0f;
-            }
-            else
-            {
-                isSprinting = false;
-                rb.velocity = new Vector2(dirX * moveSpeed, rb.velocity.y);
-            }
-
+            // Dash
             if (Input.GetKeyDown(KeyCode.LeftShift) && canDash)
             {
                 StartCoroutine(Dash());
             }
         }
+        else // Movimento no ar
+        {
+            // Permitir controle aéreo
+            rb.velocity = new Vector2(dirX * airMoveSpeed, rb.velocity.y);
 
-        // Aplicando gravidade extra na descida
+            // Dash no ar
+            if (Input.GetKeyDown(KeyCode.LeftShift) && !hasAirDashed && !IsGrounded() && canDash)
+            {
+                StartCoroutine(Dash());
+                hasAirDashed = true;
+            }
+        }
+
+        // Implementa melhor sensação de pulo
         if (rb.velocity.y < 0)
         {
-            rb.velocity += Vector2.up * Physics2D.gravity.y * (gravityScale - 1) * Time.deltaTime;
+            // Caindo
+            rb.velocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier - 1) * Time.deltaTime;
+        }
+        else if (rb.velocity.y > 0 && !Input.GetButton("Jump"))
+        {
+            // Pulo baixo
+            rb.velocity += Vector2.up * Physics2D.gravity.y * (lowJumpMultiplier - 1) * Time.deltaTime;
         }
 
-        WallSlide();
-        WallJump();
+        // Atualiza a direção do sprite
+        Flip();
 
-        if (!isWallJumping){
-            Flip();
+        // Pulo
+        if (jumpBufferCounter > 0 && jumpCount < maxJumpCount && !isWallSliding)
+        {
+            Jump();
+            jumpBufferCounter = 0;  // Reseta o jump buffer após pular
         }
-
-        UpdateAnimationState();
     }
 
     private void Jump()
     {
-        if (jumpCount < maxJumpCount)
-        {
-            isJumping = true;
-            jumpSoundEffect.Play();
-            rb.velocity = new Vector2(rb.velocity.x, 0);
-            rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
-            anim.SetInteger("state", (int)MovementState.jumping);
-            jumpCount++; // Incrementa o contador de pulos
-        }
+        isJumping = true;
+        jumpSoundEffect.Play();
+
+        // Ajusta a força do pulo com base na velocidade horizontal do jogador
+        float adjustedJumpForce = jumpForce + Mathf.Abs(rb.velocity.x) * 0.1f; // Ajuste o multiplicador conforme necessário
+
+        rb.velocity = new Vector2(rb.velocity.x, 0);
+        rb.AddForce(Vector2.up * adjustedJumpForce, ForceMode2D.Impulse);
+        jumpCount++; // Incrementa o contador de pulos
     }
 
     private void UpdateAnimationState()
@@ -245,38 +263,37 @@ public class PlayerMovement : MonoBehaviour
 
         MovementState state;
 
-        if (isCrouching)
+        if (isWallSliding)
+        {
+            state = MovementState.wallSliding;
+        }
+        else if (isCrouching)
         {
             state = MovementState.crouching;
         }
-        else if (isJumping && rb.velocity.y > 0.1f) // Se estiver pulando para cima
+        else if (isJumping && rb.velocity.y > 0.1f) // Pulando para cima
         {
             state = MovementState.jumping;
-            sprite.flipX = lastDirectionX < 0f; // Usa a �ltima dire��o armazenada
         }
-        else if (rb.velocity.y < -0.1f && !IsGrounded()) // Se estiver caindo
+        else if (rb.velocity.y < -0.1f && !IsGrounded()) // Caindo
         {
             state = MovementState.falling;
-            sprite.flipX = lastDirectionX < 0f; // Mant�m a dire��o no ar
         }
-        else if (isSprinting && IsGrounded()) // Se estiver correndo e no ch�o
+        else if (isSprinting && IsGrounded()) // Correndo no chão
         {
             state = MovementState.sprinting;
         }
-        else if (dirX != 0f && IsGrounded()) // Se estiver se movendo e no ch�o
+        else if (dirX != 0f && IsGrounded()) // Andando no chão
         {
             state = MovementState.running;
-            sprite.flipX = dirX < 0f; // Atualiza a dire��o com base no input horizontal
         }
-        else if (!isJumping && !isSprinting && IsGrounded()) // Se n�o estiver pulando, nem correndo e estiver no ch�o
+        else if (!isJumping && !isSprinting && IsGrounded()) // Parado no chão
         {
             state = MovementState.idle;
-            sprite.flipX = lastDirectionX < 0f;
         }
         else
         {
             state = MovementState.falling;
-            sprite.flipX = lastDirectionX < 0f;
         }
 
         anim.SetInteger("state", (int)state);
@@ -288,14 +305,12 @@ public class PlayerMovement : MonoBehaviour
         if (hit.collider != null)
         {
             isJumping = false;
-            coyoteTimeCounter = coyoteTime;
-            // O reset do jumpCount foi movido para o Update() para evitar conflitos
             return true;
         }
         return false;
     }
 
-    // Verificação se está na parede
+    // Verifica se está na parede
     private bool IsWalled()
     {
         return Physics2D.OverlapCircle(wallCheck.position, 0.2f, wallLayer);
@@ -308,12 +323,6 @@ public class PlayerMovement : MonoBehaviour
         {
             isWallSliding = true;
             rb.velocity = new Vector2(rb.velocity.x, Mathf.Clamp(rb.velocity.y, -wallSlidingSpeed, float.MaxValue));
-            
-            // se a velocidade do y é menor que a velocidade do wall sliding manter negativo
-            if (rb.velocity.y > -wallSlidingSpeed)
-            {
-                rb.velocity = new Vector2(rb.velocity.x, -wallSlidingSpeed);
-            }
         }
         else
         {
@@ -321,13 +330,18 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    private void Flip(){
-        if (isFacingRight && dirX < 0f || !isFacingRight && dirX > 0f)
+    private void Flip()
+    {
+        // Atualiza a direção do sprite baseado na direção que está se movendo
+        if (dirX > 0)
         {
-            Vector3 localScale = transform.localScale;
-            isFacingRight = !isFacingRight;
-            localScale.x *= -1f;
-            transform.localScale = localScale;
+            isFacingRight = true;
+            sprite.flipX = false;
+        }
+        else if (dirX < 0)
+        {
+            isFacingRight = false;
+            sprite.flipX = true;
         }
     }
 
@@ -335,43 +349,32 @@ public class PlayerMovement : MonoBehaviour
     {
         if (isWallSliding)
         {
-            wallJumpingCounter = wallJumpingTime; // Resetar o contador do wall jump quando estiver wall sliding
+            isWallJumping = false;
+            wallJumpingDirection = -transform.localScale.x;
+            wallJumpingCounter = wallJumpingTime;
+
+            CancelInvoke(nameof(StopWallJumping));
         }
         else
         {
-            wallJumpingCounter -= Time.deltaTime; 
-            // Diminuir o contador do wall jump se não estive sliding
+            wallJumpingCounter -= Time.deltaTime;
         }
 
-        // Checar botão jump
-        if (Input.GetButtonDown("Jump"))
+        if (Input.GetButtonDown("Jump") && wallJumpingCounter > 0f)
         {
-            if (wallJumpingCounter > 0f)
-            {
-                // Checar qual botão é pressionando enquanto pulando
-                if (Input.GetKeyDown(KeyCode.D)) 
-                {
-                    wallJumpingDirection = 1f; 
-                }
-                else if (Input.GetKeyDown(KeyCode.A))
-                {
-                    wallJumpingDirection = -1f; 
-                }
-                else
-                {
-                    Jump();
-                    return; 
-                }
+            isWallJumping = true;
+            rb.velocity = new Vector2(wallJumpingDirection * wallJumpingPower.x, wallJumpingPower.y);
+            wallJumpingCounter = 0f;
 
-                // Executar wall jump
-                rb.velocity = new Vector2(wallJumpingDirection * wallJumpingPower.x, wallJumpingPower.y);
-                wallJumpingCounter = 0f; 
-            }
+            // Reseta o contador de pulos ao fazer wall jump
+            jumpCount = 1; // Permite um pulo adicional após o wall jump
+
+            Invoke(nameof(StopWallJumping), wallJumpingDuration);
         }
     }
 
-
-    private void StopWallJumping(){
+    private void StopWallJumping()
+    {
         isWallJumping = false;
     }
 
@@ -398,14 +401,14 @@ public class PlayerMovement : MonoBehaviour
         Vector2 dashDirection = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized;
         if (dashDirection == Vector2.zero)
         {
-            dashDirection = sprite.flipX ? Vector2.left : Vector2.right;
+            dashDirection = isFacingRight ? Vector2.right : Vector2.left;
         }
 
         rb.velocity = dashDirection * dashingPower;
 
         tr.emitting = true;
 
-        // Ativa I-frames (invulnerabilidade) mudando a layer temporariamente
+        // Ativa I-frames (invulnerabilidade) mudando temporariamente a layer
         gameObject.layer = LayerMask.NameToLayer("Invulnerable");
 
         yield return new WaitForSeconds(dashingTime);
@@ -415,14 +418,14 @@ public class PlayerMovement : MonoBehaviour
         rb.gravityScale = originalGravity;
         isDashing = false;
 
-        // Aguarda a dura��o do I-frame
+        // Aguarda a duração do I-frame
         yield return new WaitForSeconds(iFrameDuration);
 
         // Retorna o jogador para a layer original
         gameObject.layer = originalLayer;
 
-        yield return new WaitForSeconds(dashingCooldown - iFrameDuration);
-        canDash = true;
+        // Descomente a linha abaixo se desejar aplicar um cooldown antes de permitir o dash novamente
+        // yield return new WaitForSeconds(dashingCooldown);
     }
 
     private void OnDrawGizmos()
