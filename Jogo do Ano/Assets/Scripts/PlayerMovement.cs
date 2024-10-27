@@ -315,10 +315,29 @@ public class PlayerMovement : MonoBehaviour
         {
             isWallSliding = true;
             rb.velocity = new Vector2(rb.velocity.x, Mathf.Clamp(rb.velocity.y, -wallSlidingSpeed, float.MaxValue));
+
+            // Atualiza o Animator com o estado de Wall Sliding
+            anim.SetBool("IsWallSliding", true);
+
+            // Ajusta o sprite para a direção correta durante o wall sliding
+            if (Physics2D.OverlapCircle(wallCheckLeft.position, 0.2f, wallLayer))
+            {
+                sprite.flipX = false;  
+            }
+            else if (Physics2D.OverlapCircle(wallCheckRight.position, 0.2f, wallLayer))
+            {
+                sprite.flipX = true; 
+            }
         }
         else
         {
             isWallSliding = false;
+
+            // Desativa o estado de Wall Sliding no Animator
+            anim.SetBool("IsWallSliding", false);
+
+            // Retorna o controle do flip do sprite para o método Flip()
+            Flip();
         }
     }
 
