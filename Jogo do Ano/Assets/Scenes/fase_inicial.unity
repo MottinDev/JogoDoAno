@@ -3669,45 +3669,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1086454439684772414, guid: 4693a3b8092d84046bc65b4dfa043005, type: 3}
-      propertyPath: jumpForce
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 1086454439684772414, guid: 4693a3b8092d84046bc65b4dfa043005, type: 3}
-      propertyPath: moveSpeed
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 1086454439684772414, guid: 4693a3b8092d84046bc65b4dfa043005, type: 3}
-      propertyPath: sprintSpeed
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 1417252741871798245, guid: 4693a3b8092d84046bc65b4dfa043005, type: 3}
-      propertyPath: m_Size.x
-      value: 0.36696973
-      objectReference: {fileID: 0}
-    - target: {fileID: 1417252741871798245, guid: 4693a3b8092d84046bc65b4dfa043005, type: 3}
-      propertyPath: m_Size.y
-      value: 0.44486827
-      objectReference: {fileID: 0}
-    - target: {fileID: 1417252741871798245, guid: 4693a3b8092d84046bc65b4dfa043005, type: 3}
-      propertyPath: m_Offset.x
-      value: 0.040670827
-      objectReference: {fileID: 0}
-    - target: {fileID: 1417252741871798245, guid: 4693a3b8092d84046bc65b4dfa043005, type: 3}
-      propertyPath: m_Offset.y
-      value: -0.025544047
-      objectReference: {fileID: 0}
-    - target: {fileID: 1435055339646588221, guid: 4693a3b8092d84046bc65b4dfa043005, type: 3}
-      propertyPath: m_SortingOrder
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2975961666015728882, guid: 4693a3b8092d84046bc65b4dfa043005, type: 3}
       propertyPath: m_Name
       value: Andrew Tate
-      objectReference: {fileID: 0}
-    - target: {fileID: 5371362671966454785, guid: 4693a3b8092d84046bc65b4dfa043005, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.248
       objectReference: {fileID: 0}
     - target: {fileID: 7078522277151734792, guid: 4693a3b8092d84046bc65b4dfa043005, type: 3}
       propertyPath: hearts.Array.data[0]
