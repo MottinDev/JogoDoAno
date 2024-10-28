@@ -11,13 +11,13 @@ public class Fireball : MonoBehaviour
         {
             // Assumindo que o inimigo tem um script EnemyHealth
             collision.GetComponent<EagleHealth>().TakeDamage(fireballDamage);
-            Destroy(gameObject); // Destroi a bola de fogo após a colisão
+            
         }
     }
 
     private void Start()
     {
         // Destroi a bola de fogo após 2 segundos para evitar consumo de memória
-        Destroy(gameObject, 2f);
+        Destroy(gameObject, 1.25f);
     }
 }
