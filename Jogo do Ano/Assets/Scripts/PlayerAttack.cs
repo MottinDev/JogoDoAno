@@ -16,6 +16,9 @@ public class PlayerAttack : MonoBehaviour
     [SerializeField] private float cooldownTime = 10f; // Duração do cooldown em segundos
     private float nextFireTime = 0f; // Próximo tempo em que o jogador pode atacar
 
+    // Configuração de Delay
+    [SerializeField] private float fireballDelay = 0.5f; // Tempo de espera até spawnar a bola de fogo
+
     private void Start()
     {
         anim = GetComponent<Animator>();
@@ -27,16 +30,19 @@ public class PlayerAttack : MonoBehaviour
         // Controle do ataque de bola de fogo com cooldown
         if (Input.GetKeyDown(KeyCode.K) && Time.time >= nextFireTime)
         {
-            FireballAttack();
+            // Dispara a animação de ataque de bola de fogo
+            anim.SetTrigger("FireballAttack");
+
+            // Define o próximo tempo em que o jogador poderá atacar
             nextFireTime = Time.time + cooldownTime;
+
+            // Chama o método FireballAttack após o tempo de delay
+            Invoke(nameof(FireballAttack), fireballDelay);
         }
     }
 
     private void FireballAttack()
     {
-        // Dispara a animação de ataque de bola de fogo
-        anim.SetTrigger("FireballAttack");
-
         // Determina a direção usando spriteRenderer.flipX
         bool isFacingRight = !spriteRenderer.flipX;
 

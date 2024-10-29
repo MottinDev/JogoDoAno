@@ -1,0 +1,994 @@
+fileFormatVersion: 2
+guid: 663d69e5cc244814db7c764e88babfc7
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dagen - student_31_Injured weak_0
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 1913
+        width: 52
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71285592349148c468b72c6481fc9c72
+      internalID: -628295698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_31_Injured weak_1
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 1913
+        width: 52
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77aaa9fe936c5b140b86c61eb2dfdd42
+      internalID: 1510577497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_31_Injured weak_2
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 1913
+        width: 52
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65298a0253eed7a4da0df315fb08b532
+      internalID: 764633317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_31_Injured weak_3
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 1913
+        width: 52
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b872c68e2b70aa47b1e1b751b3dd6a2
+      internalID: -51410934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_31_Injured weak_4
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 1913
+        width: 52
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66c40dacb74a65f428f21d3d0d2810af
+      internalID: 1716235367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_31_Injured weak_5
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 1913
+        width: 52
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 660c5e6ef9a99294aa089bd88df035f0
+      internalID: 459805875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_31_Injured weak_6
+      rect:
+        serializedVersion: 2
+        x: 1643
+        y: 1913
+        width: 52
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dca1fc3f0283d6844b9bce6f9002332d
+      internalID: -482140028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_31_Injured weak_7
+      rect:
+        serializedVersion: 2
+        x: 1899
+        y: 1913
+        width: 52
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d4232a5e138d6445850f9909f3fbdce
+      internalID: -1288528917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_31_Injured weak_8
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 1657
+        width: 52
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa17f6c34008ce4d976ea2f957ea08f
+      internalID: 371465449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_31_Injured weak_9
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 1657
+        width: 52
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bea9dad2e927444db43125b38221c87
+      internalID: 1950321581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_31_Injured weak_10
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 1657
+        width: 52
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25bbd5d463aca4145adc85a024f3b663
+      internalID: 594407159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_31_Injured weak_11
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 1657
+        width: 52
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 672fc2e779d4e914b940b8641841ccff
+      internalID: 1152954231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_31_Injured weak_12
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 1657
+        width: 52
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88d41b01b96f8254cb4249ca82ea098b
+      internalID: 941633863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_31_Injured weak_13
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 1657
+        width: 52
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3220ae7213025bc4ea7206612380f66a
+      internalID: 365183266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_31_Injured weak_14
+      rect:
+        serializedVersion: 2
+        x: 1643
+        y: 1657
+        width: 52
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c90771eb66dac8b44b58530662e693d6
+      internalID: -1490793704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_31_Injured weak_15
+      rect:
+        serializedVersion: 2
+        x: 1899
+        y: 1657
+        width: 52
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dcd5c5a10bfd1b49b3325efd63980e0
+      internalID: 1763831425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_31_Injured weak_16
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 1401
+        width: 52
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c66d5bc69b95e84f99205d4f1a8486d
+      internalID: -743064033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_31_Injured weak_17
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 1401
+        width: 52
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0068c6ff007ffb49a1195f666080c06
+      internalID: -136516678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_31_Injured weak_18
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 1401
+        width: 51
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1ca302da8ea4d64b8a2623bfaf4121b
+      internalID: -1165166461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_31_Injured weak_19
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 1402
+        width: 51
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6df44b93017c29b45bcd418a0963bac0
+      internalID: 1544536311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_31_Injured weak_20
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 1402
+        width: 51
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f04af650c19cab54aa959cc8e02d6970
+      internalID: 659084331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_31_Injured weak_21
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 1402
+        width: 52
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71708a1b1a9b08449bae21254bc3ca70
+      internalID: 1900029899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_31_Injured weak_22
+      rect:
+        serializedVersion: 2
+        x: 1643
+        y: 1402
+        width: 52
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74d0af26bfd2cbc4f9ffd91cca94781f
+      internalID: -2143134497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_31_Injured weak_23
+      rect:
+        serializedVersion: 2
+        x: 1899
+        y: 1402
+        width: 52
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ab1b170aca64644a2d93079f7e6aea
+      internalID: 1701338756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_31_Injured weak_24
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 1146
+        width: 52
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 192115fb67e125d44be3c2ad123ff2d0
+      internalID: 1607611518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_31_Injured weak_25
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1147
+        width: 53
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2efd02839a13fd47ac524c227616a4a
+      internalID: 1347051654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_31_Injured weak_26
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 1147
+        width: 53
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04f90efbd6dfb7243bf44954bea29214
+      internalID: 688502489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_31_Injured weak_27
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 1147
+        width: 53
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e4d1a69acfb6fb499581c77ba33642a
+      internalID: -82506370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_31_Injured weak_28
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 1147
+        width: 53
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4e813b0d7d99a2469a3ccdf46cb926b
+      internalID: -1518971231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_31_Injured weak_29
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 1148
+        width: 54
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 646ea6abc5b41234ea03c912eab23fd1
+      internalID: -406414438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_31_Injured weak_30
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 1148
+        width: 54
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00f3ef51d64d174489a42870670ece0c
+      internalID: -1248274773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_31_Injured weak_31
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 1148
+        width: 54
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fde6064982b69d84a9ee51cf67c7dba3
+      internalID: -362146153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_31_Injured weak_32
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 892
+        width: 54
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce5bd2009cef4f04a8824122ba23ca95
+      internalID: -529153708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_31_Injured weak_33
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 893
+        width: 54
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d2731485d85bb6409762c254d07125a
+      internalID: 2094680576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_31_Injured weak_34
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 893
+        width: 54
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f797b0cf4e126244a558cfa216c9c2d
+      internalID: 1371172887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_31_Injured weak_35
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 893
+        width: 54
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 798af6a3d45769748ab2a21846f1060f
+      internalID: 1941890730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_31_Injured weak_36
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 894
+        width: 55
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49acfc63413475742bb9be98fd1505c0
+      internalID: -326043739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_31_Injured weak_37
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 894
+        width: 55
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28b1ba63dae57114e8193850eaf0eb09
+      internalID: 1294566447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_31_Injured weak_38
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 895
+        width: 55
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a31f881710ad784ebb27d03a06b6032
+      internalID: -102672427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_31_Injured weak_39
+      rect:
+        serializedVersion: 2
+        x: 1895
+        y: 895
+        width: 55
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7663d5d1edcd96d45a5ec975b3a7a357
+      internalID: -1039165425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Dagen - student_31_Injured weak_0: -628295698
+      Dagen - student_31_Injured weak_1: 1510577497
+      Dagen - student_31_Injured weak_10: 594407159
+      Dagen - student_31_Injured weak_11: 1152954231
+      Dagen - student_31_Injured weak_12: 941633863
+      Dagen - student_31_Injured weak_13: 365183266
+      Dagen - student_31_Injured weak_14: -1490793704
+      Dagen - student_31_Injured weak_15: 1763831425
+      Dagen - student_31_Injured weak_16: -743064033
+      Dagen - student_31_Injured weak_17: -136516678
+      Dagen - student_31_Injured weak_18: -1165166461
+      Dagen - student_31_Injured weak_19: 1544536311
+      Dagen - student_31_Injured weak_2: 764633317
+      Dagen - student_31_Injured weak_20: 659084331
+      Dagen - student_31_Injured weak_21: 1900029899
+      Dagen - student_31_Injured weak_22: -2143134497
+      Dagen - student_31_Injured weak_23: 1701338756
+      Dagen - student_31_Injured weak_24: 1607611518
+      Dagen - student_31_Injured weak_25: 1347051654
+      Dagen - student_31_Injured weak_26: 688502489
+      Dagen - student_31_Injured weak_27: -82506370
+      Dagen - student_31_Injured weak_28: -1518971231
+      Dagen - student_31_Injured weak_29: -406414438
+      Dagen - student_31_Injured weak_3: -51410934
+      Dagen - student_31_Injured weak_30: -1248274773
+      Dagen - student_31_Injured weak_31: -362146153
+      Dagen - student_31_Injured weak_32: -529153708
+      Dagen - student_31_Injured weak_33: 2094680576
+      Dagen - student_31_Injured weak_34: 1371172887
+      Dagen - student_31_Injured weak_35: 1941890730
+      Dagen - student_31_Injured weak_36: -326043739
+      Dagen - student_31_Injured weak_37: 1294566447
+      Dagen - student_31_Injured weak_38: -102672427
+      Dagen - student_31_Injured weak_39: -1039165425
+      Dagen - student_31_Injured weak_4: 1716235367
+      Dagen - student_31_Injured weak_5: 459805875
+      Dagen - student_31_Injured weak_6: -482140028
+      Dagen - student_31_Injured weak_7: -1288528917
+      Dagen - student_31_Injured weak_8: 371465449
+      Dagen - student_31_Injured weak_9: 1950321581
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1082 @@
+fileFormatVersion: 2
+guid: 644cfb9eb5c1d47488d3298ca11986b9
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dagen - student_7_Crouch_0
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1918
+        width: 52
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f99dce77e2bd65b40857fa767adaca61
+      internalID: 1853550818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_7_Crouch_1
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 1918
+        width: 50
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a42000ecce1bbd54fb87fbcd62d8b16d
+      internalID: 173649011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_7_Crouch_2
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 1918
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef402f00787fb6d47ac99efaf29d8ca8
+      internalID: 1803940973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_7_Crouch_3
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 1918
+        width: 55
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13ae595f0a8d4b34baf93189994dafc8
+      internalID: 1946205427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_7_Crouch_4
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 1918
+        width: 56
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 726871843535d27439d09b33761e7877
+      internalID: -1903098056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_7_Crouch_5
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 1918
+        width: 57
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c5df1809247f084f843734e00debdca
+      internalID: -5496988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_7_Crouch_6
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 1917
+        width: 56
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72427e6c2c113b744b344cd6b20454d8
+      internalID: 1592985014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_7_Crouch_7
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 1917
+        width: 56
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcd52ddc870f76747a7603c7de11df68
+      internalID: 404691345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_7_Crouch_8
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1661
+        width: 56
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87d8942416e92664ba63dc386b5f8811
+      internalID: 1370634752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_7_Crouch_9
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 1661
+        width: 56
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ea6dc8528dfbff478a36202f9445586
+      internalID: 2036681829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_7_Crouch_10
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 1661
+        width: 56
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2939c1a9bab309640ba30d4e49c86fee
+      internalID: 302880717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_7_Crouch_11
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 1661
+        width: 56
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56216c5544b6a9e438b35e2d3895925a
+      internalID: -1197064263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_7_Crouch_12
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 1661
+        width: 56
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b3168853bef8b14d924f7dfcc3b0fb7
+      internalID: -879403093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_7_Crouch_13
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 1661
+        width: 56
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb043fb88feed9347bf848d2f48798db
+      internalID: -749179561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_7_Crouch_14
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 1661
+        width: 56
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 942b16d57f827774eadb897c71b0cd6d
+      internalID: 361853683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_7_Crouch_15
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 1661
+        width: 56
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b99f2c6556b1094c9883cb830d2a9d6
+      internalID: 1335796109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_7_Crouch_16
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1405
+        width: 56
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c90d6d0f66da9944908a0999d39e6d0
+      internalID: -1818598077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_7_Crouch_17
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 1405
+        width: 56
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e4268cf8b38ed84585295d67845645e
+      internalID: 1141332157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_7_Crouch_18
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 1405
+        width: 56
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98cf4ed02baa3814b9d80b3670f0fc00
+      internalID: -2051248121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_7_Crouch_19
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 1405
+        width: 56
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f40e4bd00aed215458a85ef73215aaaf
+      internalID: 1553260025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_7_Crouch_20
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 1405
+        width: 56
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88084ff714b256549bac3e1e9b299986
+      internalID: 1538123013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_7_Crouch_21
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 1405
+        width: 56
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e907cf2c4ad578a47a98ef774b7d9cc6
+      internalID: -701197619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_7_Crouch_22
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 1405
+        width: 56
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35785d87ed3bbe74792c5b7c4501702a
+      internalID: -1925022194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_7_Crouch_23
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 1405
+        width: 56
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e307e65b04c65e4bae43c52ed371ab8
+      internalID: 1579200938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_7_Crouch_24
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1149
+        width: 56
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9eab2ebe0c1ebe4d9a5b8bce527b448
+      internalID: 275855023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_7_Crouch_25
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 1149
+        width: 56
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 037b4e64f220ab940bb4a5e1090a94e3
+      internalID: 1472950679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_7_Crouch_26
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 1149
+        width: 56
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd963d631afb9fe429679b93dccc4150
+      internalID: 1244335029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_7_Crouch_27
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 1149
+        width: 56
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89d5e15b9b49cba4b9aaae773f6f0ba2
+      internalID: -1016154131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_7_Crouch_28
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 1149
+        width: 56
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4ab95f7d6a12344783629059332f0cc
+      internalID: -478406975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_7_Crouch_29
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 1149
+        width: 56
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b650ef6f6907b4443854ca35828cf036
+      internalID: 1465577158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_7_Crouch_30
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 1149
+        width: 56
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34801d94edb4e3746bd61137bd113442
+      internalID: 741320172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_7_Crouch_31
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 1149
+        width: 56
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96754cab52dc6574fb17b17519120e79
+      internalID: 1393590098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_7_Crouch_32
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 893
+        width: 56
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1972e2168ae4c8440a1d621d420d9f08
+      internalID: 422362937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_7_Crouch_33
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 893
+        width: 56
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b268c35c361f488498cb8c52e4db30be
+      internalID: -1569855969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_7_Crouch_34
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 893
+        width: 56
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d799b5b23412f84d80133c08b5bc7a7
+      internalID: 368539446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_7_Crouch_35
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 893
+        width: 56
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 561c8be425998904b9a17ca2ae7fefdb
+      internalID: 1484523574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_7_Crouch_36
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 893
+        width: 56
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63cd61156b8686c46a08bd2eba057932
+      internalID: -2025006371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_7_Crouch_37
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 893
+        width: 56
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 781103ac2eebdcc4a9b470ab8801b8c7
+      internalID: -1299958405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_7_Crouch_38
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 893
+        width: 56
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ab0730e0310bf4d8ee1367b9360a35
+      internalID: 2049051567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_7_Crouch_39
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 893
+        width: 56
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1750a41b33684724dbe5d8727e9d7a2d
+      internalID: -1078713368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_7_Crouch_40
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 637
+        width: 56
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 285813d54a46d8c4ba826ccf8d6075b4
+      internalID: -1971247503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_7_Crouch_41
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 637
+        width: 56
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c43739db73d872440bce40e77e5cdfaa
+      internalID: -1963036876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_7_Crouch_42
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 637
+        width: 56
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f64f56bafdbd01418187d2d3ac14e4f
+      internalID: 662612932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_7_Crouch_43
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 637
+        width: 56
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82e57ee1dd772114ebedca53a98811a2
+      internalID: -168170183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Dagen - student_7_Crouch_0: 1853550818
+      Dagen - student_7_Crouch_1: 173649011
+      Dagen - student_7_Crouch_10: 302880717
+      Dagen - student_7_Crouch_11: -1197064263
+      Dagen - student_7_Crouch_12: -879403093
+      Dagen - student_7_Crouch_13: -749179561
+      Dagen - student_7_Crouch_14: 361853683
+      Dagen - student_7_Crouch_15: 1335796109
+      Dagen - student_7_Crouch_16: -1818598077
+      Dagen - student_7_Crouch_17: 1141332157
+      Dagen - student_7_Crouch_18: -2051248121
+      Dagen - student_7_Crouch_19: 1553260025
+      Dagen - student_7_Crouch_2: 1803940973
+      Dagen - student_7_Crouch_20: 1538123013
+      Dagen - student_7_Crouch_21: -701197619
+      Dagen - student_7_Crouch_22: -1925022194
+      Dagen - student_7_Crouch_23: 1579200938
+      Dagen - student_7_Crouch_24: 275855023
+      Dagen - student_7_Crouch_25: 1472950679
+      Dagen - student_7_Crouch_26: 1244335029
+      Dagen - student_7_Crouch_27: -1016154131
+      Dagen - student_7_Crouch_28: -478406975
+      Dagen - student_7_Crouch_29: 1465577158
+      Dagen - student_7_Crouch_3: 1946205427
+      Dagen - student_7_Crouch_30: 741320172
+      Dagen - student_7_Crouch_31: 1393590098
+      Dagen - student_7_Crouch_32: 422362937
+      Dagen - student_7_Crouch_33: -1569855969
+      Dagen - student_7_Crouch_34: 368539446
+      Dagen - student_7_Crouch_35: 1484523574
+      Dagen - student_7_Crouch_36: -2025006371
+      Dagen - student_7_Crouch_37: -1299958405
+      Dagen - student_7_Crouch_38: 2049051567
+      Dagen - student_7_Crouch_39: -1078713368
+      Dagen - student_7_Crouch_4: -1903098056
+      Dagen - student_7_Crouch_40: -1971247503
+      Dagen - student_7_Crouch_41: -1963036876
+      Dagen - student_7_Crouch_42: 662612932
+      Dagen - student_7_Crouch_43: -168170183
+      Dagen - student_7_Crouch_5: -5496988
+      Dagen - student_7_Crouch_6: 1592985014
+      Dagen - student_7_Crouch_7: 404691345
+      Dagen - student_7_Crouch_8: 1370634752
+      Dagen - student_7_Crouch_9: 2036681829
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -322,11 +322,11 @@ public class PlayerMovement : MonoBehaviour
             // Ajusta o sprite para a direção correta durante o wall sliding
             if (Physics2D.OverlapCircle(wallCheckLeft.position, 0.2f, wallLayer))
             {
-                sprite.flipX = false;  
+                sprite.flipX = true;  
             }
             else if (Physics2D.OverlapCircle(wallCheckRight.position, 0.2f, wallLayer))
             {
-                sprite.flipX = true; 
+                sprite.flipX = false; 
             }
         }
         else
