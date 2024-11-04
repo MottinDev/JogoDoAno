@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Cannonball
   - Enemy
+  - RafaBoss
   layers:
   - Default
   - TransparentFX
@@ -15,7 +16,7 @@ TagManager:
   - UI
   - Invulnerable
   - Wall
-  - 
+  - Player
   - 
   - 
   - 

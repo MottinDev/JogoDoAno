@@ -1,0 +1,620 @@
+fileFormatVersion: 2
+guid: 20a5b919a4442cf4eb3589097303998c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Buster - rafaactually_9_Side A_0
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 1919
+        width: 73
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a85783216905b5429afddf1bf4a2d2b
+      internalID: -1067943450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_9_Side A_1
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 1919
+        width: 65
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c67dffa9a81cfb0479c7bdd31adf2580
+      internalID: 1241148660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_9_Side A_2
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 1920
+        width: 62
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4577203cbaf2be64dbaf556fa397c001
+      internalID: 1063744956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_9_Side A_3
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 1920
+        width: 67
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc4432b973eecc64db145b3df4dc10eb
+      internalID: 1269926702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_9_Side A_4
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 1920
+        width: 71
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfcbcfe9aef150145848c003f53464ce
+      internalID: -1894997072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_9_Side A_5
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 1916
+        width: 70
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d74071ed56081b143985cd0a6a55e396
+      internalID: 1151392181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_9_Side A_6
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 1919
+        width: 89
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3908f60b904d1ef4481a8cda8a464b77
+      internalID: -2136675246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_9_Side A_7
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 1919
+        width: 89
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67cff2cce407ed94688c7443820e38af
+      internalID: -318652202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_9_Side A_8
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1663
+        width: 89
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 232362d1254fc324ba029d606882185e
+      internalID: -1687611087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_9_Side A_9
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 1663
+        width: 89
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17d5b17260f36de4c8d99a0ee049976b
+      internalID: -1517026343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_9_Side A_10
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1663
+        width: 89
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19f4f8395d755944ab5ccdc794b2dbf7
+      internalID: -1329553949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_9_Side A_11
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 1663
+        width: 89
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a16711b10d1483949ad9cd7f065f0f01
+      internalID: 752345463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_9_Side A_12
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 1663
+        width: 89
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b3f03e1d6cda24479103d8d8fc9120c
+      internalID: 536054499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_9_Side A_13
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 1663
+        width: 89
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4459f27d0915aad4681a0ddb9138edd2
+      internalID: 2074614771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_9_Side A_14
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 1663
+        width: 89
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42ec52bdc45cf1a44a4154c56f7d3c56
+      internalID: -1555074662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_9_Side A_15
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 1663
+        width: 84
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18f9d324b590a074fbedf5ef4e720174
+      internalID: -2106147319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_9_Side A_16
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 1407
+        width: 79
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f607cd745a1515c4b8de1f45d888779c
+      internalID: -2093124468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_9_Side A_17
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 1407
+        width: 73
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b017a9d6caf57147b177b26a6fab63c
+      internalID: 141131423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_9_Side A_18
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 1407
+        width: 73
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5893aa3757429664dadfcdbf878ebec1
+      internalID: 1984803725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_9_Side A_19
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 1407
+        width: 72
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ee1e77089e1c504486b052166132f0e
+      internalID: 1344337815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_9_Side A_20
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 1407
+        width: 71
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18de2216e2445f644823115920ff6732
+      internalID: 562159717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_9_Side A_21
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 1407
+        width: 71
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e41b7150ffa84d48a917810f0fe82fe
+      internalID: 638646403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_9_Side A_22
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 1407
+        width: 73
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6f72c3a3718ba64cb31ab2e8acd484a
+      internalID: 1497154513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Buster - rafaactually_9_Side A_0: -1067943450
+      Buster - rafaactually_9_Side A_1: 1241148660
+      Buster - rafaactually_9_Side A_10: -1329553949
+      Buster - rafaactually_9_Side A_11: 752345463
+      Buster - rafaactually_9_Side A_12: 536054499
+      Buster - rafaactually_9_Side A_13: 2074614771
+      Buster - rafaactually_9_Side A_14: -1555074662
+      Buster - rafaactually_9_Side A_15: -2106147319
+      Buster - rafaactually_9_Side A_16: -2093124468
+      Buster - rafaactually_9_Side A_17: 141131423
+      Buster - rafaactually_9_Side A_18: 1984803725
+      Buster - rafaactually_9_Side A_19: 1344337815
+      Buster - rafaactually_9_Side A_2: 1063744956
+      Buster - rafaactually_9_Side A_20: 562159717
+      Buster - rafaactually_9_Side A_21: 638646403
+      Buster - rafaactually_9_Side A_22: 1497154513
+      Buster - rafaactually_9_Side A_3: 1269926702
+      Buster - rafaactually_9_Side A_4: -1894997072
+      Buster - rafaactually_9_Side A_5: 1151392181
+      Buster - rafaactually_9_Side A_6: -2136675246
+      Buster - rafaactually_9_Side A_7: -318652202
+      Buster - rafaactually_9_Side A_8: -1687611087
+      Buster - rafaactually_9_Side A_9: -1517026343
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

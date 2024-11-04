@@ -1,0 +1,994 @@
+fileFormatVersion: 2
+guid: e61180a858e09084e9a6a8c3d9a1aeb9
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Buster - rafaactually_31_Injured weak_0
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 1915
+        width: 68
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f7a2967caa6d7d4ab5013eaf3fd6bec
+      internalID: 1473045508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_31_Injured weak_1
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1915
+        width: 72
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25b6ad7ab5012514a84e420efe0282b8
+      internalID: -1925646300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_31_Injured weak_2
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 1915
+        width: 72
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc333bafa6d22414ea14dee4efcb6536
+      internalID: -1715191683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_31_Injured weak_3
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 1915
+        width: 68
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d8dae41cf092e8458e3c395b702151d
+      internalID: -1648879175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_31_Injured weak_4
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 1915
+        width: 72
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 538f65f7a58eade4dbce8af9a3318b31
+      internalID: 2125210896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_31_Injured weak_5
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 1914
+        width: 76
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52079c4058becb74db4b5ef0cc6b6915
+      internalID: 691205209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_31_Injured weak_6
+      rect:
+        serializedVersion: 2
+        x: 1612
+        y: 1913
+        width: 81
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16d33306ebc599f42b232e26228011de
+      internalID: -130121117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_31_Injured weak_7
+      rect:
+        serializedVersion: 2
+        x: 1868
+        y: 1913
+        width: 81
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 385345e1a4e63654db416562fc9f731f
+      internalID: -1047393301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_31_Injured weak_8
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1657
+        width: 81
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d3fd91dc4eb88f4f8925124537dc29a
+      internalID: 844729114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_31_Injured weak_9
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1657
+        width: 81
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b32739426f4399c4c800e9ccda3780f5
+      internalID: 1125321864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_31_Injured weak_10
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 1657
+        width: 81
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa697a09b885bbe4ea20c4f34ef0ed9f
+      internalID: 214180507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_31_Injured weak_11
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 1657
+        width: 81
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47e14be146e3904409573427efcee8d0
+      internalID: 1577070638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_31_Injured weak_12
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 1657
+        width: 81
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37c92d184ee9a414ea5d35e6effbd3d7
+      internalID: -2072270949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_31_Injured weak_13
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 1657
+        width: 81
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f7a4d2072ef498449097803a6c3cb95
+      internalID: -1738275416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_31_Injured weak_14
+      rect:
+        serializedVersion: 2
+        x: 1612
+        y: 1657
+        width: 81
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a837e625ba669664ab619e2aa8733096
+      internalID: 2134360553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_31_Injured weak_15
+      rect:
+        serializedVersion: 2
+        x: 1868
+        y: 1657
+        width: 81
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b62a4125740a2e4db96c67447f0fc69
+      internalID: 776543809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_31_Injured weak_16
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1401
+        width: 81
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaa01d16d33d5df43be867f1e44abe07
+      internalID: -633055390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_31_Injured weak_17
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1401
+        width: 81
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd5cb1d5f1e00464e944c6aafb3db2e4
+      internalID: 265450341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_31_Injured weak_18
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 1401
+        width: 81
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae8916f122951af409f17c6552a32d0b
+      internalID: 959888693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_31_Injured weak_19
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 1401
+        width: 81
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98b31da32a078ee47a0f73cfebb66c96
+      internalID: -1641727006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_31_Injured weak_20
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 1401
+        width: 81
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e949d349e57dca43aba6846c6eafc5a
+      internalID: -234504270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_31_Injured weak_21
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 1401
+        width: 81
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f46836c7a6bc2e48941e6b83b5bf7c2
+      internalID: -863548854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_31_Injured weak_22
+      rect:
+        serializedVersion: 2
+        x: 1612
+        y: 1401
+        width: 81
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d733ab39d7e3ecf48a6ea2a2ac11afc5
+      internalID: 1626626310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_31_Injured weak_23
+      rect:
+        serializedVersion: 2
+        x: 1868
+        y: 1401
+        width: 81
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 619960e6657340542879504ee6ea3e06
+      internalID: -1654020276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_31_Injured weak_24
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1145
+        width: 81
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e4f2401403ff1d40bb02007ddf42ae1
+      internalID: -815494345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_31_Injured weak_25
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1145
+        width: 80
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e83f92bcc1ea72546b1cd5ef7a7763d7
+      internalID: 1932481315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_31_Injured weak_26
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 1145
+        width: 77
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ada4187348df2e49a6ef5ab6c8a992a
+      internalID: 1026576360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_31_Injured weak_27
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 1144
+        width: 74
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ebd9f12f623c044cb1e065e144091a7
+      internalID: 1207508663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_31_Injured weak_28
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 1144
+        width: 73
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ecede00e17a19241aba78bf52017a9d
+      internalID: 1874257627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_31_Injured weak_29
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 1144
+        width: 74
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1420308013ac65342af7ec768ea42270
+      internalID: 1817096574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_31_Injured weak_30
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 1144
+        width: 74
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad5d72196fefe74bb71a38519cc6900
+      internalID: 915524907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_31_Injured weak_31
+      rect:
+        serializedVersion: 2
+        x: 1882
+        y: 1145
+        width: 74
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58c48ae78cca47842a4d5c72645bab23
+      internalID: 914980397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_31_Injured weak_32
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 889
+        width: 74
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6a1accebfb52e64d86117d816b73c14
+      internalID: -1543749697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_31_Injured weak_33
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 890
+        width: 74
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8becc3ab684952489724f69d632a3ef
+      internalID: -579100175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_31_Injured weak_34
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 890
+        width: 76
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f17a36e74ded0dd4c8fcfefd756befd6
+      internalID: -1674202116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_31_Injured weak_35
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 891
+        width: 75
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c56877ec34c23da43845515651a0b121
+      internalID: 894051765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_31_Injured weak_36
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 892
+        width: 75
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71fa3fefd4254c340b2572f5eec705f9
+      internalID: 257170536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_31_Injured weak_37
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 893
+        width: 75
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fc8e74679d1886479d56777dbb81ed0
+      internalID: 2003669772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_31_Injured weak_38
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 894
+        width: 74
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a75c19225997d44b86cfa3a33557fe0
+      internalID: -641135276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_31_Injured weak_39
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 895
+        width: 73
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93416ee0b3fe8ef41b2ce22218e93f5e
+      internalID: -981269494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Buster - rafaactually_31_Injured weak_0: 1473045508
+      Buster - rafaactually_31_Injured weak_1: -1925646300
+      Buster - rafaactually_31_Injured weak_10: 214180507
+      Buster - rafaactually_31_Injured weak_11: 1577070638
+      Buster - rafaactually_31_Injured weak_12: -2072270949
+      Buster - rafaactually_31_Injured weak_13: -1738275416
+      Buster - rafaactually_31_Injured weak_14: 2134360553
+      Buster - rafaactually_31_Injured weak_15: 776543809
+      Buster - rafaactually_31_Injured weak_16: -633055390
+      Buster - rafaactually_31_Injured weak_17: 265450341
+      Buster - rafaactually_31_Injured weak_18: 959888693
+      Buster - rafaactually_31_Injured weak_19: -1641727006
+      Buster - rafaactually_31_Injured weak_2: -1715191683
+      Buster - rafaactually_31_Injured weak_20: -234504270
+      Buster - rafaactually_31_Injured weak_21: -863548854
+      Buster - rafaactually_31_Injured weak_22: 1626626310
+      Buster - rafaactually_31_Injured weak_23: -1654020276
+      Buster - rafaactually_31_Injured weak_24: -815494345
+      Buster - rafaactually_31_Injured weak_25: 1932481315
+      Buster - rafaactually_31_Injured weak_26: 1026576360
+      Buster - rafaactually_31_Injured weak_27: 1207508663
+      Buster - rafaactually_31_Injured weak_28: 1874257627
+      Buster - rafaactually_31_Injured weak_29: 1817096574
+      Buster - rafaactually_31_Injured weak_3: -1648879175
+      Buster - rafaactually_31_Injured weak_30: 915524907
+      Buster - rafaactually_31_Injured weak_31: 914980397
+      Buster - rafaactually_31_Injured weak_32: -1543749697
+      Buster - rafaactually_31_Injured weak_33: -579100175
+      Buster - rafaactually_31_Injured weak_34: -1674202116
+      Buster - rafaactually_31_Injured weak_35: 894051765
+      Buster - rafaactually_31_Injured weak_36: 257170536
+      Buster - rafaactually_31_Injured weak_37: 2003669772
+      Buster - rafaactually_31_Injured weak_38: -641135276
+      Buster - rafaactually_31_Injured weak_39: -981269494
+      Buster - rafaactually_31_Injured weak_4: 2125210896
+      Buster - rafaactually_31_Injured weak_5: 691205209
+      Buster - rafaactually_31_Injured weak_6: -130121117
+      Buster - rafaactually_31_Injured weak_7: -1047393301
+      Buster - rafaactually_31_Injured weak_8: 844729114
+      Buster - rafaactually_31_Injured weak_9: 1125321864
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

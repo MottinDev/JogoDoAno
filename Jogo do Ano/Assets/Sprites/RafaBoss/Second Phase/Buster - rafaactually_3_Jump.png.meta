@@ -1,0 +1,906 @@
+fileFormatVersion: 2
+guid: f5ccc57ca6da26242bc19e0f53d39147
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Buster - rafaactually_3_Jump_0
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1916
+        width: 62
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57da33fd085cbf243b0a07c333487663
+      internalID: -1909334651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_3_Jump_1
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1918
+        width: 70
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 279062a57e33b56458a7f2558cee1007
+      internalID: 1028150292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_3_Jump_2
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 1920
+        width: 78
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0bd048b8ac5e2b429d662b570368968
+      internalID: -79962633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_3_Jump_3
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 1920
+        width: 84
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6520b761e6ed4c945bf2c3f3beb8f8f5
+      internalID: 1620345450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_3_Jump_4
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 1921
+        width: 90
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f334355105f84c143867cd2b90107b5b
+      internalID: 1207203005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_3_Jump_5
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 1920
+        width: 87
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f37569bd0b4a734c8c7c59324a938dc
+      internalID: -1114902258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_3_Jump_6
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 1920
+        width: 84
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0295f639399b8348b296ee2d75f250e
+      internalID: -1420711629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_3_Jump_7
+      rect:
+        serializedVersion: 2
+        x: 1871
+        y: 1920
+        width: 84
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be110ad00ccc01d439abbfda4c7a5c57
+      internalID: -1740344844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_3_Jump_8
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1663
+        width: 84
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ec2a6ee83de4da4ca388402effc22d9
+      internalID: 1435339026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_3_Jump_9
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1663
+        width: 85
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60de1fba90774d34fb1d69ce7be22095
+      internalID: -962991389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_3_Jump_10
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 1663
+        width: 85
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc096313f9a283b4a8b4f44df1e577ea
+      internalID: 1339898875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_3_Jump_11
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 1663
+        width: 85
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9dceadce5990a442ab26a0f55716bca
+      internalID: -1529991865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_3_Jump_12
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 1663
+        width: 86
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5031a145b992a4439099add66001e50
+      internalID: 2056459173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_3_Jump_13
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 1663
+        width: 85
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63aa871f8ab94884b940456ace213b08
+      internalID: -1393669971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_3_Jump_14
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 1662
+        width: 85
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d853f9af2aa2d0d4aa626deb994df430
+      internalID: -934943880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_3_Jump_15
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 1662
+        width: 85
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ffc4255396078439f86c2ef3004be7
+      internalID: -343435034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_3_Jump_16
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1406
+        width: 86
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97d955100e068094eac1ceaed5e41b82
+      internalID: 1455482942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_3_Jump_17
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1406
+        width: 86
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa68694e4598fc6459131e4130ce434d
+      internalID: -1973008276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_3_Jump_18
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1406
+        width: 86
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f61ada043987f2f4ebba909d954eb4c7
+      internalID: 730198703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_3_Jump_19
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 1406
+        width: 86
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82e5e063e9ba96e418dd9e79d76b092f
+      internalID: -734234514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_3_Jump_20
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 1406
+        width: 86
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f630f3e1cf9a9d0408fbb03e8a8c2da4
+      internalID: -1964086241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_3_Jump_21
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 1405
+        width: 86
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dbd2261c575c1c4b9019f8c4e9eb161
+      internalID: -276529467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_3_Jump_22
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 1405
+        width: 87
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3bb2c5871aecea46857b9cb775ace35
+      internalID: 861970316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_3_Jump_23
+      rect:
+        serializedVersion: 2
+        x: 1874
+        y: 1405
+        width: 86
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bcd10c7b3a96b140a7cc17739b1cc77
+      internalID: -2195031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_3_Jump_24
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1149
+        width: 86
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ceab907af80a41489abcf17cd3d2893
+      internalID: -426118805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_3_Jump_25
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1149
+        width: 87
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd57491c05e87684185407f6b88e05bb
+      internalID: 1268575842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_3_Jump_26
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 1149
+        width: 87
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e858e4cb1ecb75408ddce35da889a54
+      internalID: 1516885261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_3_Jump_27
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 1149
+        width: 86
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0580627700de2a4da05f8cde72c66ca
+      internalID: -1568411410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_3_Jump_28
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 1149
+        width: 87
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 055d852dde7fb46429cece6c865bf118
+      internalID: 99249575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_3_Jump_29
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 1149
+        width: 87
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29da7125e81400e419ac26a9f79d7c8a
+      internalID: -110680642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_3_Jump_30
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 1149
+        width: 87
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7750570df7f0beb46aae835d6d8c79f0
+      internalID: 178413068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_3_Jump_31
+      rect:
+        serializedVersion: 2
+        x: 1875
+        y: 1149
+        width: 87
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 215be6c68fa198f4b8de9479b3e099b2
+      internalID: -327445418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_3_Jump_32
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 893
+        width: 87
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5be366a81c7a8247ba28c5fc1f3b1ac
+      internalID: 1520412395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_3_Jump_33
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 893
+        width: 87
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c98ed7a7908d14089765bf7622db16
+      internalID: 1460398735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_3_Jump_34
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 895
+        width: 85
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea3fdaea1077b56468a91f07edfe920d
+      internalID: 1473337943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buster - rafaactually_3_Jump_35
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 888
+        width: 66
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dd6d9a074ba27148927cd0ccbf64958
+      internalID: -2146644248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Buster - rafaactually_3_Jump_0: -1909334651
+      Buster - rafaactually_3_Jump_1: 1028150292
+      Buster - rafaactually_3_Jump_10: 1339898875
+      Buster - rafaactually_3_Jump_11: -1529991865
+      Buster - rafaactually_3_Jump_12: 2056459173
+      Buster - rafaactually_3_Jump_13: -1393669971
+      Buster - rafaactually_3_Jump_14: -934943880
+      Buster - rafaactually_3_Jump_15: -343435034
+      Buster - rafaactually_3_Jump_16: 1455482942
+      Buster - rafaactually_3_Jump_17: -1973008276
+      Buster - rafaactually_3_Jump_18: 730198703
+      Buster - rafaactually_3_Jump_19: -734234514
+      Buster - rafaactually_3_Jump_2: -79962633
+      Buster - rafaactually_3_Jump_20: -1964086241
+      Buster - rafaactually_3_Jump_21: -276529467
+      Buster - rafaactually_3_Jump_22: 861970316
+      Buster - rafaactually_3_Jump_23: -2195031
+      Buster - rafaactually_3_Jump_24: -426118805
+      Buster - rafaactually_3_Jump_25: 1268575842
+      Buster - rafaactually_3_Jump_26: 1516885261
+      Buster - rafaactually_3_Jump_27: -1568411410
+      Buster - rafaactually_3_Jump_28: 99249575
+      Buster - rafaactually_3_Jump_29: -110680642
+      Buster - rafaactually_3_Jump_3: 1620345450
+      Buster - rafaactually_3_Jump_30: 178413068
+      Buster - rafaactually_3_Jump_31: -327445418
+      Buster - rafaactually_3_Jump_32: 1520412395
+      Buster - rafaactually_3_Jump_33: 1460398735
+      Buster - rafaactually_3_Jump_34: 1473337943
+      Buster - rafaactually_3_Jump_35: -2146644248
+      Buster - rafaactually_3_Jump_4: 1207203005
+      Buster - rafaactually_3_Jump_5: -1114902258
+      Buster - rafaactually_3_Jump_6: -1420711629
+      Buster - rafaactually_3_Jump_7: -1740344844
+      Buster - rafaactually_3_Jump_8: 1435339026
+      Buster - rafaactually_3_Jump_9: -962991389
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1500 @@
+fileFormatVersion: 2
+guid: 8ee8e7937c8119843b09d433816cbeea
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 85
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dagen - student_1_Walk_0
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1920
+        width: 51
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe75b707aa12a7448cce2f87246e247
+      internalID: -731186250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_1_Walk_1
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1919
+        width: 57
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf5e4ab9c1b1adb4fa508de41f1732ce
+      internalID: -1523820487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_1_Walk_2
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 1919
+        width: 62
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc5d46e18ddbc9b46bc34d3501cdf0d3
+      internalID: -1826496758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_1_Walk_3
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1919
+        width: 60
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16e8e6c99ae2cb2459741499acb9c3b5
+      internalID: 365508519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_1_Walk_4
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 1919
+        width: 56
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e8763f38e675e4186130835ed01a24
+      internalID: 1290803757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_1_Walk_5
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 1919
+        width: 53
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03bd134443f2949438dae7353c6c0b1c
+      internalID: -1131325496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_1_Walk_6
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 1919
+        width: 49
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c06ed01d7bb7284ea2f7c0f00e091b3
+      internalID: -1300525498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_1_Walk_7
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 1918
+        width: 44
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da5e113cd09e0a9409a9cc6d1125cd0a
+      internalID: -837898619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_1_Walk_8
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 1662
+        width: 39
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb385e51d6d1f649bb4ea36e090cabb
+      internalID: -230442307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_1_Walk_9
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 1662
+        width: 35
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aacd2bf0fdd97d94997e5bfbd5cf5910
+      internalID: -1212158179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_1_Walk_10
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 1663
+        width: 39
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c63c0e5f64a4345bae5861608711a4
+      internalID: 1793809757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_1_Walk_11
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 1663
+        width: 40
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21bb721862a88ef4ebc84ea47365b1a0
+      internalID: -1146550195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_1_Walk_12
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 1663
+        width: 42
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1eef61d11c7800438d79e034d4c8fe6
+      internalID: -2121285050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_1_Walk_13
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 1663
+        width: 45
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8761097b4e16a9d4e98965e055bcc955
+      internalID: 612605311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_1_Walk_14
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 1663
+        width: 49
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ba1d135ca28a4e4786de28865040bbd
+      internalID: -1664683695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_1_Walk_15
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 1663
+        width: 51
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca2039fc9f7768e41a2cf4465d0210e5
+      internalID: 703363317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_1_Walk_16
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 1407
+        width: 54
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 801b63bbcefc1b142b2ea648b4be073b
+      internalID: -176322043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_1_Walk_17
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1406
+        width: 58
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ceb9b2c6fca9a4398fd9acf64f2448
+      internalID: -178758558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_1_Walk_18
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 1405
+        width: 61
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c04c693c5e7e64f9d98b0a84cbc59c
+      internalID: -866916947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_1_Walk_19
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1405
+        width: 58
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f44e736328bbaba49936b89618f8b853
+      internalID: -1570262139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_1_Walk_20
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 1405
+        width: 55
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce773174ad65c684084ba319f347dd0c
+      internalID: -1063023959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_1_Walk_21
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 1405
+        width: 52
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38f3504c50c345743870bde74382cd95
+      internalID: -1356143279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_1_Walk_22
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 1405
+        width: 49
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f4a5e08cb8dc494bbc0d0dccf6f3aef
+      internalID: -1698599604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_1_Walk_23
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 1405
+        width: 44
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81903a9aa2e7e6e459b0c7bdb7ab4fbc
+      internalID: -250469752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_1_Walk_24
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 1149
+        width: 41
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b69add31e546b71449fe4ed4b52cab75
+      internalID: -1148652018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_1_Walk_25
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 1149
+        width: 38
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 613fbbc1aee8ef244a2b352a0b0f9bfb
+      internalID: -1831795600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_1_Walk_26
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 1150
+        width: 38
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1032e740b1905e44afcde9abb9f96eb
+      internalID: 495234620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_1_Walk_27
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 1150
+        width: 39
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7689648347438c747b1214317ddaa456
+      internalID: -1732132365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_1_Walk_28
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 1150
+        width: 42
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1390d054657621468107c94d6a12c01
+      internalID: 1254880635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_1_Walk_29
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 1149
+        width: 45
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82e0935185591924eb21506c9ed82355
+      internalID: -961232577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_1_Walk_30
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 1149
+        width: 48
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab5d871489a1e6a4992684e03866cddf
+      internalID: -1312269508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_1_Walk_31
+      rect:
+        serializedVersion: 2
+        x: 1894
+        y: 1150
+        width: 52
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04847f4635b459041807e64796340e77
+      internalID: 940705047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_1_Walk_32
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 895
+        width: 57
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb3625366c017d4081d450635cbc668
+      internalID: -704433626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_1_Walk_33
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 895
+        width: 60
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e66185646f349e43a51ae1f19f56fc8
+      internalID: 386383959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_1_Walk_34
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 895
+        width: 62
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50bf3699b39fac640b24f2de15e6b369
+      internalID: 1065945419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_1_Walk_35
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 895
+        width: 62
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7437896ee47dfa46bc90e09c61df344
+      internalID: -1547963970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_1_Walk_36
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 892
+        width: 58
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44c1244b3ee06a1499a037ef1334f2d8
+      internalID: -1917093829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_1_Walk_37
+      rect:
+        serializedVersion: 2
+        x: 1631
+        y: 892
+        width: 57
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cf99f9d3cbaec74db5b0e124350caba
+      internalID: 828211046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_1_Walk_38
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 893
+        width: 55
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1994425801c450648aa9e17cb54bd87b
+      internalID: 1665591446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_1_Walk_39
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 637
+        width: 53
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc35a5b1b583d1446bf6cff318a3d694
+      internalID: 1644889099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_1_Walk_40
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 637
+        width: 51
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ed6fe253c57fff4e8e618126f49a3f5
+      internalID: -829216573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_1_Walk_41
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 637
+        width: 50
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d578b52a8dc41774999926cfdd19f556
+      internalID: 29931577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_1_Walk_42
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 637
+        width: 48
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f5c7091adc6c024383f744720b817ce
+      internalID: -271140985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_1_Walk_43
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 637
+        width: 48
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49ed9b10d7a5f3e4f950a172e9a14d2e
+      internalID: 1900579052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_1_Walk_44
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 637
+        width: 49
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bef3bf1d764de0a4780f5fb307a5db39
+      internalID: 1599503315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_1_Walk_45
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 637
+        width: 48
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 356400cbbdb1d4c4796adacc882f4d46
+      internalID: 631668967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_1_Walk_46
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 637
+        width: 48
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f6ca7dc373163a47a562ecf4aea6e48
+      internalID: -961509191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_1_Walk_47
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 382
+        width: 48
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54bbeaca390c21946a202e3f927251a9
+      internalID: -533975691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_1_Walk_48
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 382
+        width: 48
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de50b2f8c1253f646b9f4e6176af7cff
+      internalID: -1844789092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_1_Walk_49
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 383
+        width: 47
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44686bdeba3ae8d49b96717aee67f1b1
+      internalID: -1270104436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_1_Walk_50
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 383
+        width: 46
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 822be1a7c1879314d91ba686dd2ca3b6
+      internalID: -618999400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_1_Walk_51
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 383
+        width: 46
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f85e26baa04f9e94ebb8c148b8e349fb
+      internalID: -507402876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_1_Walk_52
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 383
+        width: 47
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c636444eaa255cf44b6824ec7e2d952c
+      internalID: -2120428667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_1_Walk_53
+      rect:
+        serializedVersion: 2
+        x: 1643
+        y: 382
+        width: 46
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d84f3fbc45a9b6f409d29be7b6f078dc
+      internalID: 279509982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_1_Walk_54
+      rect:
+        serializedVersion: 2
+        x: 1899
+        y: 381
+        width: 46
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00c1fa273f100984cb6c78ccedeb5284
+      internalID: -1810072015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_1_Walk_55
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 125
+        width: 45
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3de658bb1e848314ca1b40d13b59f429
+      internalID: -1883788167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_1_Walk_56
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 126
+        width: 45
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b0411c37b9f2e47a7c152f265d9b89
+      internalID: 1245298532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_1_Walk_57
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 126
+        width: 45
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 966f3d2a111d1a14190e172b164db4ad
+      internalID: -1737888576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_1_Walk_58
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 125
+        width: 46
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a6288142faa9c843a7a711c1cccc68b
+      internalID: 25040645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_1_Walk_59
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 125
+        width: 48
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd81253778c2a654485968c06fcd5d29
+      internalID: 2124744826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_1_Walk_60
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 125
+        width: 50
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f4648a51639ed641b29c4db6a883a40
+      internalID: -1341888181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_1_Walk_61
+      rect:
+        serializedVersion: 2
+        x: 1634
+        y: 125
+        width: 54
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe45f37d602213146b8801c85e9375fa
+      internalID: -596005874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagen - student_1_Walk_62
+      rect:
+        serializedVersion: 2
+        x: 1886
+        y: 124
+        width: 58
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e1e34bd0ad3f5746b801baed4bc66b0
+      internalID: -1426382300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Dagen - student_1_Walk_0: -731186250
+      Dagen - student_1_Walk_1: -1523820487
+      Dagen - student_1_Walk_10: 1793809757
+      Dagen - student_1_Walk_11: -1146550195
+      Dagen - student_1_Walk_12: -2121285050
+      Dagen - student_1_Walk_13: 612605311
+      Dagen - student_1_Walk_14: -1664683695
+      Dagen - student_1_Walk_15: 703363317
+      Dagen - student_1_Walk_16: -176322043
+      Dagen - student_1_Walk_17: -178758558
+      Dagen - student_1_Walk_18: -866916947
+      Dagen - student_1_Walk_19: -1570262139
+      Dagen - student_1_Walk_2: -1826496758
+      Dagen - student_1_Walk_20: -1063023959
+      Dagen - student_1_Walk_21: -1356143279
+      Dagen - student_1_Walk_22: -1698599604
+      Dagen - student_1_Walk_23: -250469752
+      Dagen - student_1_Walk_24: -1148652018
+      Dagen - student_1_Walk_25: -1831795600
+      Dagen - student_1_Walk_26: 495234620
+      Dagen - student_1_Walk_27: -1732132365
+      Dagen - student_1_Walk_28: 1254880635
+      Dagen - student_1_Walk_29: -961232577
+      Dagen - student_1_Walk_3: 365508519
+      Dagen - student_1_Walk_30: -1312269508
+      Dagen - student_1_Walk_31: 940705047
+      Dagen - student_1_Walk_32: -704433626
+      Dagen - student_1_Walk_33: 386383959
+      Dagen - student_1_Walk_34: 1065945419
+      Dagen - student_1_Walk_35: -1547963970
+      Dagen - student_1_Walk_36: -1917093829
+      Dagen - student_1_Walk_37: 828211046
+      Dagen - student_1_Walk_38: 1665591446
+      Dagen - student_1_Walk_39: 1644889099
+      Dagen - student_1_Walk_4: 1290803757
+      Dagen - student_1_Walk_40: -829216573
+      Dagen - student_1_Walk_41: 29931577
+      Dagen - student_1_Walk_42: -271140985
+      Dagen - student_1_Walk_43: 1900579052
+      Dagen - student_1_Walk_44: 1599503315
+      Dagen - student_1_Walk_45: 631668967
+      Dagen - student_1_Walk_46: -961509191
+      Dagen - student_1_Walk_47: -533975691
+      Dagen - student_1_Walk_48: -1844789092
+      Dagen - student_1_Walk_49: -1270104436
+      Dagen - student_1_Walk_5: -1131325496
+      Dagen - student_1_Walk_50: -618999400
+      Dagen - student_1_Walk_51: -507402876
+      Dagen - student_1_Walk_52: -2120428667
+      Dagen - student_1_Walk_53: 279509982
+      Dagen - student_1_Walk_54: -1810072015
+      Dagen - student_1_Walk_55: -1883788167
+      Dagen - student_1_Walk_56: 1245298532
+      Dagen - student_1_Walk_57: -1737888576
+      Dagen - student_1_Walk_58: 25040645
+      Dagen - student_1_Walk_59: 2124744826
+      Dagen - student_1_Walk_6: -1300525498
+      Dagen - student_1_Walk_60: -1341888181
+      Dagen - student_1_Walk_61: -596005874
+      Dagen - student_1_Walk_62: -1426382300
+      Dagen - student_1_Walk_7: -837898619
+      Dagen - student_1_Walk_8: -230442307
+      Dagen - student_1_Walk_9: -1212158179
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

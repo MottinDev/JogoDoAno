@@ -19,6 +19,9 @@ public class PlayerAttack : MonoBehaviour
     // Configuração de Delay
     [SerializeField] private float fireballDelay = 0.5f; // Tempo de espera até spawnar a bola de fogo
 
+    // Dano base da bola de fogo (para referência)
+    [SerializeField] private int fireballDamage = 10; // Quantidade de dano que a bola de fogo causa
+
     private void Start()
     {
         anim = GetComponent<Animator>();
@@ -51,6 +54,10 @@ public class PlayerAttack : MonoBehaviour
 
         // Instancia a bola de fogo no ponto de spawn correto
         GameObject fireball = Instantiate(fireballPrefab, selectedSpawnPoint.position, Quaternion.identity);
+
+        // Configura o dano base da bola de fogo para referência
+        fireball.GetComponent<Fireball>().SetDamage(fireballDamage);
+
         Rigidbody2D rb = fireball.GetComponent<Rigidbody2D>();
 
         // Define a velocidade da bola de fogo com base na direção

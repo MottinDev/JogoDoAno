@@ -4,34 +4,42 @@ using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
 {
-    public int maxLives = 3; // Número máximo de vidas
-    private int currentLives; // Vidas atuais
+    public int maxLives = 3; // Maximum number of lives
+    private int currentLives; // Current lives
 
-    public Image[] hearts; // Array de imagens de corações na UI
-    public Sprite fullHeart; // Imagem do coração cheio
-    public Sprite emptyHeart; // Imagem do coração vazio
-    public Animator animator; // Referência ao Animator do personagem
-    private bool isDead = false; // Flag para verificar se o personagem já morreu
-    private PlayerMovement playerMovement; // Referência ao script de movimentação do player
+    public Image[] hearts; // Array of heart images in the UI
+    public Sprite fullHeart; // Full heart image
+    public Sprite emptyHeart; // Empty heart image
+    public Animator animator; // Reference to the player's Animator
+    private bool isDead = false; // Flag to check if the player is dead
+    private PlayerMovement playerMovement; // Reference to the player's movement script
 
     void Start()
     {
         currentLives = maxLives;
         UpdateHearts();
 
-        // Obtendo referência ao script de movimentação do personagem
+        // Getting reference to the player's movement script
         playerMovement = GetComponent<PlayerMovement>();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Enemy") && !isDead)
+        if ((other.CompareTag("Enemy") || other.CompareTag("RafaBoss")) && !isDead)
         {
             TakeDamage(1);
         }
     }
 
-    void TakeDamage(int damage)
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if ((collision.gameObject.CompareTag("Enemy") || collision.gameObject.CompareTag("RafaBoss")) && !isDead)
+        {
+            TakeDamage(1);
+        }
+    }
+
+    public void TakeDamage(int damage)
     {
         currentLives -= damage;
         currentLives = Mathf.Clamp(currentLives, 0, maxLives);
@@ -39,7 +47,7 @@ public class PlayerHealth : MonoBehaviour
 
         if (currentLives > 0)
         {
-            animator.SetTrigger("Hurt"); // Ativa a animação de tomar dano
+            animator.SetTrigger("Hurt"); // Activate hurt animation
         }
         else if (currentLives <= 0 && !isDead)
         {
@@ -50,29 +58,29 @@ public class PlayerHealth : MonoBehaviour
     void Die()
     {
         isDead = true;
-        animator.SetTrigger("Death"); // Ativa a animação de morte
+        animator.SetTrigger("Death"); // Activate death animation
         Debug.Log("Game Over!");
 
-        // Desativa a movimentação do player
+        // Disable player movement
         if (playerMovement != null)
         {
             playerMovement.enabled = false;
         }
 
-        // Congela o eixo X e Y
+        // Freeze X and Y axes
         Rigidbody2D rb = GetComponent<Rigidbody2D>();
         if (rb != null)
         {
             rb.constraints = RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezePositionY | RigidbodyConstraints2D.FreezeRotation;
         }
 
-        // Reinicia o cenário após 1 segundo
+        // Restart the scene after 1 second
         Invoke("RestartScene", 1f);
     }
 
     void RestartScene()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name); // Reinicia a cena atual
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name); // Restart the current scene
     }
 
     void UpdateHearts()
