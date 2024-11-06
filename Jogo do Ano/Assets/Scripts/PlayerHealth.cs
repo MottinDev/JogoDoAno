@@ -19,12 +19,22 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] private AudioClip damageSound;
     [SerializeField] private AudioClip deathSound;
 
+    // Referência ao SpriteRenderer para mudar a cor ao tomar dano
+    private SpriteRenderer spriteRenderer;
+    private Color originalColor;
+    public Color flashColor = Color.red; // A cor para o flash de dano
+    public float flashDuration = 0.1f; // Duração do flash
+
     void Start()
     {
         currentLives = maxLives;
         UpdateHearts();
         playerMovement = GetComponent<PlayerMovement>();
         audioSource = GetComponent<AudioSource>();
+
+        // Inicializa o SpriteRenderer e armazena a cor original
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        originalColor = spriteRenderer.color;
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -53,6 +63,7 @@ public class PlayerHealth : MonoBehaviour
         {
             animator.SetTrigger("Hurt");
             audioSource.PlayOneShot(damageSound); // Toca o som de dano
+            FlashRed(); // Faz o jogador piscar em vermelho
         }
         else if (currentLives <= 0 && !isDead)
         {
@@ -75,18 +86,8 @@ public class PlayerHealth : MonoBehaviour
             playerMovement.enabled = false;
         }
 
-        Rigidbody2D rb = GetComponent<Rigidbody2D>();
-        if (rb != null)
-        {
-            rb.constraints = RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezePositionY | RigidbodyConstraints2D.FreezeRotation;
-        }
-
-        Invoke("RestartScene", 1f);
-    }
-
-    void RestartScene()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        // Carrega a tela de Game Over
+        SceneManager.LoadScene("TelaGameOver");
     }
 
     void UpdateHearts()
@@ -102,5 +103,16 @@ public class PlayerHealth : MonoBehaviour
                 hearts[i].sprite = emptyHeart;
             }
         }
+    }
+
+    void FlashRed()
+    {
+        spriteRenderer.color = flashColor; // Muda para a cor de dano
+        Invoke("ResetColor", flashDuration); // Restaura a cor após a duração do flash
+    }
+
+    void ResetColor()
+    {
+        spriteRenderer.color = originalColor; // Restaura a cor original
     }
 }

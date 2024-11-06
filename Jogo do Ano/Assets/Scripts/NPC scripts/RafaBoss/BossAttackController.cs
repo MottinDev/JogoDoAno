@@ -62,7 +62,9 @@ public class BossAttackController : MonoBehaviour
 
     // Controle de ataques para alternância
     private int attackSequenceIndex = 0; // Índice para controlar a sequência de ataques
-    private int[] attackSequence = { 1, 2, 3 }; // Sequência de ataques: 1 - Projectile1, 2 - Projectile2, 3 - SkullAttack
+
+    // **Atualizado para incluir o ataque corpo a corpo da fase 2**
+    private int[] attackSequence = { 1, 2, 3, 4 }; // Sequência de ataques: 1 - Projectile1, 2 - Projectile2, 3 - SkullAttack, 4 - MeleeAttackPhase2
 
     // Componentes de áudio
     private AudioSource audioSource;
@@ -75,6 +77,12 @@ public class BossAttackController : MonoBehaviour
     // Áudios de dano
     public AudioClip damageAudioClipPhase1;  // Áudio quando o boss toma dano na fase 1
     public AudioClip damageAudioClipPhase2;  // Áudio quando o boss toma dano na fase 2
+
+    // Áudio do ataque básico na fase 1
+    public AudioClip basicAttackAudioClipPhase1;
+
+    // **Áudio do ataque básico na fase 2 (se necessário)**
+    public AudioClip basicAttackAudioClipPhase2;
 
     void Start()
     {
@@ -289,26 +297,56 @@ public class BossAttackController : MonoBehaviour
             }
             else if (phase == 2)
             {
-                // Na fase 2, alterna entre os ataques de projétil e skull
-                int attackChoice = attackSequence[attackSequenceIndex];
+                // Na fase 2, alterna entre os quatro ataques
+                bool attackExecuted = false;
+                int attempts = 0;
 
-                switch (attackChoice)
+                while (!attackExecuted && attempts < attackSequence.Length)
                 {
-                    case 1:
-                        SpawnProjectile1();
-                        break;
-                    case 2:
-                        SpawnProjectile2();
-                        break;
-                    case 3:
-                        SpawnSkullAttack();
-                        break;
+                    int attackChoice = attackSequence[attackSequenceIndex];
+
+                    switch (attackChoice)
+                    {
+                        case 1:
+                            SpawnProjectile1();
+                            attackExecuted = true;
+                            break;
+                        case 2:
+                            SpawnProjectile2();
+                            attackExecuted = true;
+                            break;
+                        case 3:
+                            SpawnSkullAttack();
+                            attackExecuted = true;
+                            break;
+                        case 4:
+                            // Só executa o ataque corpo a corpo se o jogador estiver no alcance
+                            if (distanceToPlayer <= attackRange)
+                            {
+                                MeleeAttackPhase2();
+                                attackExecuted = true;
+                            }
+                            else
+                            {
+                                // Se o jogador não estiver no alcance, pula para o próximo ataque
+                                attackSequenceIndex = (attackSequenceIndex + 1) % attackSequence.Length;
+                            }
+                            break;
+                    }
+
+                    if (!attackExecuted)
+                    {
+                        attempts++;
+                    }
                 }
 
                 // Atualiza o índice para o próximo ataque
                 attackSequenceIndex = (attackSequenceIndex + 1) % attackSequence.Length;
 
-                lastAttackTime = Time.time;
+                if (attackExecuted)
+                {
+                    lastAttackTime = Time.time;
+                }
             }
         }
     }
@@ -317,6 +355,12 @@ public class BossAttackController : MonoBehaviour
     {
         // Toca a animação de ataque corpo a corpo para a fase 1
         animator.SetTrigger("MeleeAttackPhase1");
+
+        // Toca o áudio do ataque básico na fase 1
+        if (basicAttackAudioClipPhase1 != null)
+        {
+            audioSource.PlayOneShot(basicAttackAudioClipPhase1);
+        }
 
         // Verifica de que lado o jogador está e usa o ponto de ataque correspondente
         if (player.position.x < transform.position.x)
@@ -335,6 +379,12 @@ public class BossAttackController : MonoBehaviour
     {
         // Toca a animação de ataque corpo a corpo para a fase 2
         animator.SetTrigger("MeleeAttackPhase2");
+
+        // Toca o áudio do ataque básico na fase 2 (se houver)
+        if (basicAttackAudioClipPhase2 != null)
+        {
+            audioSource.PlayOneShot(basicAttackAudioClipPhase2);
+        }
 
         // Verifica de que lado o jogador está e usa o ponto de ataque correspondente
         if (player.position.x < transform.position.x)
@@ -476,7 +526,6 @@ public class BossAttackController : MonoBehaviour
             list[randomIndex] = temp;
         }
     }
-
 
     void OnDrawGizmosSelected()
     {
