@@ -76,6 +76,8 @@ Transform:
   - {fileID: 5784509870852380872}
   - {fileID: 1914253638518973384}
   - {fileID: 1180623660142360913}
+  - {fileID: 1596742484870589619}
+  - {fileID: 6343645473608552884}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &5359293060964640817
@@ -217,6 +219,9 @@ MonoBehaviour:
   - {fileID: 2790652472358547427}
   - {fileID: 5784509870852380872}
   - {fileID: 1914253638518973384}
+  skullPrefab: {fileID: 6811804692833077311, guid: d8bbae3057e35504283ca1da2776d3b1, type: 3}
+  leftSkullSpawnPoint: {fileID: 1596742484870589619}
+  rightSkullSpawnPoint: {fileID: 6343645473608552884}
   attackPointLeft: {fileID: 8532300838739700524}
   attackPointRight: {fileID: 3261080313918724185}
   playerLayer:
@@ -360,6 +365,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2772807866313401488}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3831532902580455364
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1596742484870589619}
+  m_Layer: 0
+  m_Name: LeftSkullSp
+  m_TagString: Untagged
+  m_Icon: {fileID: 4162164826716764455, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1596742484870589619
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3831532902580455364}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.41626376, y: -0.15560451, z: 0.05465392}
+  m_LocalScale: {x: 0.28907156, y: 0.28815648, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2772807866313401488}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3911245823812599166
 GameObject:
   m_ObjectHideFlags: 0
@@ -453,6 +489,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2772807866313401488}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6318911797631339608
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6343645473608552884}
+  m_Layer: 0
+  m_Name: RightSkullSp
+  m_TagString: Untagged
+  m_Icon: {fileID: 4162164826716764455, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6343645473608552884
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6318911797631339608}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.3208696, y: -0.15560451, z: 0.05465392}
+  m_LocalScale: {x: 0.28907156, y: 0.28815648, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2772807866313401488}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6464424018330134385
 GameObject:
   m_ObjectHideFlags: 0
@@ -540,7 +607,7 @@ Transform:
   m_GameObject: {fileID: 8646684842098831838}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.03, y: -0.509, z: 0.052496374}
+  m_LocalPosition: {x: -0.03, y: -0.547, z: 0.052496374}
   m_LocalScale: {x: 0.28907156, y: 0.28815648, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

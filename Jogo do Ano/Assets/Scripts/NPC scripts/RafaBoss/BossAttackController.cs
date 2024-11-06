@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class BossAttackController : MonoBehaviour
@@ -6,70 +7,102 @@ public class BossAttackController : MonoBehaviour
     public Animator animator;
     private Rigidbody2D rb;
 
-    // Boss movement states
+    // Estados de movimento do boss
     private enum BossState { Idle, Walking, Jumping, Falling }
     private BossState currentState;
 
-    // Pursuit parameters
-    public Transform player; // Reference to the player
-    public float speed = 2f; // Pursuit speed
-    public float followRange = 10f; // Distance at which the boss starts following the player
-    public float stopDistance = 1.5f; // Minimum distance to stop following
+    // Parâmetros de perseguição
+    public Transform player; // Referência ao jogador
+    public float speed = 2f; // Velocidade de perseguição
+    public float followRange = 10f; // Distância para começar a seguir o jogador
+    public float stopDistance = 1.5f; // Distância mínima para parar de seguir
 
-    // Jump parameters
-    public float jumpForce = 5f; // Jump force
-    public float jumpCooldown = 2f; // Time between jumps
+    // Parâmetros de pulo
+    public float jumpForce = 5f; // Força do pulo
+    public float jumpCooldown = 2f; // Tempo entre pulos
     private float lastJumpTime;
 
-    // Ground detection
+    // Detecção de chão
     public LayerMask groundLayer;
     public Transform groundCheck;
     public float groundCheckRadius = 0.2f;
     private bool isGrounded;
 
-    // Health and phase parameters
+    // Parâmetros de vida e fase
     public int maxHealth = 100;
     private int currentHealth;
-    private int phase = 1; // Initial phase of the boss
+    private int phase = 1; // Fase inicial do boss
 
-    // Phase transition flag
+    // Flag de transição de fase
     private bool isTransitioningPhase = false;
 
-    // Attack parameters
-    public float attackRange = 1f; // Range for melee attack
-    public float attackCooldown = 2f; // Time between attacks
+    // Parâmetros de ataque
+    public float attackRange = 1f; // Alcance para ataque corpo a corpo
+    public float attackCooldown = 2f; // Tempo entre ataques
     private float lastAttackTime;
 
-    // Projectile attack parameters
-    public GameObject projectile1Prefab; // Prefab for Projectile1
-    public GameObject projectile2Prefab; // Prefab for Projectile2
-    public Transform firePoint; // Point from which Projectile1 is fired
-    public float projectileSpeed = 5f; // Speed of the projectiles
+    // Parâmetros de ataque de projétil
+    public GameObject projectile1Prefab; // Prefab para Projectile1
+    public GameObject projectile2Prefab; // Prefab para Projectile2
+    public Transform firePoint; // Ponto de onde o Projectile1 é disparado
+    public float projectileSpeed = 5f; // Velocidade dos projéteis
 
-    // For Projectile2 spawner
-    public Transform[] projectile2SpawnPoints; // Array of spawn points around the boss
+    // Spawner para Projectile2
+    public Transform[] projectile2SpawnPoints; // Array de pontos de spawn ao redor do boss
 
-    // Attack points for melee attacks on each side
-    public Transform attackPointLeft; // Point from which melee attack is performed when player is on the left
-    public Transform attackPointRight; // Point from which melee attack is performed when player is on the right
+    // Parâmetros para ataque de caveiras
+    public GameObject skullPrefab;            // Prefab para as caveiras
+    public Transform leftSkullSpawnPoint;     // Ponto de spawn do lado esquerdo
+    public Transform rightSkullSpawnPoint;    // Ponto de spawn do lado direito
+
+    // Pontos de ataque para ataques corpo a corpo em cada lado
+    public Transform attackPointLeft; // Ponto de ataque quando o jogador está à esquerda
+    public Transform attackPointRight; // Ponto de ataque quando o jogador está à direita
     public LayerMask playerLayer;
+
+    // Controle de ataques para alternância
+    private int attackSequenceIndex = 0; // Índice para controlar a sequência de ataques
+    private int[] attackSequence = { 1, 2, 3 }; // Sequência de ataques: 1 - Projectile1, 2 - Projectile2, 3 - SkullAttack
+
+    // Componentes de áudio
+    private AudioSource audioSource;
+
+    // Áudios de fase
+    public AudioClip phase1AudioClip;        // Áudio para tocar na fase 1
+    public AudioClip[] phase2AudioClips;     // Áudios para tocar aleatoriamente na fase 2
+    private List<AudioClip> phase2AudioQueue; //fila para guardar os audios
+
+    // Áudios de dano
+    public AudioClip damageAudioClipPhase1;  // Áudio quando o boss toma dano na fase 1
+    public AudioClip damageAudioClipPhase2;  // Áudio quando o boss toma dano na fase 2
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         currentHealth = maxHealth;
-        animator.SetInteger("Phase", phase); // Initialize the phase in the animator
+        animator.SetInteger("Phase", phase); // Inicializa a fase no animator
+
+        // Inicializa o componente de áudio
+        audioSource = GetComponent<AudioSource>();
+        if (audioSource == null)
+        {
+            // Adiciona o componente AudioSource se não existir
+            audioSource = gameObject.AddComponent<AudioSource>();
+        }
+
+        // Inicia a corrotina de reprodução de áudios
+        StartCoroutine(PlayPhaseAudio());
     }
 
     void Update()
     {
-        if (!isTransitioningPhase) // Execute only if not transitioning phase
+        if (!isTransitioningPhase) // Executa apenas se não estiver em transição de fase
         {
             isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
 
             UpdateAnimationState();
             FollowPlayer();
-            HandleAttacks(); // Handle attacks
+            HandleAttacks(); // Lida com os ataques
         }
     }
 
@@ -102,13 +135,13 @@ public class BossAttackController : MonoBehaviour
 
         currentState = newState;
 
-        // Reset all triggers before setting the new one
+        // Reseta todos os triggers antes de setar o novo
         animator.ResetTrigger("Idle");
         animator.ResetTrigger("Walking");
         animator.ResetTrigger("Jump");
         animator.ResetTrigger("Fall");
 
-        // Activate the appropriate trigger based on the current phase and state
+        // Ativa o trigger apropriado com base na fase atual e estado
         switch (currentState)
         {
             case BossState.Idle:
@@ -134,71 +167,77 @@ public class BossAttackController : MonoBehaviour
         {
             Vector2 direction = (player.position - transform.position).normalized;
 
-            // Move the boss on the X-axis
+            // Faz o boss olhar para o jogador
+            if (direction.x > 0)
+            {
+                transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
+            }
+            else if (direction.x < 0)
+            {
+                transform.localScale = new Vector3(-Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
+            }
+
+            // Move o boss no eixo X
             if (distanceToPlayer > stopDistance)
             {
                 rb.velocity = new Vector2(direction.x * speed, rb.velocity.y);
             }
             else
             {
-                // Stop horizontal movement when close enough
+                // Para o movimento horizontal quando estiver perto o suficiente
                 rb.velocity = new Vector2(0, rb.velocity.y);
             }
 
-            // Make the boss face the player
-            if (direction.x > 0)
-                transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
-            else if (direction.x < 0)
-                transform.localScale = new Vector3(-Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
-
-            // Calculate the vertical difference between the boss and the player
+            // Calcula a diferença vertical entre o boss e o jogador
             float verticalDistanceToPlayer = player.position.y - transform.position.y;
 
-            // Execute jump if the player is above by a certain distance
+            // Executa o pulo se o jogador estiver acima por uma certa distância
             if (verticalDistanceToPlayer > 1f && isGrounded && Time.time > lastJumpTime + jumpCooldown)
             {
-                // Jump towards the player
+                // Pula em direção ao jogador
                 rb.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
                 lastJumpTime = Time.time;
             }
         }
         else
         {
-            // Stop horizontal movement if the player is out of range
+            // Para o movimento horizontal se o jogador estiver fora de alcance
             rb.velocity = new Vector2(0, rb.velocity.y);
         }
     }
 
-    // Method to take damage
+    // Método para receber dano
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
 
-        // Activate the "Hurt" animation based on the phase
+        // Toca o áudio de dano correspondente à fase
         if (phase == 1)
         {
             animator.SetTrigger("HurtPhase1");
+            audioSource.PlayOneShot(damageAudioClipPhase1);
         }
         else if (phase == 2)
         {
             animator.SetTrigger("HurtPhase2");
+            audioSource.PlayOneShot(damageAudioClipPhase2);
         }
 
-        // Display visual feedback of flashing red
+        // Feedback visual de piscar em vermelho
         StartCoroutine(FlashRed());
 
-        // Check if health fell below 50% to change phase
+        // Verifica se a vida caiu abaixo de 50% para mudar de fase
         if (currentHealth <= maxHealth / 2 && phase == 1)
         {
-            // Transition to Phase 2
+            // Transição para a Fase 2
             phase = 2;
-            isTransitioningPhase = true; // Activate the transition flag
-            rb.velocity = Vector2.zero; // Stop movement immediately
-            animator.SetTrigger("PhaseTwo"); // Activate the transition animation to Phase 2
-            animator.SetInteger("Phase", phase); // Update the Phase parameter in the Animator
+            isTransitioningPhase = true; // Ativa a flag de transição
+            rb.velocity = Vector2.zero; // Para o movimento imediatamente
+            animator.SetTrigger("PhaseTwo"); // Ativa a animação de transição para a Fase 2
+            animator.SetInteger("Phase", phase); // Atualiza o parâmetro Phase no Animator
         }
 
-        // Check if the boss's health reached zero
+        // Verifica se a vida do boss chegou a zero
         if (currentHealth <= 0)
         {
             Die();
@@ -210,13 +249,13 @@ public class BossAttackController : MonoBehaviour
         SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>();
         Color originalColor = spriteRenderer.color;
 
-        // Set the sprite to red
+        // Define a cor do sprite para vermelho
         spriteRenderer.color = Color.red;
 
-        // Wait briefly to create a "flash" effect
+        // Aguarda brevemente para criar um efeito de "piscar"
         yield return new WaitForSeconds(0.1f);
 
-        // Return to the original color
+        // Retorna à cor original
         spriteRenderer.color = originalColor;
     }
 
@@ -226,10 +265,11 @@ public class BossAttackController : MonoBehaviour
         Destroy(gameObject, 2f);
     }
 
-    // Method to be called at the end of the transition animation to Phase 2
+    // Método chamado no final da animação de transição para a Fase 2
     public void OnPhaseTransitionEnd()
     {
-        isTransitioningPhase = false; // Deactivate the transition flag
+        isTransitioningPhase = false; // Desativa a flag de transição
+        attackSequenceIndex = 0; // Reseta a sequência de ataques
     }
 
     private void HandleAttacks()
@@ -240,7 +280,7 @@ public class BossAttackController : MonoBehaviour
         {
             if (phase == 1)
             {
-                // In phase 1, only melee attack for phase 1
+                // Na fase 1, apenas ataque corpo a corpo
                 if (distanceToPlayer <= attackRange)
                 {
                     MeleeAttackPhase1();
@@ -249,67 +289,69 @@ public class BossAttackController : MonoBehaviour
             }
             else if (phase == 2)
             {
-                // In phase 2, randomly select an attack
-                int attackChoice = Random.Range(0, 3); // 0: MeleePhase2, 1: Projectile1, 2: Projectile2
+                // Na fase 2, alterna entre os ataques de projétil e skull
+                int attackChoice = attackSequence[attackSequenceIndex];
 
-                if (attackChoice == 0 && distanceToPlayer <= attackRange)
+                switch (attackChoice)
                 {
-                    MeleeAttackPhase2();
-                    lastAttackTime = Time.time;
+                    case 1:
+                        SpawnProjectile1();
+                        break;
+                    case 2:
+                        SpawnProjectile2();
+                        break;
+                    case 3:
+                        SpawnSkullAttack();
+                        break;
                 }
-                else if (attackChoice == 1)
-                {
-                    SpawnProjectile1(); // Updated method
-                    lastAttackTime = Time.time;
-                }
-                else if (attackChoice == 2)
-                {
-                    SpawnProjectile2(); // Updated method
-                    lastAttackTime = Time.time;
-                }
+
+                // Atualiza o índice para o próximo ataque
+                attackSequenceIndex = (attackSequenceIndex + 1) % attackSequence.Length;
+
+                lastAttackTime = Time.time;
             }
         }
     }
 
     private void MeleeAttackPhase1()
     {
-        // Play melee attack animation for phase 1
+        // Toca a animação de ataque corpo a corpo para a fase 1
         animator.SetTrigger("MeleeAttackPhase1");
 
-        // Check which side the player is on and use the corresponding attack point
+        // Verifica de que lado o jogador está e usa o ponto de ataque correspondente
         if (player.position.x < transform.position.x)
         {
-            // Player is on the left side
+            // Jogador está à esquerda
             Attack(attackPointLeft);
         }
         else
         {
-            // Player is on the right side
+            // Jogador está à direita
             Attack(attackPointRight);
         }
     }
 
     private void MeleeAttackPhase2()
     {
-        // Play melee attack animation for phase 2
+        // Toca a animação de ataque corpo a corpo para a fase 2
         animator.SetTrigger("MeleeAttackPhase2");
 
-        // Check which side the player is on and use the corresponding attack point
+        // Verifica de que lado o jogador está e usa o ponto de ataque correspondente
         if (player.position.x < transform.position.x)
         {
-            // Player is on the left side
+            // Jogador está à esquerda
             Attack(attackPointLeft);
         }
         else
         {
-            // Player is on the right side
+            // Jogador está à direita
             Attack(attackPointRight);
         }
     }
 
     private void Attack(Transform attackPoint)
     {
-        // Detect player in attack range
+        // Detecta o jogador no alcance de ataque
         Collider2D[] hitPlayers = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, playerLayer);
 
         foreach (Collider2D player in hitPlayers)
@@ -320,13 +362,10 @@ public class BossAttackController : MonoBehaviour
 
     private void SpawnProjectile1()
     {
-        // Play projectile attack animation
-        animator.SetTrigger("ProjectileAttack1");
-
-        // Instantiate projectile
+        // Instancia o projétil
         GameObject projectile = Instantiate(projectile1Prefab, firePoint.position, Quaternion.identity);
 
-        // Initialize projectile to follow the player
+        // Inicializa o projétil para seguir o jogador
         Projectile1 proj1 = projectile.GetComponent<Projectile1>();
         if (proj1 != null)
         {
@@ -336,18 +375,15 @@ public class BossAttackController : MonoBehaviour
 
     private void SpawnProjectile2()
     {
-        // Play projectile attack animation
-        animator.SetTrigger("ProjectileAttack2");
-
-        // Instantiate projectiles at multiple spawn points
+        // Instancia todos os projéteis de uma vez
         foreach (Transform spawnPoint in projectile2SpawnPoints)
         {
             GameObject projectile = Instantiate(projectile2Prefab, spawnPoint.position, Quaternion.identity);
 
-            // Calculate direction from boss to spawn point
+            // Calcula a direção do boss para o ponto de spawn
             Vector2 direction = (spawnPoint.position - transform.position).normalized;
 
-            // Initialize projectile with direction and speed
+            // Inicializa o projétil com direção e velocidade
             Projectile2 proj2 = projectile.GetComponent<Projectile2>();
             if (proj2 != null)
             {
@@ -355,6 +391,92 @@ public class BossAttackController : MonoBehaviour
             }
         }
     }
+
+    private void SpawnSkullAttack()
+    {
+        // Instancia caveiras em ambos os lados
+        GameObject leftSkull = Instantiate(skullPrefab, leftSkullSpawnPoint.position, Quaternion.identity);
+        GameObject rightSkull = Instantiate(skullPrefab, rightSkullSpawnPoint.position, Quaternion.identity);
+
+        // Inicializa as caveiras com direções
+        SkullProjectile leftSkullScript = leftSkull.GetComponent<SkullProjectile>();
+        if (leftSkullScript != null)
+        {
+            // Move para a esquerda
+            leftSkullScript.Initialize(Vector2.left);
+        }
+
+        SkullProjectile rightSkullScript = rightSkull.GetComponent<SkullProjectile>();
+        if (rightSkullScript != null)
+        {
+            // Move para a direita
+            rightSkullScript.Initialize(Vector2.right);
+        }
+    }
+
+    private IEnumerator PlayPhaseAudio()
+    {
+        while (currentHealth > 0)
+        {
+            if (phase == 1)
+            {
+                // Espera um intervalo aleatório entre 2 e 6 segundos
+                float waitTime = Random.Range(2f, 6f);
+                yield return new WaitForSeconds(waitTime);
+
+                // Toca o áudio da fase 1
+                if (phase == 1 && phase1AudioClip != null)
+                {
+                    audioSource.PlayOneShot(phase1AudioClip);
+
+                    // Aguarda o tempo de duração do áudio
+                    yield return new WaitForSeconds(phase1AudioClip.length);
+                }
+            }
+            else if (phase == 2)
+            {
+                // Inicializa a lista e a embaralha se estiver vazia
+                if (phase2AudioQueue == null || phase2AudioQueue.Count == 0)
+                {
+                    phase2AudioQueue = new List<AudioClip>(phase2AudioClips);
+                    Shuffle(phase2AudioQueue);
+                }
+
+                // Toca o próximo áudio da fila
+                AudioClip clipToPlay = phase2AudioQueue[0];
+                phase2AudioQueue.RemoveAt(0);
+
+                if (clipToPlay != null)
+                {
+                    audioSource.PlayOneShot(clipToPlay);
+
+                    // Aguarda o tempo de duração do áudio
+                    yield return new WaitForSeconds(clipToPlay.length);
+
+                    // Espera um intervalo aleatório entre 1 e 4 segundos
+                    float waitTime = Random.Range(1f, 4f);
+                    yield return new WaitForSeconds(waitTime);
+                }
+            }
+            else
+            {
+                yield return null;
+            }
+        }
+    }
+
+    // Método para embaralhar a lista de áudios
+    private void Shuffle(List<AudioClip> list)
+    {
+        for (int i = 0; i < list.Count; i++)
+        {
+            int randomIndex = Random.Range(i, list.Count);
+            AudioClip temp = list[i];
+            list[i] = list[randomIndex];
+            list[randomIndex] = temp;
+        }
+    }
+
 
     void OnDrawGizmosSelected()
     {
@@ -370,7 +492,7 @@ public class BossAttackController : MonoBehaviour
             Gizmos.DrawWireSphere(attackPointRight.position, attackRange);
         }
 
-        // Draw gizmos for projectile2 spawn points
+        // Desenha gizmos para os pontos de spawn do projectile2
         if (projectile2SpawnPoints != null)
         {
             Gizmos.color = Color.green;

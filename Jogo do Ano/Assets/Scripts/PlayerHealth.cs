@@ -4,23 +4,27 @@ using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
 {
-    public int maxLives = 3; // Maximum number of lives
-    private int currentLives; // Current lives
+    public int maxLives = 3;
+    private int currentLives;
 
-    public Image[] hearts; // Array of heart images in the UI
-    public Sprite fullHeart; // Full heart image
-    public Sprite emptyHeart; // Empty heart image
-    public Animator animator; // Reference to the player's Animator
-    private bool isDead = false; // Flag to check if the player is dead
-    private PlayerMovement playerMovement; // Reference to the player's movement script
+    public Image[] hearts;
+    public Sprite fullHeart;
+    public Sprite emptyHeart;
+    public Animator animator;
+    private bool isDead = false;
+    private PlayerMovement playerMovement;
+
+    // Áudio para dano e morte
+    private AudioSource audioSource;
+    [SerializeField] private AudioClip damageSound;
+    [SerializeField] private AudioClip deathSound;
 
     void Start()
     {
         currentLives = maxLives;
         UpdateHearts();
-
-        // Getting reference to the player's movement script
         playerMovement = GetComponent<PlayerMovement>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -47,7 +51,8 @@ public class PlayerHealth : MonoBehaviour
 
         if (currentLives > 0)
         {
-            animator.SetTrigger("Hurt"); // Activate hurt animation
+            animator.SetTrigger("Hurt");
+            audioSource.PlayOneShot(damageSound); // Toca o som de dano
         }
         else if (currentLives <= 0 && !isDead)
         {
@@ -55,32 +60,33 @@ public class PlayerHealth : MonoBehaviour
         }
     }
 
-    void Die()
+    public void Die()
     {
         isDead = true;
-        animator.SetTrigger("Death"); // Activate death animation
-        Debug.Log("Game Over!");
+        currentLives = 0;
+        UpdateHearts();
 
-        // Disable player movement
+        animator.SetTrigger("Death");
+        Debug.Log("Game Over!");
+        audioSource.PlayOneShot(deathSound); // Toca o som de morte
+
         if (playerMovement != null)
         {
             playerMovement.enabled = false;
         }
 
-        // Freeze X and Y axes
         Rigidbody2D rb = GetComponent<Rigidbody2D>();
         if (rb != null)
         {
             rb.constraints = RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezePositionY | RigidbodyConstraints2D.FreezeRotation;
         }
 
-        // Restart the scene after 1 second
         Invoke("RestartScene", 1f);
     }
 
     void RestartScene()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name); // Restart the current scene
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     void UpdateHearts()
