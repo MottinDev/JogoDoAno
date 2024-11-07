@@ -14,23 +14,28 @@ public class Fireball : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        // Verifica se colidiu com um inimigo normal
-        if (collision.CompareTag("Enemy"))
+        Debug.Log("Fireball colidiu com: " + collision.name + " | Tag: " + collision.tag);
+
+        IDamageable damageable = collision.GetComponent<IDamageable>();
+        if (damageable != null)
         {
-            // Assumindo que o inimigo normal tem um script EnemyHealth
-            collision.GetComponent<EagleHealth>().TakeDamage(fireballDamageEnemy);
-        }
-        // Verifica se colidiu com o RafaBoss
-        else if (collision.CompareTag("RafaBoss"))
-        {
-            // Assumindo que o RafaBoss tem o script BossAttackController com o método TakeDamage
-            BossAttackController boss = collision.GetComponent<BossAttackController>();
-            if (boss != null)
+            if (collision.CompareTag("RafaBoss"))
             {
-                boss.TakeDamage(fireballDamageBoss); // Aplica dano maior ao boss
+                damageable.TakeDamage(fireballDamageBoss);
+                Debug.Log("Dano aplicado ao RafaBoss: " + fireballDamageBoss);
+            }
+            else
+            {
+                damageable.TakeDamage(fireballDamageEnemy);
+                Debug.Log("Dano aplicado a um inimigo normal: " + fireballDamageEnemy);
             }
         }
+        else
+        {
+            Debug.Log("Objeto colidido não implementa IDamageable.");
+        }
 
+        Destroy(gameObject);
     }
 
     private void Start()

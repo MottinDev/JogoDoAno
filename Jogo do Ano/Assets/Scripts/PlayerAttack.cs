@@ -21,7 +21,7 @@ public class PlayerAttack : MonoBehaviour
     [SerializeField] private float fireballDelay = 0.5f;
 
     // Dano base da bola de fogo
-    [SerializeField] private int fireballDamage = 50;
+    [SerializeField] private int fireballDamage = 10;
 
     // Áudio do ataque
     [SerializeField] private AudioClip attackSound;
