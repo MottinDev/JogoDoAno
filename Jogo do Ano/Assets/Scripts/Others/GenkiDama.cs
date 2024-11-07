@@ -11,7 +11,7 @@ public class GenkiDama : MonoBehaviour
 
     // Variáveis para crescimento da Genki Dama
     private bool isGrowing = true;
-    private float maxSize = 3f; // Tamanho máximo de crescimento
+    private float maxSize = 10f; // Tamanho máximo de crescimento
     private float growthRate = 1f; // Taxa de crescimento por segundo
 
     private void Start()
@@ -26,12 +26,11 @@ public class GenkiDama : MonoBehaviour
         this.speed = speed;
         this.isFacingRight = isFacingRight;
 
-        // Define a direção inicial
-        float direction = isFacingRight ? 1f : -1f;
-        rb.velocity = Vector2.zero; // Começa sem movimento enquanto carrega
+        // Define a direção inicial (começa sem movimento enquanto carrega)
+        rb.velocity = Vector2.zero;
 
-        // Ajusta a escala inicial
-        transform.localScale = Vector3.zero; // Começa no tamanho zero
+        // Ajusta a escala inicial (começa no tamanho zero)
+        transform.localScale = Vector3.zero;
     }
 
     private void Update()
@@ -56,9 +55,10 @@ public class GenkiDama : MonoBehaviour
     {
         isGrowing = false; // Para de crescer ao ser lançada
 
-        // Define a direção final de movimento
-        float direction = isFacingRight ? 1f : -1f;
-        rb.velocity = new Vector2(direction * speed, 0f);
+        // Define a direção final de movimento com inclinação para baixo
+        float directionX = isFacingRight ? 1f : -1f;
+        float directionY = -0.5f; // Componente Y negativa para inclinação para baixo
+        rb.velocity = new Vector2(directionX * speed, directionY * speed);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -93,6 +93,6 @@ public class GenkiDama : MonoBehaviour
     {
         // Desenha o raio de dano no editor
         Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position, GetComponent<CircleCollider2D>().radius);
+        Gizmos.DrawWireSphere(transform.position, coll.radius);
     }
 }

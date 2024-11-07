@@ -5,19 +5,23 @@ using UnityEngine.SceneManagement;
 
 public class MainMenuManager : MonoBehaviour
 {
-    public void iniciarJogo(){
+    public void iniciarJogo()
+    {
         SceneManager.LoadScene("fase_inicial");
     }
 
-    public void voltarMenuPrincipal(){
+    public void voltarMenuPrincipal()
+    {
         SceneManager.LoadScene("Menu");
     }
 
-    public void loadGameOver(){
+    public void loadGameOver()
+    {
         SceneManager.LoadScene("TelaGameOver", LoadSceneMode.Additive);
     }
 
-    public void sairAplicacao(){
+    public void sairAplicacao()
+    {
         Application.Quit();
     }
 }

@@ -14,6 +14,24 @@ public class HideCursor : MonoBehaviour
     // Variável para controlar se o cursor está oculto
     private bool isCursorHidden = false;
 
+    // Variável para garantir que haja apenas uma instância
+    private static HideCursor instance;
+
+    void Awake()
+    {
+        // Se já existe uma instância deste objeto, destrói a nova
+        if (instance != null && instance != this)
+        {
+            Destroy(gameObject);
+        }
+        else
+        {
+            // Define a instância e a preserva ao carregar novas cenas
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+    }
+
     void Start()
     {
         // Inicializa a posição do mouse

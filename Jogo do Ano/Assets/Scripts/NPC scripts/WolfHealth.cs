@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class EagleHealth : MonoBehaviour, IDamageable
+public class WolfHealth : MonoBehaviour, IDamageable
 {
     public int maxLives = 3;                 // Número máximo de vidas
     private int currentLives;                // Vidas atuais
@@ -9,7 +9,7 @@ public class EagleHealth : MonoBehaviour, IDamageable
     public Image[] hearts;                   // Array de imagens de corações na UI
     public Sprite fullHeart;                 // Imagem do coração cheio
     public Sprite emptyHeart;                // Imagem do coração vazio
-    private bool isDead = false;             // Flag para verificar se a águia já morreu
+    private bool isDead = false;             // Flag para verificar se o Wolf já morreu
 
     void Start()
     {
@@ -34,9 +34,9 @@ public class EagleHealth : MonoBehaviour, IDamageable
     void Die()
     {
         isDead = true;
-        Debug.Log("A águia morreu!");
+        Debug.Log("O Wolf morreu!");
         // Aqui você pode adicionar animações de morte, sons, etc.
-        Destroy(gameObject);  // Destrói o objeto da águia
+        Destroy(gameObject);  // Destrói o objeto do Wolf
     }
 
     void UpdateHearts()
